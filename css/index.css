@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:200,500');
+
+.barlow-extralight{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+}
+
+.barlow-medium{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.5vw;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+h2{
+    font-size: 1.5vw;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+p{
+    font-size: 1vw;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.continous-text{
+    padding-bottom: 5px;
+}
+
 body{
     padding: 0px;
     margin: 0px;
@@ -5,6 +42,138 @@ body{
 
 .navbar{
     height: 7vh;
-    background: red;
     min-height: 50px;
+}
+
+.menu{
+    float:right;
+    width: auto;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    transform:translateY(-25%);
+}
+
+.menu-item{
+    height: auto;
+    font-size: 18px;
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.menu-item:hover{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-text-holder{
+    height: auto;
+    padding-left: 10vw;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+}
+
+
+
+/* Large desktops and laptops */
+@media (max-width: 1400px) {
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1{
+        font-size: 42px;
+    }
+
+    h2{
+        font-size: 27px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .main-text-holder{
+        top: 20%;
+        transform:translateY(0%);
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    h1{
+        font-size: 37px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .main-text-holder{
+        top: 20%;
+        transform:translateY(0%);
+    }
+
 }
