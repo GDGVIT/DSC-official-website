@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow:200,500');
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,200,500');
+
+.barlow-thin{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 100;
+}
 
 .barlow-extralight{
     font-family: 'Barlow', sans-serif;
@@ -31,18 +36,42 @@ p{
     padding-bottom: 15px;
 }
 
+.button-text{
+    font-size: 1.2vw;
+}
+
 .continous-text{
     padding-bottom: 5px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.extra-break{
+    padding-bottom: 45px;
+}
+
+.holded-container p{
+    width: 35%;
+    margin: auto auto;
 }
 
 body{
     padding: 0px;
     margin: 0px;
+    padding-bottom: 15vh;
 }
 
 .navbar{
     height: 7vh;
     min-height: 50px;
+}
+
+.main{
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .menu{
@@ -70,15 +99,90 @@ body{
 .main-text-holder{
     height: auto;
     padding-left: 10vw;
+    padding-right: 10vw;
     position: absolute;
     top: 50%;
     transform:translateY(-50%);
+}
+
+.main-down-arrow{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    bottom: 3vh;
+    display: block;
+    left: 50%;
+    transform:translateX(-50%);
+    cursor: pointer;
+}
+
+.container-main{
+    height: auto;
+    padding-top: 15vh;
+}
+
+.icons{
+    height: auto;
+    margin:auto auto;
+    width: 70%;
+    text-align: center;
+    max-width: 800px;
+}
+
+.circle-icon{
+    display: inline-flex;
+    height: 15vw;
+    width: 15vw;
+    min-width: 150px;
+    min-height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    max-width: 190px;
+    max-height: 190px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+.small-icons .circle-icon{
+    height: 3vw;
+    width: 3vw;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.buttons{
+    text-align: center;
+    width: 100%;
+}
+
+.buttons .button-maker{
+    display: inline-grid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-maker{
+    text-align: center;
+    line-height: 55px;
+    background: #141414;
+    color: #ffffff;
+    height: 55px;
+    width: 189px;
+    text-align: center;
+    border-radius: 6px;
+    margin: auto auto;
 }
 
 
 
 /* Large desktops and laptops */
 @media (max-width: 1400px) {
+
+    .button-text{
+        font-size: 20px;
+    }
+
     h1{
         font-size: 45px;
     }
@@ -94,6 +198,10 @@ body{
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+    .button-text{
+        font-size: 20px;
+    }
 
     h1{
         font-size: 45px;
@@ -112,6 +220,10 @@ body{
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .button-text{
+        font-size: 20px;
+    }
+
     h1{
         font-size: 42px;
     }
@@ -124,10 +236,19 @@ body{
         font-size: 17px;
     }
 
+    .holded-container p{
+        width: 60%;
+        margin: auto auto;
+    }
+
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+
+    .button-text{
+        font-size: 20px;
+    }
 
     h1{
         font-size: 40px;
@@ -150,10 +271,19 @@ body{
         transform:translateY(0%);
     }
 
+    .holded-container p{
+        width: 70%;
+        margin: auto auto;
+    }
+
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+
+    .button-text{
+        font-size: 20px;
+    }
 
     h1{
         font-size: 37px;
@@ -174,6 +304,11 @@ body{
     .main-text-holder{
         top: 20%;
         transform:translateY(0%);
+    }
+
+    .holded-container p{
+        width: 80%;
+        margin: auto auto;
     }
 
 }
