@@ -66,6 +66,11 @@ body{
 .navbar{
     height: 7vh;
     min-height: 50px;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    z-index: 999;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
 }
 
 .main{
@@ -75,7 +80,7 @@ body{
 }
 
 .menu{
-    float:right;
+    float: right;
     width: auto;
     height: 100%;
     position: relative;
@@ -92,7 +97,7 @@ body{
 }
 
 .menu-item:hover{
-    font-weight: 500;
+    font-weight: 300;
     cursor: pointer;
 }
 
