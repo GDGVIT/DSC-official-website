@@ -280,7 +280,6 @@ body{
         width: 70%;
         margin: auto auto;
     }
-
 }
 
 /* Portrait phones and smaller */
@@ -314,6 +313,10 @@ body{
     .holded-container p{
         width: 80%;
         margin: auto auto;
+    }
+
+    #projects-button{
+        margin-bottom: 30px;
     }
 
 }
