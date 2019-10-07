@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="207.622" height="146.995" viewBox="0 0 207.622 146.995">
+  
+  <style>
+  
+    #Intersection_6{
+      transform:translate(1673px,4288px) rotate(0deg);
+      animation: hand-wave 1.2s cubic-bezier(.54,0,.54,1) .4s infinite;
+    }
+
+    @keyframes hand-wave{
+      0%{
+        transform:translate(1673px,4288px)rotate(0deg);
+      }
+      50%{
+        transform:translate(1698px,4280px)rotate(10deg);
+      }
+      100%{
+        transform:translate(1673px,4288px) rotate(0deg);
+      }
+    }
+  
+  </style>
+  
+  <g id="Group_7" data-name="Group 7" transform="translate(-1712.378 -4351.004)">
+    <path id="Intersection_3" data-name="Intersection 3" d="M128.44,154.917A73.006,73.006,0,0,1,247,81.053V191a73,73,0,0,1-118.56-36.087Z" transform="translate(1673 4288)" fill="#b7b7b7"/>
+    <path id="Intersection_8" data-name="Intersection 8" d="M68.76,209.5a145.517,145.517,0,0,1-7.437-58.726c25.169-14.053,26.554-15.019,26.554-15.019s3.655,42.914,28.973,73.745Z" transform="translate(1673 4288)" fill="#b7b7b7"/>
+    <path id="Intersection_2" data-name="Intersection 2" d="M136.167,152.846A65.01,65.01,0,0,1,247,92.225v87.588a64.993,64.993,0,0,1-110.832-26.966Z" transform="translate(1673 4288)" fill="#280067"/>
+    <path id="Intersection_6" data-name="Intersection 6" d="M52.77,138.432s-27.259-27.038-4-36.217c11.409-4.5,16.4,1.126,19.717,6.754,3.447,5.847,5.09,11.7,10.254,6.181,10.132-10.823,14.538.372,1.078,21.883-4.689,7.494-9.4,9.937-13.538,9.937C58.54,146.972,52.77,138.432,52.77,138.432Z" fill="#590074"/>
+    <path id="Intersection_5" data-name="Intersection 5" d="M158.729,210l-2.341-8.737s28.855-1.333,56.89-8.845A290.976,290.976,0,0,0,247,180.834v29.131l-.09.035Z" transform="translate(1673 4288)" fill="#9d9d9d"/>
+    <path id="Intersection_4" data-name="Intersection 4" d="M223.738,124.205A15,15,0,0,1,247,108.154V132.5a15,15,0,0,1-23.261-8.29Z" transform="translate(1673 4288)" fill="#590074"/>
+    <path id="Intersection_7" data-name="Intersection 7" d="M57.736,148.805l30.716-18.644,2.948,11-30.763,18.47Z" transform="translate(1673 4288)" fill="#9d9d9d"/>
+    <path id="Intersection_1" data-name="Intersection 1" d="M212.887,99.16a7.992,7.992,0,1,1,7.723,5.932A8,8,0,0,1,212.887,99.16Z" transform="translate(1673 4288)" fill="#590074"/>
+  </g>
+</svg>

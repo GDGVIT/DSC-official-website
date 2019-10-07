@@ -86,8 +86,26 @@ body{
     position: fixed;
     width: 100%;
     background: #ffffff;
-    z-index: 999;
+    z-index: 98;
+}
+
+.navbar-scrolled{
     box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+}
+
+.navbar-dsc-logo{
+    height: 40px;
+    width: auto;
+    float: left;
+    padding-left: 10vw;
+    display: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-scrolled .navbar-dsc-logo{
+    display: inline-block;
 }
 
 .main{
@@ -106,16 +124,74 @@ body{
     transform:translateY(-25%);
 }
 
+.menu-phone{
+    height: 18px;
+    width: auto;
+    float: right;
+    padding-right: 10vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    display: none;
+}
+
 .menu-item{
     height: auto;
     font-size: 18px;
     display: inline;
     margin-left: 25px;
     margin-right: 25px;
+    transition: all .3s ease;
 }
 
 .menu-item:hover{
-    font-weight: 300;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-menu{
+    height: 100vh;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    display: none;
+}
+
+.main-menu-image{
+    height: 35vw;
+    width: auto;
+    display: inline-block;
+    float: right;
+    max-height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.main-menu-item-holder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main-menu-item-holder h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.main-menu-close{
+    position: relative;
+    height: 18px;
+    width: auto;
+    padding-right: 10vw;
+    float: right;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -275,8 +351,13 @@ body{
         line-height: 25px;
     }
 
-    .navbar{
+    .menu{
         display: none;
+    }
+
+    .menu-phone{
+        display: inline-block;
+        cursor: pointer;
     }
 
     .main-text-holder{
@@ -290,6 +371,10 @@ body{
         transform:translateY(0%);
         float: left;
         padding-left:10vw;
+        height: 300px;
+    }
+
+    .main-menu-image{
         height: 300px;
     }
 
@@ -320,8 +405,12 @@ body{
         line-height: 25px;
     }
 
-    .navbar{
+    .menu{
         display: none;
+    }
+
+    .menu-phone{
+        display: inline-block;
     }
 
     .main-text-holder{
@@ -336,6 +425,10 @@ body{
         float: left;
         padding-left:10vw;
         height: 250px;
+    }
+
+    .main-menu-image{
+        height: 300px;
     }
 
     .holded-container p{
@@ -364,8 +457,12 @@ body{
         line-height: 25px;
     }
 
-    .navbar{
+    .menu{
         display: none;
+    }
+
+    .menu-phone{
+        display: inline-block;
     }
 
     .main-text-holder{
@@ -380,6 +477,10 @@ body{
         float: left;
         padding-left:10vw;
         height: 250px;
+    }
+
+    .main-menu-image{
+        height: 300px;
     }
 
     .holded-container p{
