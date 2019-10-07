@@ -22,6 +22,20 @@ h1{
     padding-bottom: 15px;
 }
 
+.main-text-holder-heading-image{
+    height: 50px;
+    width:50px;
+    display: inline-block;
+    
+}
+
+.main-text-holder-heading h1{
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    top: -10px;
+}
+
 h2{
     font-size: 1.5vw;
     padding: 0px;
@@ -30,10 +44,12 @@ h2{
 }
 
 p{
-    font-size: 1vw;
+    font-size: 20px;
     padding: 0px;
     margin: 0px;
     padding-bottom: 15px;
+    line-height: 30px;
+    letter-spacing: 0.07em;
 }
 
 .button-text{
@@ -49,7 +65,8 @@ p{
 }
 
 .extra-break{
-    padding-bottom: 45px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .holded-container p{
@@ -107,17 +124,19 @@ body{
     padding-left: 10vw;
     padding-right: 10vw;
     position: absolute;
+    width: 40%;
     top: 50%;
     transform:translateY(-50%);
+    max-width: 600px;
 }
 
 .main-image{
-    height: 70vh;
+    height: 35vw;
     width: auto;
     display: inline-block;
     float: right;
     padding-right: 10vw;
-    max-height: 600px;
+    max-height: 500px;
     position: relative;
     top: 50vh;
     transform: translateY(-50%);
@@ -211,7 +230,7 @@ body{
     }
 
     p{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -231,7 +250,7 @@ body{
     }
 
     p{
-        font-size: 20px;
+        font-size: 18px;
     }
 
 }
@@ -244,19 +263,38 @@ body{
     }
 
     h1{
-        font-size: 42px;
+        font-size: 40px;
     }
 
     h2{
-        font-size: 27px;
+        font-size: 25px;
     }
 
     p{
-        font-size: 17px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .main-text-holder{
+        top: 15%;
+        transform:translateY(0%);
+        width:80%;
+    }
+
+    .main-image{
+        top: 50vh;
+        transform:translateY(0%);
+        float: left;
+        padding-left:10vw;
+        height: 300px;
     }
 
     .holded-container p{
-        width: 60%;
+        width: 70%;
         margin: auto auto;
     }
 
@@ -278,7 +316,8 @@ body{
     }
 
     p{
-        font-size: 15px;
+        font-size: 18px;
+        line-height: 25px;
     }
 
     .navbar{
@@ -286,8 +325,17 @@ body{
     }
 
     .main-text-holder{
-        top: 20%;
+        top: 15%;
         transform:translateY(0%);
+        width:80%;
+    }
+
+    .main-image{
+        top: 50vh;
+        transform:translateY(0%);
+        float: left;
+        padding-left:10vw;
+        height: 250px;
     }
 
     .holded-container p{
@@ -312,7 +360,8 @@ body{
     }
 
     p{
-        font-size: 12px;
+        font-size: 14px;
+        line-height: 25px;
     }
 
     .navbar{
@@ -320,8 +369,17 @@ body{
     }
 
     .main-text-holder{
-        top: 20%;
+        top: 15%;
         transform:translateY(0%);
+        width: 80%;
+    }
+
+    .main-image{
+        top: 50vh;
+        transform:translateY(0%);
+        float: left;
+        padding-left:10vw;
+        height: 250px;
     }
 
     .holded-container p{
