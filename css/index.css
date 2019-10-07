@@ -77,7 +77,6 @@ p{
 body{
     padding: 0px;
     margin: 0px;
-    padding-bottom: 15vh;
 }
 
 .navbar{
@@ -176,7 +175,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-60%);
 }
 
 .main-menu-item-holder h1{
@@ -232,6 +231,12 @@ body{
 .container-main{
     height: auto;
     padding-top: 15vh;
+    background: url('../images/after-landing.svg') center center fixed no-repeat;
+    background-size: cover;
+}
+
+.container-main-last{
+    padding-bottom: 15vh;
 }
 
 .icons{
@@ -239,7 +244,11 @@ body{
     margin:auto auto;
     width: 70%;
     text-align: center;
-    max-width: 800px;
+    max-width: 400px;
+}
+
+.icons a{
+    text-decoration: none;
 }
 
 .circle-icon{
@@ -277,15 +286,23 @@ body{
 
 .button-maker{
     text-align: center;
-    line-height: 55px;
+    line-height: 53px;
     background: #141414;
     color: #ffffff;
-    height: 55px;
+    height: 53px;
     width: 189px;
     text-align: center;
     border-radius: 6px;
     margin: auto auto;
     cursor: pointer;
+    border: 1px solid #141414;
+    transition: all .3s ease;
+}
+
+.button-maker:hover{
+    background: transparent;
+    border: 1px solid #141414;
+    color: #141414;
 }
 
 

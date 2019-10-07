@@ -7,7 +7,12 @@ $(document).ready(function () {
         $('html, body').animate({
             scrollTop: $("#home-scroll").offset().top
         }, 600);
+    });
 
+    $("#home-desk").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#home-scroll").offset().top
+        }, 600);
     });
 
     $("#down-arrow").click(function () {
@@ -15,11 +20,17 @@ $(document).ready(function () {
         $('html, body').animate({
             scrollTop: $("#our-work-scroll").offset().top
         }, 900);
-
     })
 
     $("#our-work").click(function () {
         $('.main-menu').fadeOut(200)
+        $('html, body').animate({
+            scrollTop: $("#our-work-scroll").offset().top
+        }, 900);
+
+    });
+
+    $("#our-work-desk").click(function () {
         $('html, body').animate({
             scrollTop: $("#our-work-scroll").offset().top
         }, 900);
@@ -34,6 +45,13 @@ $(document).ready(function () {
 
     });
 
+    $("#team-desk").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#team-scroll").offset().top
+        }, 1200);
+
+    });
+
     $("#updates").click(function () {
         $('.main-menu').fadeOut(200)
         $('html, body').animate({
@@ -42,8 +60,22 @@ $(document).ready(function () {
 
     });
 
+    $("#updates-desk").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#updates-scroll").offset().top
+        }, 1800);
+
+    });
+
     $("#contact").click(function () {
         $('.main-menu').fadeOut(200)
+        $('html, body').animate({
+            scrollTop: $("#contact-scroll").offset().top
+        }, 2100);
+
+    });
+
+    $("#contact-desk").click(function () {
         $('html, body').animate({
             scrollTop: $("#contact-scroll").offset().top
         }, 2100);
