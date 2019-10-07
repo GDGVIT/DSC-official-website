@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html>
 
-    <!--Links to css CDN's-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- Links to css files -->
-    <link rel="stylesheet" href="css/index.css">
-
-    <!--Meta tags for SEO and Responsiveness-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <head>
 
-        <title>
+        <!-- Title of the webpage -->
+        <title>Developer Student Club VIT</title>
 
-            Developer Student Club VIT
+        <!-- Favicon linking -->
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icons/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icons/favicons/favicon-16x16.png">
+        <link rel="manifest" href="icons/favicons/site.webmanifest">
 
-        </title>
+        <!--Links to css CDN's-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+        <!-- Links to css files -->
+        <link rel="stylesheet" href="css/index.css">
 
+        <!--Meta tags for SEO and Responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Adding PWA Capabilities -->
+        <link rel="manifest" href="manifest.json">
+
+        <script>
+            if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+                .then(function() {
+                    console.log('Service Worker Registered');
+                })
+                .catch( () => {
+                    console.log("There was error registering service worker")
+                })
+            }
+        </script>
+    
     </head>
 
     <body>
