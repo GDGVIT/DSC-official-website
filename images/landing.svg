@@ -1,7 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="728.128" height="658.257" viewBox="0 0 728.128 658.257">
+  
+  <style>
+  
+  #Ellipse_10{
+    transform:translate(1510px,500px);
+    animation: blue-planet 2s ease .4s infinite; 
+  }
+
+  @keyframes blue-planet{
+    0%{
+      transform:translate(1500px,500px);
+    }
+    50%{
+      transform:translate(1530px,507px);
+    }
+    100%{
+      transform:translate(1500px,500px);
+    }
+  }
+
+  #Ellipse_15{
+    transform:translate(1367px,237px);
+  }
+  
+  #Path_3{
+    stroke-dasharray:1040;
+    stroke-dashoffset:1040;
+    animation: planet-line 7s cubic-bezier(.54,0,.54,1) .8s infinite;
+  }
+
+  @keyframes planet-line{
+    0%{
+      stroke-dashoffset:1040;
+    }
+    50%{
+      stroke-dashoffset:-1600;
+    }
+    100%{
+      stroke-dashoffset:1040;
+    }
+  }
+
+  </style>
+  
   <g id="Group_6" data-name="Group 6" transform="translate(-1260.832 -169.763)">
     <g id="Group_5" data-name="Group 5" transform="translate(24 -2)">
-      <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(1367 235)" fill="#f15b44" stroke="#404040" stroke-width="10">
+      <g id="Ellipse_15" data-name="Ellipse 15" fill="#f15b44" stroke="#404040" stroke-width="10">
         <circle cx="76.5" cy="76.5" r="76.5" stroke="none"/>
         <circle cx="76.5" cy="76.5" r="71.5" fill="none"/>
       </g>
@@ -10,7 +54,7 @@
         <circle cx="249.5" cy="249.5" r="244.5" fill="none"/>
       </g>
       <path id="Path_3" data-name="Path 3" d="M83.691,191.663s-248.042,131.728,51.848,60.66S895.6-100.255,538.6,20.26" transform="matrix(0.799, 0.602, -0.602, 0.799, 1418.451, 202.404)" fill="none" stroke="#404040" stroke-width="10"/>
-      <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(1510 500)" fill="#519bf7" stroke="#404040" stroke-width="10">
+      <g id="Ellipse_10" data-name="Ellipse 10"  fill="#519bf7" stroke="#404040" stroke-width="10">
         <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
         <circle cx="37.5" cy="37.5" r="32.5" fill="none"/>
       </g>
