@@ -1,0 +1,13 @@
+.main-image{
+    width: 30vw;
+    min-width: 200px;
+}
+
+.container-main{
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url('../images/after-landing.svg') center center fixed;
+    background-size:cover;
+}
+
+.navbar-dsc-logo{
+    display: inline-block;
+}

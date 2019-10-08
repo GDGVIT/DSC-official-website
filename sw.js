@@ -18,6 +18,18 @@ var filesToCache = [
   'images/menu-image.svg',
   'images/Twitter.svg',
   'images/Youtube.svg',
+  'images/team.svg',
+  'images/samarth.jpg',
+  'images/ayush.jpg',
+  'images/samyak.jpg',
+  'images/aritro.jpg',
+  'images/dhiraj.jpg',
+  'images/jayakrishna.jpg',
+  'images/abhishek.jpg',
+  'images/raina.jpg',
+  'images/apurva.jpg',
+  'images/preethi.jpg',
+  'images/amurt.jpg',
   'icons/favicons/icon-512x512.png',
   'icons/favicons/favicon.ico'
 ];self.addEventListener('install', function(e) {
