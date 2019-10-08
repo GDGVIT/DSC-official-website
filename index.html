@@ -30,18 +30,6 @@
 
     <body>
 
-        <script async defer>
-            if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./sw.js')
-                .then(function() {
-                    console.log('Service Worker Registered');
-                })
-                .catch( () => {
-                    console.log("There was error registering service worker")
-                })
-            }
-        </script>
-
         <div class="main-menu">
 
             <img src="images/menu-close.svg" alt="Close Menu" class="main-menu-close" id="menu-close" alt="Close Menu">
@@ -344,11 +332,22 @@
         </div>
 
         <!--Links to JS files and JS CDN's-->
-        <script async defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script async defer src="js/jq.js"></script>
-        <script async defer src="js/index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/jq.js"></script>
+        <script src="js/index.js"></script>
         <script>
             AOS.init();
+        </script>
+        <script>
+            if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+                .then(function() {
+                    console.log('Service Worker Registered');
+                })
+                .catch( () => {
+                    console.log("There was error registering service worker")
+                })
+            }
         </script>
 
     </body>
