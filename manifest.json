@@ -1,7 +1,7 @@
 {
     "name": "Developer Student Club VIT",
     "short_name": "DSC VIT",
-    "prefer_related_applications": false,
+    "description": "All you need to know about DSC VIT",
     "icons": [{
       "src": "icons/icon-128x128.png",
         "sizes": "128x128",
@@ -25,8 +25,9 @@
         "type": "image/png"
       }
     ],
-    "start_url": "/index.html",
-    "display": "standalone",
+    "start_url": "/",
     "background_color": "#FFFFFF",
-    "theme_color": "#141414"
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#008DFF"
   }

@@ -11,3 +11,38 @@
 .navbar-dsc-logo{
     display: inline-block;
 }
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .main-image{
+        top: 30vh;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .main-image{
+        top: 30vh;
+        transform:translateY(0%);
+        float: left;
+        padding-left:10vw;
+        height: 250px;
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    .main-image{
+        top: 30vh;
+        transform:translateY(0%);
+        float: left;
+        padding-left:10vw;
+        height: 250px;
+    }
+
+}
