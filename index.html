@@ -7,8 +7,8 @@
         <title>Developer Student Club VIT</title>
 
         <!-- Favicon linking -->
-        <link rel="apple-touch-icon" sizes="180x180" href="icons/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="icons/favicons/favicon-32x32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="16x16" href="icons/favicons/favicon-16x16.png">
         <link rel="manifest" href="icons/favicons/site.webmanifest">
 
@@ -24,8 +24,13 @@
     
         <!-- Adding PWA Capabilities -->
         <link rel="manifest" href="manifest.json">
+        <meta name="Description" content="DSC VIT (Developer Student Club VIT Vellore) is a Google Developers program for university students, with an aim to help students build their development skills.">
+    
+    </head>
 
-        <script>
+    <body>
+
+        <script async defer>
             if('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./sw.js')
                 .then(function() {
@@ -36,14 +41,10 @@
                 })
             }
         </script>
-    
-    </head>
-
-    <body>
 
         <div class="main-menu">
 
-            <img src="images/menu-close.svg" alt="Close Menu" class="main-menu-close" id="menu-close">
+            <img src="images/menu-close.svg" alt="Close Menu" class="main-menu-close" id="menu-close" alt="Close Menu">
 
             <div class="main-menu-item-holder">
 
@@ -55,13 +56,13 @@
 
             </div>
 
-            <img src="images/menu-image.svg" class="main-menu-image">
+            <img src="images/menu-image.svg" class="main-menu-image" alt="Open Menu">
 
         </div>
 
         <div class="navbar">
 
-            <img src="images/dsc-logo-long.svg" alt="Home" class="navbar-dsc-logo">
+            <img src="images/dsc-logo-long.svg" alt="Home" class="navbar-dsc-logo" alt="DSC VIT">
 
             <div class="menu barlow-extralight">
 
@@ -97,7 +98,7 @@
 
             </div>
 
-            <img src="images/menu.svg" alt="Menu" class="menu-phone" id="menu-open">
+            <img src="images/menu.svg" alt="Menu" class="menu-phone" id="menu-open" alt="Open Menu">
 
         </div>
 
@@ -107,7 +108,7 @@
 
                 <div class="main-text-holder-heading">
 
-                    <img data-aos="fade-up" src="images/dsc-logo-square.svg" class="main-text-holder-heading-image">
+                    <img data-aos="fade-up" src="images/dsc-logo-square.svg" class="main-text-holder-heading-image" alt="DSC VIT">
 
                     <h1 data-aos="fade-up" class="barlow-extralight">
 
@@ -133,7 +134,7 @@
 
             <img src="css/assets/icons/down-arrow.svg" alt="Scroll Down" class="main-down-arrow" id="down-arrow">
 
-            <img src="images/landing.svg" class="main-image">
+            <img src="images/landing.svg" class="main-image" alt="Home Page">
 
         </div>
 
@@ -278,34 +279,34 @@
                 <div data-aos="fade-up" class="icons small-icons">
 
                         <a href="https://instagram.com/dscvitvellore" target="_blank" rel="noopener">
-                            <img src="images/Instagram.svg" class="circle-icon">
+                            <img src="images/Instagram.svg" class="circle-icon" alt="DSC VIT Instagram">
                         </a>
                         
                         <a href="https://twitter.com/dscvit" target="_blank" rel="noopener">
-                            <img src="images/Twitter.svg" class="circle-icon">
+                            <img src="images/Twitter.svg" class="circle-icon" alt="DSC VIT Twitter">
                         </a>
 
                         <a href="https://www.linkedin.com/company/dscvit" target="_blank" rel="noopener">
-                            <img src="images/Linkedin.svg" class="circle-icon">
+                            <img src="images/Linkedin.svg" class="circle-icon" alt="DSC VIT Linkedin">
                         </a>
 
                         <a href="https://facebook.com/dscvitvellore" target="_blank" rel="noopener">
-                            <img src="images/Facebook.svg" class="circle-icon">
+                            <img src="images/Facebook.svg" class="circle-icon" alt="DSC VIT Facebook">
                         </a>
 
                         <a href="https://github.com/GDGVIT" target="_blank" rel="noopener">
-                            <img src="images/Github.svg" class="circle-icon">
+                            <img src="images/Github.svg" class="circle-icon" alt="DSC VIT GitHub">
                         </a>
 
                         <a href="https://www.behance.net/dsc-vit" target="_blank" rel="noopener">
-                            <img src="images/Behance.svg" class="circle-icon">
+                            <img src="images/Behance.svg" class="circle-icon" alt="DSC VIT Behance">
                         </a>
 
                         <a href="https://medium.com/gdg-vit" target="_blank" rel="noopener">
-                            <img src="images/Medium.svg" class="circle-icon">
+                            <img src="images/Medium.svg" class="circle-icon" alt="DSC VIT Medium">
                         </a>
                         <a href="https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg" target="_blank" rel="noopener">
-                            <img src="images/Youtube.svg" class="circle-icon">
+                            <img src="images/Youtube.svg" class="circle-icon" alt="DSC VIT Youtube">
                         </a>
     
                 </div>
@@ -343,9 +344,9 @@
         </div>
 
         <!--Links to JS files and JS CDN's-->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="js/jq.js"></script>
-        <script src="js/index.js"></script>
+        <script async defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script async defer src="js/jq.js"></script>
+        <script async defer src="js/index.js"></script>
         <script>
             AOS.init();
         </script>
