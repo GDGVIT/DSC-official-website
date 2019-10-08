@@ -1,4 +1,4 @@
-var cacheName = 'GCPCrashCourse';
+var cacheName = 'DSCVITCache';
 var filesToCache = [
   '/',
   '/index.html',
