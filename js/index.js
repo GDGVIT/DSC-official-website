@@ -9,6 +9,12 @@ $(document).ready(function () {
         }, 600);
     });
 
+    $(".navbar-dsc-logo").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#home-scroll").offset().top
+        }, 600);
+    });
+
     $("#home-desk").click(function () {
         $('html, body').animate({
             scrollTop: $("#home-scroll").offset().top

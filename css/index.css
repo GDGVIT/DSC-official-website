@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow:100,200,500');
-
 .barlow-thin{
     font-family: 'Barlow',sans-serif;
     font-weight: 100;
@@ -13,6 +11,10 @@
 .barlow-medium{
     font-family: 'Barlow',sans-serif;
     font-weight: 500;
+}
+
+a{
+    text-decoration: none;
 }
 
 h1{
@@ -101,6 +103,7 @@ body{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 
 .navbar-scrolled .navbar-dsc-logo{
@@ -244,11 +247,36 @@ body{
     margin:auto auto;
     width: 70%;
     text-align: center;
+}
+
+.small-icons{
     max-width: 400px;
 }
 
 .icons a{
     text-decoration: none;
+}
+
+.circle-icon-holder{
+    height: auto;
+    max-width: 250px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:40px;
+}
+
+.circle-icon-holder p{
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.circle-icon-holder h3{
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .circle-icon{
@@ -264,6 +292,7 @@ body{
     max-width: 190px;
     max-height: 190px;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+    object-fit: cover;
 }
 
 .small-icons .circle-icon{
@@ -368,6 +397,10 @@ body{
         line-height: 25px;
     }
 
+    .container-main{
+        background: #ffffff;
+    }
+
     .menu{
         display: none;
     }
@@ -422,6 +455,10 @@ body{
         line-height: 25px;
     }
 
+    .container-main{
+        background: #ffffff;
+    }
+
     .menu{
         display: none;
     }
@@ -472,6 +509,10 @@ body{
     p{
         font-size: 14px;
         line-height: 25px;
+    }
+
+    .container-main{
+        background: #ffffff;
     }
 
     .menu{

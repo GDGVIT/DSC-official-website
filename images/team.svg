@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="345" viewBox="0 0 580 345">
+  
+  <style>
+  
+  #Group_16{
+    stroke-dasharray:600;
+    stroke-dashoffset:600;
+    animation: team-line 5s ease .4s infinite;
+  }
+
+  @keyframes team-line{
+    0%{
+      stroke-dashoffset:600;
+    }
+
+    50%{
+      stroke-dashoffset:0;
+    }
+
+    100%{
+      stroke-dashoffset:600;
+    }
+  }
+
+  .layer0{
+    opacity:0;
+    animation: team-line-layer0 5s ease .4s infinite;
+  }
+
+  @keyframes team-line-layer0{
+    0%{
+      opacity:0;
+    }
+
+    12%{
+      opacity:0;
+    }
+
+    14%{
+      opacity:1;
+    }
+
+    65%{
+      opacity:1;
+    }
+
+    67%{
+      opacity:0;
+    }
+
+    100%{
+      stroke-dashoffset:600;
+    }
+  }
+
+  .layer1{
+    opacity:0;
+    animation: team-line-layer1 5s ease .4s infinite;
+  }
+
+  @keyframes team-line-layer1{
+    0%{
+      opacity:0;
+    }
+
+    18%{
+      opacity:0;
+    }
+
+    20%{
+      opacity:1;
+    }
+
+    60%{
+      opacity:1;
+    }
+
+    62%{
+      opacity:0;
+    }
+
+    100%{
+      stroke-dashoffset:600;
+    }
+  }
+
+  .layer2{
+    opacity:0;
+    animation: team-line-layer2 5s ease .4s infinite;
+  }
+
+  @keyframes team-line-layer2{
+    0%{
+      opacity:0;
+    }
+
+    28%{
+      opacity:0;
+    }
+
+    30%{
+      opacity:1;
+    }
+
+    50%{
+      opacity:1;
+    }
+
+    52%{
+      opacity:0;
+    }
+
+    100%{
+      stroke-dashoffset:600;
+    }
+  }
+
+  
+  </style>
+  
+  <g id="Group_17" data-name="Group 17" transform="translate(-73.416 -757.773)">
+    <g id="Group_16" data-name="Group 16" transform="translate(91.221 779.78)">
+      <path id="Path_49" class="team-line" data-name="Path 49" d="M1348.574,204.348V315.11H1189.319V407.5H1076.207V521.009" transform="translate(-1076.207 -204.348)" fill="none" stroke="#404040" stroke-linecap="round" stroke-width="7"/>
+      <path id="Path_50" class="team-line" data-name="Path 50" d="M1076.207,204.348V315.11h159.255V407.5h113.112V521.009" transform="translate(-803.835 -204.348)" fill="none" stroke="#404040" stroke-linecap="round" stroke-width="7"/>
+      <path id="Path_51" class="team-line" data-name="Path 51" d="M1076.207,204.348V315.11h159.255V516.2" transform="translate(-803.835 -204.348)" fill="none" stroke="#404040" stroke-linecap="round" stroke-width="7"/>
+      <path id="Path_52" class="team-line" data-name="Path 52" d="M1076.207,204.348V315.11h159.255V407.5H1122.045V512.264" transform="translate(-803.835 -204.348)" fill="none" stroke="#404040" stroke-linecap="round" stroke-width="7"/>
+      <path id="Path_53" class="team-line" data-name="Path 53" d="M1367.107,204.348V315.11H1207.852V516.332" transform="translate(-1094.74 -204.348)" fill="none" stroke="#404040" stroke-linecap="round" stroke-width="7"/>
+    </g>
+    <ellipse id="Ellipse_28" data-name="Ellipse 28" cx="21" cy="21.5" rx="21" ry="21.5" transform="translate(342.416 757.773)" fill="#f15b44"/>
+    <ellipse id="Ellipse_29" data-name="Ellipse 29" cx="19" cy="19.5" rx="19" ry="19.5" transform="translate(505.416 866.773)" class="layer0" fill="#519bf7"/>
+    <circle id="Ellipse_33" data-name="Ellipse 33" cx="17.5" cy="17.5" r="17.5" transform="translate(392.416 964.773)" class="layer1" fill="#00aa6a"/>
+    <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="17" cy="17.5" rx="17" ry="17.5" transform="translate(505.416 964.773)" class ="layer1" fill="#00aa6a"/>
+    <ellipse id="Ellipse_35" data-name="Ellipse 35" cx="17" cy="17.5" rx="17" ry="17.5" transform="translate(619.416 964.773)" class ="layer1" fill="#00aa6a"/>
+    <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="12.5" cy="13" rx="12.5" ry="13" transform="translate(397.416 1076.773)" class="layer2" fill="#fcc500"/>
+    <circle id="Ellipse_39" data-name="Ellipse 39" cx="13" cy="13" r="13" transform="translate(509.416 1076.773)" class="layer2" fill="#fcc500"/>
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="13" cy="13" r="13" transform="translate(623.416 1076.773)" class="layer2" fill="#fcc500"/>
+    <circle id="Ellipse_30" data-name="Ellipse 30" cx="19.5" cy="19.5" r="19.5" transform="translate(187.416 866.773)" class="layer0" fill="#519bf7"/>
+    <ellipse id="Ellipse_31" data-name="Ellipse 31" cx="17" cy="17.5" rx="17" ry="17.5" transform="translate(187.416 964.773)" class="layer1" fill="#00aa6a"/>
+    <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="17" cy="17.5" rx="17" ry="17.5" transform="translate(73.416 964.773)" class="layer1" fill="#00aa6a"/>
+    <circle id="Ellipse_36" data-name="Ellipse 36" cx="13" cy="13" r="13" transform="translate(191.416 1076.773)" class="layer2" fill="#fcc500"/>
+    <circle id="Ellipse_37" data-name="Ellipse 37" cx="13" cy="13" r="13" transform="translate(77.416 1076.773)" class="layer2" fill="#fcc500"/>
+  </g>
+</svg>
