@@ -15,7 +15,14 @@
 
 a{
     text-decoration: none;
+    color: #141414;
 }
+
+a:visited{
+    color: #141414;
+}
+
+a
 
 h1{
     font-size: 2.5vw;
