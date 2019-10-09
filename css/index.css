@@ -21,16 +21,26 @@ html{
    -ms-user-select: none;
 }
 
+.dark{
+    color: #ffffff;
+}
+
 a{
     text-decoration: none;
-    color: #141414;
+    color: #202020;
+}
+
+.dark a{
+    color: #ffffff;
 }
 
 a:visited{
-    color: #141414;
+    color: #202020;
 }
 
-a
+.dark a:visited{
+    color: #ffffff;
+}
 
 h1{
     font-size: 2.5vw;
@@ -105,13 +115,21 @@ body{
     z-index: 98;
 }
 
+.dark .navbar{
+    background: #202020;
+}
+
 .navbar-scrolled{
     box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
 }
 
+.dark .navbar-scrolled{
+    background: #141414;
+}
+
 .navbar-dsc-logo{
     height: 40px;
-    width: auto;
+    width: 140px;
     float: left;
     padding-left: 10vw;
     display: none;
@@ -131,6 +149,10 @@ body{
     width: 100%;
 }
 
+.dark .main{
+    background: #202020;
+}
+
 .menu{
     float: right;
     width: auto;
@@ -139,6 +161,10 @@ body{
     top: 50%;
     right: 10vw;
     transform:translateY(-25%);
+}
+
+.dark .menu{
+    color: #ffffff;
 }
 
 .menu-phone{
@@ -176,6 +202,10 @@ body{
     left: 0px;
     z-index: 99;
     display: none;
+}
+
+.dark .main-menu{
+    background: #202020;
 }
 
 .main-menu-image{
@@ -253,6 +283,16 @@ body{
     background-size: cover;
 }
 
+.dark .container-main{
+    background: url('../images/after-landing-dark.svg') center center fixed no-repeat;
+    background-size: cover;
+}
+
+.dark-light-toggle{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .container-main-last{
     padding-bottom: 15vh;
 }
@@ -308,6 +348,7 @@ body{
     max-height: 190px;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
     object-fit: cover;
+    background: #ffffff;
 }
 
 .small-icons .circle-icon{
@@ -331,7 +372,7 @@ body{
 .button-maker{
     text-align: center;
     line-height: 53px;
-    background: #141414;
+    background: #202020;
     color: #ffffff;
     height: 53px;
     width: 189px;
@@ -339,14 +380,25 @@ body{
     border-radius: 6px;
     margin: auto auto;
     cursor: pointer;
-    border: 1px solid #141414;
+    border: 1px solid #202020;
     transition: all .3s ease;
+}
+
+.dark .button-maker{
+    color: #202020;
+    background: #ffffff;
 }
 
 .button-maker:hover{
     background: transparent;
-    border: 1px solid #141414;
-    color: #141414;
+    border: 1px solid #202020;
+    color: #202020
+}
+
+.dark .button-maker:hover{
+    color: #ffffff;
+    background: #202020;
+    border: 1px solid #ffffff;
 }
 
 
@@ -416,6 +468,10 @@ body{
         background: #ffffff;
     }
 
+    .dark .container-main{
+        background: #202020;
+    }
+
     .menu{
         display: none;
     }
@@ -474,6 +530,10 @@ body{
         background: #ffffff;
     }
 
+    .dark .container-main{
+        background: #202020;
+    }
+
     .menu{
         display: none;
     }
@@ -528,6 +588,10 @@ body{
 
     .container-main{
         background: #ffffff;
+    }
+
+    .dark .container-main{
+        background: #202020;
     }
 
     .menu{

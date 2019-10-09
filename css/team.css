@@ -8,6 +8,11 @@
     background-size:cover;
 }
 
+.dark .container-main{
+    background: linear-gradient(rgba(32,32,32,.9), rgba(32,32,32,.9)), url('../images/after-landing-dark.svg') center center fixed;
+    background-size:cover;
+}
+
 .navbar-dsc-logo{
     display: inline-block;
 }
