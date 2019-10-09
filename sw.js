@@ -68,6 +68,7 @@ var filesToCache = [
   './images/designers/riya.jpg',
   './images/designers/ruchica.jpg',
   './images/designers/shravani.jpg',
+  './images/designers/ronish.jpg',
   './icons/icon-512x512.png',
   './icons/favicons/favicon.ico'
 ];
