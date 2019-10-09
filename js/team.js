@@ -1,6 +1,13 @@
 //Click scroll actions
 $(document).ready(function () {
 
+    checkDark();
+
+    $('#dark-light-toggle').click(function(){
+        toggleDark();
+        checkDark();
+    })
+
     // Scroll Clicks
     $("#down-arrow").click(function () {
         $('html, body').animate({
@@ -83,3 +90,27 @@ $(document).ready(function () {
         }
     });
 })
+
+var toggleDark = function(){
+    if(!$('body').hasClass('dark')){
+        localStorage.setItem('dark',true);
+    }
+    else{
+        localStorage.setItem('dark',false);
+    }
+}
+
+var checkDark = function (){
+
+    var dark = localStorage.getItem('dark');
+
+    if(dark==='true'){
+        $('body').addClass('dark');
+        $('.dark-light-toggle').children().text('I want light mode');
+    }
+    else{
+        $('body').removeClass('dark');
+        $('.dark-light-toggle').children().text('I want dark mode');
+    }
+
+}
