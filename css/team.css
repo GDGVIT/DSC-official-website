@@ -12,11 +12,40 @@
     display: inline-block;
 }
 
+.icons{
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: all .6s ease;
+}
+
+.icons-expanded{
+    transition: all .6s ease;
+    max-height: unset;
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 992px) and (max-width: 1180px) {
+
+    .main-image{
+        top: 30vh;
+    }
+
+    .icons{
+        max-height: 260px;
+    }
+
+}
+
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
     .main-image{
         top: 30vh;
+    }
+
+    .icons{
+        max-height: 280px;
     }
 
 }
@@ -32,6 +61,10 @@
         height: 250px;
     }
 
+    .icons{
+        max-height: 280px;
+    }
+
 }
 
 /* Portrait phones and smaller */
@@ -43,6 +76,10 @@
         float: left;
         padding-left:10vw;
         height: 250px;
+    }
+
+    .icons{
+        max-height: 600px;
     }
 
 }

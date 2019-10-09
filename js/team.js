@@ -8,6 +8,49 @@ $(document).ready(function () {
         }, 900);
     })
 
+    // Icons Expanders
+    $('#technical-expander').click(function(){
+        if(!$('#technical').hasClass('icons-expanded')){
+            $('#technical').addClass('icons-expanded');
+            $('#technical-expander').children().children().text('Show Less');
+        }
+        else{
+            $('#technical').removeClass('icons-expanded');
+            $('#technical-expander').children().children().text('Show All');
+        }
+        $('html, body').animate({
+            scrollTop: $("#technical").offset().top - 300
+        }, 300);
+    })
+
+    $('#management-expander').click(function(){
+        if(!$('#management').hasClass('icons-expanded')){
+            $('#management').addClass('icons-expanded');
+            $('#management-expander').children().children().text('Show Less');
+        }
+        else{
+            $('#management').removeClass('icons-expanded');
+            $('#management-expander').children().children().text('Show All');
+        }
+        $('html, body').animate({
+            scrollTop: $("#management").offset().top - 300
+        }, 300);
+    })
+
+    $('#design-expander').click(function(){
+        if(!$('#design').hasClass('icons-expanded')){
+            $('#design').addClass('icons-expanded');
+            $('#design-expander').children().children().text('Show Less');
+        }
+        else{
+            $('#design').removeClass('icons-expanded');
+            $('#design-expander').children().children().text('Show All');
+        }
+        $('html, body').animate({
+            scrollTop: $("#design").offset().top - 300
+        }, 300);
+    })
+
     // Close Menu
     $('#menu-close').click(function () {
         $('.main-menu').fadeOut(100);
