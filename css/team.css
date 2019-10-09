@@ -32,7 +32,12 @@
     }
 
     .icons{
-        max-height: 260px;
+        max-height: 300px;
+    }
+
+    .icons-expanded{
+        transition: all .6s ease;
+        max-height: unset;
     }
 
 }
@@ -45,7 +50,12 @@
     }
 
     .icons{
-        max-height: 280px;
+        max-height: 300px;
+    }
+
+    .icons-expanded{
+        transition: all .6s ease;
+        max-height: unset;
     }
 
 }
@@ -62,7 +72,12 @@
     }
 
     .icons{
-        max-height: 280px;
+        max-height: 300px;
+    }
+
+    .icons-expanded{
+        transition: all .6s ease;
+        max-height: unset;
     }
 
 }
@@ -79,7 +94,12 @@
     }
 
     .icons{
-        max-height: 600px;
+        max-height: 620px;
+    }
+
+    .icons-expanded{
+        transition: all .6s ease;
+        max-height: unset;
     }
 
 }
