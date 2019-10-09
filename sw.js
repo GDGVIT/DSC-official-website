@@ -46,6 +46,7 @@ var filesToCache = [
   './images/techteam/vikrame.jpg',
   './images/techteam/vishaal.jpg',
   './images/techteam/yaswant.jpg',
+  './images/techteam/purushottam.jpg',
   './images/managers/akshat.jpg',
   './images/managers/arjun.jpg',
   './images/managers/cyril.jpg',
