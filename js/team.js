@@ -9,6 +9,20 @@ $(document).ready(function () {
     })
 
     // Icons Expanders
+    $('#board-expander').click(function(){
+        if(!$('#board').hasClass('icons-expanded')){
+            $('#board').addClass('icons-expanded');
+            $('#board-expander').children().children().text('Show Less');
+        }
+        else{
+            $('#board').removeClass('icons-expanded');
+            $('#board-expander').children().children().text('Show All');
+        }
+        $('html, body').animate({
+            scrollTop: $("#board").offset().top - 300
+        }, 300);
+    })
+
     $('#technical-expander').click(function(){
         if(!$('#technical').hasClass('icons-expanded')){
             $('#technical').addClass('icons-expanded');
