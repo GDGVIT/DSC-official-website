@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <!-- Title of the webpage -->
+        <title>Developer Student Club VIT</title>
+
+        <!-- Favicon linking -->
+        <link rel="icon" type="image/png" sizes="32x32" href="icons/favicons/favicon-32x32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icons/favicons/favicon-16x16.png">
+
+        <!--Links to css CDN's-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,500" rel="stylesheet">
+        
+        <!-- Links to css files -->
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/svg.css">
+
+        <!--Meta tags for SEO and Responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#141414"/>
+        <meta name="Description" content="DSC VIT (Developer Student Club VIT Vellore) is a Google Developers program for university students, with an aim to help students build their development skills.">
+    
+        <!-- Adding PWA Capabilities -->
+        <link rel="manifest" href="manifest.json">
+
+        <script>
+            if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/sw.js')
+					.then(function () {
+						console.log('Service Worker Registered');
+					});
+			}
+        </script>
+        
+    </head>
+
+    <body>
+
+        <div class="main text-center">
+            <h1 class="barlow-extralight" style="position:relative; top:50vh; transform:translateY(-50%);">Coming Soon</h1>
+        </div>
+
+        <script src="js/jq.js"></script>
+
+        <script src="js/index.js"></script>
+        
+        <script>
+
+            AOS.init();
+
+        </script>
+
+    </body>
+
+</html>
