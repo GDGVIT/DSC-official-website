@@ -384,9 +384,47 @@ body{
     transition: all .3s ease;
 }
 
+input:focus{
+    outline: none;
+}
+
+.text-field-maker{
+    text-align: center;
+    border: 2px #202020 solid !important; 
+    color: #202020;
+    height: 53px;
+    max-width: 280px;
+    width: 90vw;
+    text-align: center;
+    border-radius: 6px;
+    display: block;
+    margin: auto auto;
+    cursor: pointer;
+    border: 1px solid #202020;
+    transition: all .3s ease;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.07em;
+    margin-bottom: 30px;
+}
+
+.text-field-false{
+    border: 2px solid #da443c !important;
+}
+
+.text-field-true{
+    border: 2px solid #478518 !important;
+}
+
 .dark .button-maker{
     color: #202020;
     background: #ffffff;
+}
+
+.dark .text-field-maker{
+    border: 2px solid #ffffff !important;
+    background: #202020;
+    color: #ffffff;
 }
 
 .button-maker:hover{

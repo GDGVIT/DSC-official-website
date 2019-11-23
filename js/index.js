@@ -1,5 +1,132 @@
+let emailValue = '';
+let emailValidity = false;
+let FCMToken = '';
+let recaptchaToken = '';
+let messaging = firebase.messaging();
+
+function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+
+function submitEmailwithToken(){
+    fetch('https://recruitments.dscvit.com/notifs/', {
+            method:'POST',
+            crossDomain:true,
+            headers:{
+                'Accept':'application/json',
+                'Content-Type':'application/json'
+            },
+        })
+        .then(function (response) {
+            if(response.status === 200){
+                cookieIs = 1;
+            }
+        })
+        .then(function (responseJSON){
+            console.log(responseJSON);
+        })
+    }
+}
+
+function submitEmail(){
+    
+    if(emailValidity){
+        messaging.requestPermission()
+        .then((permission) => {
+            console.log('Notification permission granted.');
+            return messaging.getToken();
+        })
+        .then((token) => {
+            FCMToken = token;
+            localStorage.setItem('userNotificationTokenDSC', FCMToken);
+        });
+    }
+    else{
+        console.log('Invalid Email')
+    }
+}
+
+if(localStorage.getItem('userNotificationTokenDSC')===null){
+    FCMToken = generateToken();
+    localStorage.setItem('userNotificationTokenDSC', FCMToken);
+}else{
+    FCMToken = localStorage.getItem('userNotificationTokenDSC');
+}
+
+function generateToken() {
+    var chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    var token = '';
+    for(var i = 0; i < 16; i++) {
+        token += chars[Math.floor(Math.random() * chars.length)];
+    }
+    return token;
+}
+
 //Click scroll actions
 $(document).ready(function () {
+
+
+    $("#get-updates").click((e) => {
+            
+        grecaptcha.ready(() => {
+
+                grecaptcha.execute('6LdiJ8QUAAAAAFCiBqwvhGOI2Ho3v-EFD73PAiBn', { action: '/' }).then(async (token) => {
+
+                    let body = {
+                        "g-recaptcha-response": token, "email": emailValue
+                    }
+
+                    console.table(body)
+                    console.log(token)
+                    recaptchaToken = token;
+
+                    let resp = await fetch("/updates", {
+                        method: "POST",
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(body)
+                    })
+
+                    submitEmail();
+                    
+                    let reply = await resp.json()
+
+
+                    if (reply.status === false) {
+                        alert("Captcha Not Verified")
+                    } else if (reply.err != null) {
+                        console.log(reply.err)
+                        if (reply.err === "Already responded")
+                            alert(reply.err)
+                    } else {
+
+                        console.log(reply)
+
+                    }
+
+                });
+        });
+
+    });
+
+    document.getElementById('email').addEventListener("input", function() {
+        emailValue = $("#email").val();
+
+        if(validateEmail(emailValue)){
+            $('#email').addClass('text-field-true');
+            $('#email').removeClass('text-field-false');
+            emailValidity = true;
+        }
+        else{
+            $('#email').removeClass('text-field-true');
+            $('#email').addClass('text-field-false');
+            emailValidity = false;
+        }
+        
+    });
 
     checkDark();
 

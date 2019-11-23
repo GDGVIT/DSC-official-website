@@ -35,6 +35,32 @@
 					});
 			}
         </script>
+
+        <script src="https://www.google.com/recaptcha/api.js?render=6LdiJ8QUAAAAAFCiBqwvhGOI2Ho3v-EFD73PAiBn"></script>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-messaging.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyDekMXWA6fD3xHPV9JSWySw_otmPwcpSUY",
+                authDomain: "dsc-updates.firebaseapp.com",
+                databaseURL: "https://dsc-updates.firebaseio.com",
+                projectId: "dsc-updates",
+                storageBucket: "dsc-updates.appspot.com",
+                messagingSenderId: "303908668455",
+                appId: "1:303908668455:web:0ae9791a1b7976330dfa02",
+                measurementId: "G-Q1SGQCL6BJ"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
         
     </head>
 
@@ -381,6 +407,36 @@
                 </a>
 
         </div>
+
+
+        <div class="container-main holded-container">
+
+            <h1 data-aos="fade-up" class="barlow-medium text-center">
+
+                Stay Updated
+
+            </h1>
+
+            <p data-aos="fade-up" class="barlow-extralight text-center extra-break">
+
+                Want to stay updated with the latest news about DSC VIT? Enter you email address and allow notifications.
+
+            </p>
+
+            <input data-aos="fade-up" type="text" placeholder="Enter Email" class="text-field-maker" id="email">
+
+            <div data-aos="fade-up" class="button-maker" id="get-updates">
+
+                <div class="barlow-thin button-text">
+
+                    Get Updates
+
+                </div>
+
+            </div>
+
+        </div>
+
 
         <div class="footer container-main  container-main-last">
 
