@@ -11,7 +11,7 @@ function validateEmail(email) {
 
 function updateEmailToken(){
 
-    fetch('http://recruitments.dscvit.com/notifs/?email='+emailValue+'&device_id='+FCMToken+'&g-recaptcha-response='+recaptchaToken, {
+    fetch('https://dscrec19.herokuapp.com/notifs/?email='+emailValue+'&device_id='+FCMToken+'&g-recaptcha-response='+recaptchaToken, {
             method:'PUT',
             crossDomain:true,
             headers:{
@@ -30,7 +30,7 @@ function updateEmailToken(){
 
 function submitEmailwithToken(){
 
-    fetch('http://recruitments.dscvit.com/notifs/', {
+    fetch('https://dscrec19.herokuapp.com/notifs/', {
             method:'POST',
             crossDomain:true,
             headers:{
