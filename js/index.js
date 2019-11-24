@@ -9,25 +9,54 @@ function validateEmail(email) {
     return re.test(email);
 }
 
+function updateEmailToken(){
+
+    fetch('http://recruitments.dscvit.com/notifs/?email='+emailValue+'&device_id='+FCMToken+'&g-recaptcha-response='+recaptchaToken, {
+            method:'PUT',
+            crossDomain:true,
+            headers:{
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        })
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (responseJSON){
+            console.log(responseJSON.status);
+        })
+
+}
+
 function submitEmailwithToken(){
-    fetch('https://recruitments.dscvit.com/notifs/', {
+
+    fetch('http://recruitments.dscvit.com/notifs/', {
             method:'POST',
             crossDomain:true,
             headers:{
-                'Accept':'application/json',
-                'Content-Type':'application/json'
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
             },
+            body: JSON.stringify({
+                emailAddress: emailValue,
+                deviceID: FCMToken,
+                'g-recaptcha-response': recaptchaToken
+            })
         })
         .then(function (response) {
-            if(response.status === 200){
-                cookieIs = 1;
-            }
+            return response.json();
         })
         .then(function (responseJSON){
-            console.log(responseJSON);
+            if(responseJSON.err === undefined){
+                console.log('Welcome to the notification gang');
+            }
+            else{
+                updateEmailToken();
+            }
         })
-    }
+    
 }
+
 
 function submitEmail(){
     
@@ -39,6 +68,7 @@ function submitEmail(){
         })
         .then((token) => {
             FCMToken = token;
+            submitEmailwithToken();
             localStorage.setItem('userNotificationTokenDSC', FCMToken);
         });
     }
