@@ -115,6 +115,94 @@ body{
     z-index: 98;
 }
 
+.success-message{
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transform: translateY(-100%);
+    background: #478518;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 60px;
+    transition: all .3s ease;
+    letter-spacing: 0.07em;
+    z-index: 100;
+    opacity: 0;
+}
+
+.error-message{
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transform: translateY(-100%);
+    background: #da443c;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 60px;
+    transition: all .3s ease;
+    letter-spacing: 0.07em;
+    z-index: 100;
+    opacity: 0;
+}
+
+.change-device-message{
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    position: fixed;
+    top: 100vh;
+    left: 0px;
+    transform: translateY(0%);
+    background: #da443c;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 60px;
+    transition: all .3s ease;
+    letter-spacing: 0.07em;
+    z-index: 100;
+    opacity: 1;
+}
+
+.change-device-active{
+    transform: translateY(-100%);
+    transition: all .4s ease;
+    opacity: 1;
+}
+
+.change-device-active .button-maker{
+    background: #ffffff;
+    color: #da443c;
+    border: 2px solid #da443c;
+    margin-bottom: 15px;
+}
+
+.change-device-active .button-maker:hover{
+    background: #da443c;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.message-active{
+    transform: translateY(0);
+    transition: all .4s ease;
+    opacity: 1;
+}
+
 .dark .navbar{
     background: #202020;
 }

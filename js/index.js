@@ -12,7 +12,7 @@ function validateEmail(email) {
 function updateEmailToken(){
 
     fetch('https://dscrec19.herokuapp.com/notifs/?email='+emailValue+'&device_id='+FCMToken+'&g-recaptcha-response='+recaptchaToken, {
-            method:'PUT',
+            method:'POST',
             crossDomain:true,
             headers:{
                 'Content-Type': 'application/json',
@@ -23,7 +23,22 @@ function updateEmailToken(){
             return response.json();
         })
         .then(function (responseJSON){
-            console.log(responseJSON.status);
+            if(responseJSON.status === 'false'){
+                $('.error-message').addClass('message-active');
+                document.getElementById('error-message').innerHTML = "Error Changing Device";
+                setTimeout(function(){ 
+                    $('.error-message').removeClass('message-active');
+                    document.getElementById('error-message').innerHTML = null;
+                }, 2500);
+            }
+            else{
+                $('.success-message').addClass('message-active');
+                document.getElementById('success-message').innerHTML = "New Device Added";
+                setTimeout(function(){ 
+                    $('.success-message').removeClass('message-active');
+                    document.getElementById('success-message').innerHTML = null;
+                }, 2500);
+            }
         })
 
 }
@@ -48,10 +63,23 @@ function submitEmailwithToken(){
         })
         .then(function (responseJSON){
             if(responseJSON.err === undefined){
-                console.log('Welcome to the notification gang');
+                $('.success-message').addClass('message-active');
+                document.getElementById('success-message').innerHTML = "Welcome to the Notification Gang!";
+                setTimeout(function(){ 
+                    $('.success-message').removeClass('message-active');
+                    document.getElementById('success-message').innerHTML = null;
+                }, 2500);
+            }
+            else if(responseJSON.err === 'User already registered'){
+                $('.change-device-message').addClass('change-device-active');
             }
             else{
-                updateEmailToken();
+                $('.error-message').addClass('message-active');
+                document.getElementById('error-message').innerHTML = "Error Registering your Email";
+                setTimeout(function(){ 
+                    $('.error-message').removeClass('message-active');
+                    document.getElementById('error-message').innerHTML = null;
+                }, 2500);
             }
         })
     
@@ -93,8 +121,16 @@ function generateToken() {
     return token;
 }
 
-//Click scroll actions
 $(document).ready(function () {
+
+    $('#change-deviceID').click(function(){
+        updateEmailToken();
+        $('.change-device-message').removeClass('change-device-active');
+    })
+
+    $('#no-change-deviceID').click(function(){
+        $('.change-device-message').removeClass('change-device-active');
+    })
 
 
     $("#get-updates").click((e) => {
