@@ -57,8 +57,7 @@ function submitEmailwithToken(){
             },
             body: JSON.stringify({
                 emailAddress: emailValue,
-                deviceID: FCMToken,
-                'g-recaptcha-response': recaptchaToken
+                deviceID: FCMToken
             })
         })
         .then(function (response) {
@@ -137,47 +136,51 @@ $(document).ready(function () {
 
 
     $("#get-updates").click((e) => {
+
+        submitEmail();
             
-        grecaptcha.ready(() => {
+        // grecaptcha.ready(() => {
 
-                grecaptcha.execute('6LdiJ8QUAAAAAFCiBqwvhGOI2Ho3v-EFD73PAiBn', { action: '/' }).then(async (token) => {
+            
 
-                    let body = {
-                        "g-recaptcha-response": token, "email": emailValue
-                    }
+        //         // grecaptcha.execute('6LdiJ8QUAAAAAFCiBqwvhGOI2Ho3v-EFD73PAiBn', { action: '/' }).then(async (token) => {
 
-                    console.table(body)
-                    console.log(token)
-                    recaptchaToken = token;
+        //         //     let body = {
+        //         //         "g-recaptcha-response": token, "email": emailValue
+        //         //     }
 
-                    let resp = await fetch("/updates", {
-                        method: "POST",
-                        headers: {
-                            'Accept': 'application/json',
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify(body)
-                    })
+        //         //     console.table(body)
+        //         //     console.log(token)
+        //         //     recaptchaToken = token;
 
-                    submitEmail();
+        //         //     let resp = await fetch("/updates", {
+        //         //         method: "POST",
+        //         //         headers: {
+        //         //             'Accept': 'application/json',
+        //         //             'Content-Type': 'application/json'
+        //         //         },
+        //         //         body: JSON.stringify(body)
+        //         //     })
+
+        //         //     submitEmail();
                     
-                    let reply = await resp.json()
+        //         //     let reply = await resp.json()
 
 
-                    if (reply.status === false) {
-                        alert("Captcha Not Verified")
-                    } else if (reply.err != null) {
-                        console.log(reply.err)
-                        if (reply.err === "Already responded")
-                            alert(reply.err)
-                    } else {
+        //         //     if (reply.status === false) {
+        //         //         alert("Captcha Not Verified")
+        //         //     } else if (reply.err != null) {
+        //         //         console.log(reply.err)
+        //         //         if (reply.err === "Already responded")
+        //         //             alert(reply.err)
+        //         //     } else {
 
-                        console.log(reply)
+        //         //         console.log(reply)
 
-                    }
+        //         //     }
 
-                });
-        });
+        //         // });
+        // });
 
     });
 
