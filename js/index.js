@@ -4,18 +4,9 @@ let FCMToken = '';
 let recaptchaToken = '';
 let messaging = firebase.messaging();
 
-self.addEventListener('notificationclick', function(event) {
-
-    switch(event.action){
-      case 'open_url':
-      clients.openWindow(event.notification.data.url); //which we got from above
-      break;
-      case 'any_other_action':
-      clients.openWindow("https://dscvit.com/notifications.html");
-      break;
-    }
-  }
-  , false);
+messaging.onMessage(function(payload){
+    return self.ServiceWorkerRegistration.showNotification(title,options);
+})
 
 function validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -34,7 +25,7 @@ function updateEmailToken(){
         .then(function (response) {
             return response.json();
         })
-        .then(function (responseJSON){
+        .then(function (responseJSON){     
             if(responseJSON.status === false){
                 $('.error-message').addClass('message-active');
                 document.getElementById('error-message').innerHTML = "Error Changing Device";
