@@ -10,9 +10,8 @@ function validateEmail(email) {
 }
 
 function updateEmailToken(){
-
-    fetch('https://dscrec19.herokuapp.com/notifs/?email='+emailValue+'&device_id='+FCMToken+'&g-recaptcha-response='+recaptchaToken, {
-            method:'POST',
+    fetch('https://dscrec19.herokuapp.com/notifs/?email='+emailValue+'&device_id='+FCMToken, {
+            method:'PUT',
             crossDomain:true,
             headers:{
                 'Content-Type': 'application/json',
@@ -23,7 +22,7 @@ function updateEmailToken(){
             return response.json();
         })
         .then(function (responseJSON){
-            if(responseJSON.status === 'false'){
+            if(responseJSON.status === false){
                 $('.error-message').addClass('message-active');
                 document.getElementById('error-message').innerHTML = "Error Changing Device";
                 setTimeout(function(){ 
