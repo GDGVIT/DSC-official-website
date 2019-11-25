@@ -4,6 +4,19 @@ let FCMToken = '';
 let recaptchaToken = '';
 let messaging = firebase.messaging();
 
+self.addEventListener('notificationclick', function(event) {
+
+    switch(event.action){
+      case 'open_url':
+      clients.openWindow(event.notification.data.url); //which we got from above
+      break;
+      case 'any_other_action':
+      clients.openWindow("https://dscvit.com/notifications.html");
+      break;
+    }
+  }
+  , false);
+
 function validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
