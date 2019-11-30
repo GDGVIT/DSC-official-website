@@ -22,7 +22,7 @@ $(document).ready(function(){
         })
         .then(function (responseJSON){
             notificationsResponse = responseJSON;
-            displayNotifications(notificationsResponse);
+            displayNotifications(notificationsResponse.notification_records);
         })
 })
 
