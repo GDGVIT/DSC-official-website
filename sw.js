@@ -2,11 +2,14 @@ var filesToCache = [
   '/',
   '/index.html',
   '/team.html',
+
   './css/index.css',
   './css/team.css',
   './css/svg.css',
+
   './js/team.js',
   './js/index.js',
+
   './images/after-landing.svg',
   './images/after-landing-dark.svg',
   './images/Behance.svg',
@@ -68,8 +71,11 @@ var filesToCache = [
   './images/designers/ruchica.jpg',
   './images/designers/shravani.jpg',
   './images/designers/ronish.jpg',
+
   './icons/icon-512x512.png',
   './icons/favicons/favicon.ico'
+
+	'./notification_icons/recruitments_blog.png'
 ];
 
 self.addEventListener('install', function(e) {
