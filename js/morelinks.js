@@ -1,7 +1,7 @@
-let notificationsResponse = '';
+let morelinks = '';
 
 
-function displayNotifications (data){
+function displayMoreLinks (data){
     for(i=0;i<data.length;i++){
         $( "#notifications" ).append("<a target='_blank' href=' " + data[i].url + " '><div class='notification'><p class='barlow-medium text-center'><b>" + data[i].title + "</b></p><p class='barlow-extralight text-center extra-break'>" + data[i].body + "</p></div></a>");
     }
@@ -9,7 +9,7 @@ function displayNotifications (data){
 
 $(document).ready(function(){
 
-    fetch('https://dscrec19.herokuapp.com/notifs/past', {
+    fetch('https://dsc-notifs.herokuapp.com/links/all', {
             method:'GET',
             crossDomain:true,
             headers:{
@@ -21,8 +21,8 @@ $(document).ready(function(){
             return response.json();
         })
         .then(function (responseJSON){
-            notificationsResponse = responseJSON;
-            displayNotifications(notificationsResponse.notification_records);
+            morelinks = responseJSON;
+            displayMoreLinks(morelinks.links);
         })
 })
 

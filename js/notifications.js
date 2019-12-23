@@ -9,7 +9,7 @@ function displayNotifications (data){
 
 $(document).ready(function(){
 
-    fetch('https://dscrec19.herokuapp.com/notifs/past', {
+    fetch('https://dsc-notifs.herokuapp.com/notifs/past', {
             method:'GET',
             crossDomain:true,
             headers:{
