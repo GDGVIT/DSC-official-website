@@ -32,14 +32,23 @@
         }
         .course-div{
             display: inline-block;
-            width: 100%;
             margin: auto auto;
             text-align: center;
+
         }
         .course-img{
             width: 40vw;
             min-width: 300px;
             max-width: 400px;
+        }
+        .vdark{
+            display: none;
+        }
+        .dark .vdark{
+            display: block;
+        }
+        .dark .vlight{
+            display: none;
         }
     /* Portrait tablets and small desktops */
     @media (max-width: 800px){
@@ -49,12 +58,19 @@
             margin-right: 10vw;
             /* margin: auto auto; */
             text-align: center;
+            margin-bottom: 20px;
         }
         .course-img{
-            display: inline-block;
+            /*display: inline-block;*/
             width: 80vw;
             min-width: 300px;
             /* max-width: 400px; */
+        }
+        .dark .vdark{
+            display: inline-block;
+        }
+        .vdark{
+            display: none;
         }
         .course-main{
             margin-left: auto;
@@ -147,20 +163,22 @@
         </h1>
 
         <div class="course-main">
-            <div class="course-div" data-aos="fade-up">
-                <img class="course-img" src="./images/courses/angadCourse.png" alt="Golang By DSC VIT">
+            <div class="course-div col-lg-6 col-md-6" data-aos="fade-up">
+                <img class="course-img vlight" src="./images/courses/angadCourse.png" alt="Golang By DSC VIT">
+                <img class="course-img vdark" src="./images/courses/angadCoursed.jpeg" alt="Golang By DSC VIT">
                 <div>
                     <h3 class="text-center barlow-thin">Golang By DSC VIT</h3>
-                    <a style="text-decoration: none" href=" http://bit.ly/GolangByDSC" target=""><p class="text-center barlow-medium">View on Udemy</p></a>
+                    <a style="text-decoration: none" href=" http://bit.ly/GolangByDSC" target="_blank"><p class="text-center barlow-medium">View on Udemy</p></a>
                     
                 </div>
             </div>
 
-            <div class="course-div" data-aos="fade-up">
-                <img class="course-img" src="images/courses/ubaidCourse.png" alt="Machine Learning: Making computers think!">
+            <div class="course-div col-lg-6 col-md-6" data-aos="fade-up">
+                <img class="course-img vlight" src="images/courses/ubaidCourse.png" alt="Machine Learning: Making computers think!">
+                <img class="course-img vdark" src="images/courses/ubaidCoursed.jpeg" alt="Machine Learning: Making computers think!">
                 <div>
                     <h3 class="text-center barlow-thin">Machine Learning by DSC VIT</h3>
-                    <a style="text-decoration: none" href="http://bit.ly/MLbyDSCVIT" target=""><p class="text-center barlow-medium">View on Udemy</p></a>
+                    <a style="text-decoration: none" href="http://bit.ly/MLbyDSCVIT" target="_blank"><p class="text-center barlow-medium">View on Udemy</p></a>
                     
                 </div>
             </div>
