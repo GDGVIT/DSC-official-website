@@ -1,5 +1,6 @@
 #carder{
     text-align: center;
+    /* margin-bottom: 10px; */
 }
 #carder > a >img{
     display: inline-block;
@@ -53,12 +54,16 @@
         margin-bottom:20px;
        
     }
+    #carder{
+        margin-top:35px;
+    }
     .details > h1{
         /* margin-top:100px; */
         text-align:left;
         font-family:'barlow';
         margin-left:0px;
         font-weight: 500;
+        font-size: 30px;
     }
     .details > h3{
         text-align:left;
