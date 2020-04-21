@@ -8,39 +8,49 @@ $(document).ready(function () {
         checkDark();
     })
 
-    fetch('https://api.github.com/orgs/GDGVIT/repos?sort=forks&order=desc').then((response)=>{
-        response.json().then((responseJSON)=>{
-            var n = Object.values(responseJSON).length;
-            for(i=0;i<n;i++){
-                $( "#github-repos" ).append( "<div class='circle-icon-holder'><div class='circle-icon-caption'><h3 class='text-center barlow-thin'>" + responseJSON[i].name + "</h3><p class='text-center barlow-medium'> Forks:" + responseJSON[i].forks + "</p></div></div>" );
-            }
-        })
-    }).catch((error)=>{
-        alert(error)
-    })
-    // function gettext() {
-    //     fetch('https://medium-f.herokuapp.com/api/v2/articles?orgid=gdg-vit' ,{
-    //             headers: {
-    //                 'Content-Type': 'application/json'
-    //             },
-    //             })
-    //     .then((res) => res.json())
-    //     .then((data) => {
-    //       console.log(data);
-    //     //   let output = '';
-    //     //   let i=0;
-    //     //   let j=data.length;
-    //     //   for(i=j-1;i>-1;i=i-2){
-    //     //       if(i>1){
-    //     //     output += ``
-    //     //     }  };
-    //     //   document.getElementById("accordionExample").innerHTML = output;
-    //     //   document.getElementById("loader").style.display = "none"
-    //     //   console.log(data.event_name[2]);
-    //     // console.log(data[0].event_name)
-    //        });
-    //       };
-    //       gettext();
+    // fetch('https://api.github.com/orgs/GDGVIT/repos?sort=forks&order=desc').then((response)=>{
+    //     response.json().then((responseJSON)=>{
+    //         var n = Object.values(responseJSON).length;
+    //         for(i=0;i<n;i++){
+    //             $( "#github-repos" ).append( "<div class='circle-icon-holder'><div class='circle-icon-caption'><h3 class='text-center barlow-thin'>" + responseJSON[i].name + "</h3><p class='text-center barlow-medium'> Forks:" + responseJSON[i].forks + "</p></div></div>" );
+    //         }
+    //     })
+    // }).catch((error)=>{
+    //     alert(error)
+    // })
+    function gettext() {
+        fetch('https://medium-f.herokuapp.com/api/v2/articles?orgid=gdg-vit' ,{
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          let output = '';
+          let i=0;
+          let j=data.articles.length;
+          for(i=0;i<j;i=i+1){
+            output += `
+            <div id="carder">
+                        <a href="${data.articles[i].link}"><img src="${data.articles[i].thumbnailref}" alt="" style=""></a>
+                    <div class="details">
+                        <h1><a href="${data.articles[i].link}">${data.articles[i].title}</a></h1>
+                        <h3>${data.articles[i].subtitle}</h3>
+                        <h5>${data.articles[i].creators.name}</h5>
+                        <img src="${data.articles[i].creators.avatar}" alt="">
+                    </div>
+            </div><br><br><br><br>
+            
+            `
+              };
+          document.getElementById("github-repos").innerHTML = output;
+        //   console.log(data.articles[0].thumbnailref);
+        // console.log(data[0].event_name)
+           });
+          };
+          gettext();
 
     // Scroll Clicks
     $("#down-arrow").click(function () {
@@ -60,8 +70,8 @@ $(document).ready(function () {
             $('#board-expander').children().children().text('Show All');
         }
         $('html, body').animate({
-            scrollTop: $("#board").offset().top - 300
-        }, 300);
+            scrollTop: $("#board").offset().top - 200
+        }, 200);
     })
 
     $('#github-repo-expander').click(function(){
