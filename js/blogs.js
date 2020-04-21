@@ -32,6 +32,23 @@ $(document).ready(function () {
           let i=0;
           let j=data.articles.length;
           for(i=0;i<j;i=i+1){
+              if (data.articles[i].thumbnailref.length <=32){
+                output += `
+                <div id="carder">
+                            <a href="${data.articles[i].link}"><img src="../images/dsc-logo-square.svg" alt="" style=""></a>
+                        <div class="details">
+                            <h1><a href="${data.articles[i].link}">${data.articles[i].title}</a></h1>
+                            <h3>${data.articles[i].subtitle}</h3>
+                            <div class="creator">
+                            <h5>${data.articles[i].creators.name}</h5>
+                            <img src="${data.articles[i].creators.avatar}" alt="">
+                            </div>
+                        </div>
+                </div><br><br><br><br>
+                
+                `
+              }
+              else{
             output += `
             <div id="carder">
                         <a href="${data.articles[i].link}"><img src="${data.articles[i].thumbnailref}" alt="" style=""></a>
@@ -45,10 +62,10 @@ $(document).ready(function () {
                     </div>
             </div><br><br><br><br>
             
-            `
+            `}
               };
           document.getElementById("github-repos").innerHTML = output;
-        //   console.log(data.articles[0].thumbnailref);
+          console.log(data.articles[18].thumbnailref.length);
         // console.log(data[0].event_name)
            });
           };
