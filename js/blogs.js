@@ -38,8 +38,10 @@ $(document).ready(function () {
                     <div class="details">
                         <h1><a href="${data.articles[i].link}">${data.articles[i].title}</a></h1>
                         <h3>${data.articles[i].subtitle}</h3>
+                        <div class="creator">
                         <h5>${data.articles[i].creators.name}</h5>
                         <img src="${data.articles[i].creators.avatar}" alt="">
+                        </div>
                     </div>
             </div><br><br><br><br>
             
