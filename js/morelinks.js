@@ -1,30 +1,37 @@
-let notificationsResponse = '';
+
+fetch('https://linksinstagram.herokuapp.com/' ,{
+            })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data);
+        var posts = data.data.length;
+        let output = '';
+        for(i=0;i<posts;i++){
+            output+=`<div class="image">
+            <a href="${data.data[i].url}">
+            <img src="${data.data[i].media_url}" alt="">
+            </a>
+            <div class="text">
+            ${data.data[i].caption}
+            </div>
+            </div>`
+        }
+        document.getElementById("links").innerHTML = output;  
+    })
+// var raw = "{\n	\"Name\": \"H\",\n	\"Phone_number\": \"9876543210\",\n	\"Total_amount\": \"1000\",\n	\"Paid_amount\": \"425\",\n	\"Date\": \"2020-5-23\",\n	\"Time\": \"10:0:0\",\n	\"Examination\": \"FALSE\"\n}";
+
+//         var requestOptions = {
+//           method: 'POST',
+//           body: raw
+//         };
+        
+//         fetch("https://linksinstagram.herokuapp.com/", requestOptions)
+//           .then(response => response.text())
+//           .then(result => console.log(result))
+//           .catch(error => console.log('error', error));
 
 
-function displayNotifications (data){
-    for(i=0;i<data.length;i++){
-        $( "#notifications" ).append("<a target='_blank' href=' " + data[i].url + " '><div class='notification'><p class='barlow-medium text-center'><b>" + data[i].title + "</b></p><p class='barlow-extralight text-center extra-break'>" + data[i].body + "</p></div></a>");
-    }
-}
 
-$(document).ready(function(){
-
-    fetch('https://dsc-notifs.herokuapp.com/links/all', {
-            method:'GET',
-            crossDomain:true,
-            headers:{
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        })
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (responseJSON){
-            notificationsResponse = responseJSON;
-            displayNotifications(notificationsResponse);
-        })
-})
 
 $(document).ready(function () {
 
