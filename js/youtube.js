@@ -108,13 +108,27 @@ $(document).ready(function (){
                                                 </div>
                                             </div>`;
                             }
+                            $('.embed-playlist-videos').html(output);
                             $('#playlists').hide();
                             $('#playlist-videos').show();
+                            shave($('.shave'), 150);
                             $('.playlists').hide();
                             $('.videos').hide();
-                            setTimeout(function(){
-                                $('.embed-playlist-videos').html(output);
-                            }, 3000);
+
+                            // var videoDescription = document.querySelector('.shave').value;
+
+                            // if(videoDescription.length > 30)
+                            // {
+                            //     var tempDesc = '';
+                            //     for(var i=0; i<30; i++)
+                            //     {
+                            //         tempDesc += videoDescription[i];
+                            //     }
+                                
+                            //     tempDesc += '...';
+                            //     videoDescription = tempDesc;
+                            // }
+
                         })
                         .catch(error => console.log('error', error));
                 });
