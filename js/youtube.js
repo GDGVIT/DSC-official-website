@@ -1,175 +1,228 @@
-let container = document.querySelector('.embed');
+$(document).ready(function (){
 
+    let container = document.querySelector('.embed');
+    checkDark();
 
-//GET videos
+    $('#dark-light-toggle').click(function(){
+        toggleDark();
+        checkDark();
+    })
 
-function GetVids()
-{
-    var requestOptions = 
+    //GET videos
+
+    function GetVids()
     {
-        method: 'GET',
-        redirect: 'follow',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    };
-      
-    fetch("https://youtube-intg.herokuapp.com/api/v1/getPlaylistVideos", requestOptions)
-        .then(response => response.json())
-        .then(result => {
-            console.log(result);
-            var output = "";
-            let i = 0;
-            let j = result.videos.length;
-            for(i=0; i<j; i++)
-            {
-                output += `<div class="card">
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/${result.videos[i].videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <div class="card-body">
-                                    <h6>${result.videos[i].title}</h6>
-                                    <p>${result.videos[i].description}</p>
-                                </div>
-                            </div>`;
+        var requestOptions = 
+        {
+            method: 'GET',
+            redirect: 'follow',
+            headers: {
+                'Content-Type': 'application/json'
             }
-    
-            container.innerHTML = output;
-    
-        })
-        .catch(err => console.log('error' , err))
-}
-
-//GET playlists
-function GetPLaylists()
-{
-    var requestOptions = 
-    {
-        method: 'GET',
-        redirect: 'follow',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    };
-
-    fetch("https://youtube-intg.herokuapp.com/api/v1/getPlaylistVideos", requestOptions)
-        .then(response => response.json())
-        .then(result => {
-            console.log(result);
-            var output = "";
-            let i = 0;
-            let j = result.playlists.length;
-            for(i=0; i<j; i++)
-            {
-                output += `<div class="card playlist-card">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=${result.playlists[i].playlistId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <div class="card-body">
-                                    <h6>${result.playlists[i].title}</h6>
-                                    <p>${result.playlists[i].description}</p>
-                                    <div class='playlist-videos-btn'>
-                                        See All Videos
-                                        <div class='id-storage'>${result.playlists[i].playlistId}</div>
+        };
+        
+        fetch("https://youtube-intg.herokuapp.com/api/v1/getPlaylistVideos", requestOptions)
+            .then(response => response.json())
+            .then(result => {
+                console.log(result);
+                var output = "";
+                let i = 0;
+                let j = result.videos.length;
+                for(i=0; i<j; i++)
+                {
+                    output += `<div class="card">
+                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/${result.videos[i].videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <div class="card-body">
+                                        <h5>${result.videos[i].title}</h5>
+                                        <p>${result.videos[i].description}</p>
                                     </div>
-                                </div>
-                            </div>`;
+                                </div>`;
+                }
+        
+                container.innerHTML = output;
+        
+            })
+            .catch(err => console.log('error' , err))
+    }
+
+    //GET playlists
+    function GetPLaylists()
+    {
+        var requestOptions = 
+        {
+            method: 'GET',
+            redirect: 'follow',
+            headers: {
+                'Content-Type': 'application/json'
             }
-    
-            $('.embed-playlists').html(output);
+        };
 
-            $('.playlist-videos-btn').on('click', function(){
-                var requestOptions = {
-                    method: 'GET',
-                    redirect: 'follow'
-                  };
+        fetch("https://youtube-intg.herokuapp.com/api/v1/getPlaylistVideos", requestOptions)
+            .then(response => response.json())
+            .then(result => {
+                console.log(result);
+                var output = "";
+                let i = 0;
+                let j = result.playlists.length;
+                for(i=0; i<j; i++)
+                {
+                    output += `<div class="card playlist-card">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=${result.playlists[i].playlistId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <div class="card-body">
+                                        <h5>${result.playlists[i].title}</h5>
+                                        <p>${result.playlists[i].description}</p>
+                                        <div class='button-maker'>
+                                            <div class='playlist-videos-btn button-text'>
+                                                View all Videos
+                                                <div class='id-storage'>${result.playlists[i].playlistId}</div>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>`;
+                }
+        
+                $('.embed-playlists').html(output);
 
-                  var id = $(this).children().text();
-                  
-                  fetch("https://youtube-intg.herokuapp.com/api/v1/getPlaylist?playlistId=" + id, requestOptions)
-                    .then(response => response.json())
-                    .then(result => {
-                        console.log(result)
-                        var output = "";
-                        let i = 0;
-                        let j = result.videos.length;
-                        for(i=0; i<j; i++)
-                        {
-                            output += `<div class="card playlist-card">
-                                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/${result.videos[i].videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                            <div class="card-body">
-                                                <h6>${result.videos[i].title}</h6>
-                                                <p>${result.videos[i].description}</p>
-                                            </div>
-                                        </div>`;
-                        }
-                        $('#playlists').hide();
-                        $('.embed-playlist-videos').html(output);
-                    })
-                    .catch(error => console.log('error', error));
-            });
-            
-        })
-        .catch(err => console.log('error' , err))
+                $('.playlist-videos-btn').on('click', function(){
+                    var requestOptions = {
+                        method: 'GET',
+                        redirect: 'follow'
+                    };
+
+                    var id = $(this).children().text();
+                    
+                    fetch("https://youtube-intg.herokuapp.com/api/v1/getPlaylist?playlistId=" + id, requestOptions)
+                        .then(response => response.json())
+                        .then(result => {
+                            console.log(result)
+                            var output = "";
+                            let i = 0;
+                            let j = result.videos.length;
+                            for(i=0; i<j; i++)
+                            {
+                                output += `<div class="card">
+                                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/${result.videos[i].videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <div class="card-body">
+                                                    <h5>${result.videos[i].title}</h5>
+                                                    <p class='shave'>${result.videos[i].description}</p>
+                                                </div>
+                                            </div>`;
+                            }
+                            $('#playlists').hide();
+                            $('#playlist-videos').show();
+                            $('.playlists').hide();
+                            $('.videos').hide();
+                            setTimeout(function(){
+                                $('.embed-playlist-videos').html(output);
+                            }, 3000);
+                        })
+                        .catch(error => console.log('error', error));
+                });
+                
+            })
+            .catch(err => console.log('error' , err))
 
 
-}
-
-//Playlists section on click
-$('.playlists').on('click', function()
-{
-    if($('.playlists').hasClass('active'))
-    {
-        console.log('already loaded');
     }
-    else
+
+    //Playlists section on click
+    $('.playlists').on('click', function()
     {
+        if($('.playlists').hasClass('active'))
+        {
+            console.log('already loaded');
+        }
+        else
+        {
+            $('#playlists').show();
+            $('.playlists').addClass('active');
+            $('.videos').removeClass('active');
+            $('#videos').hide();
+            $('#playlist-videos').hide();
+        }
+    });
+
+    //videos section on click
+    $('.videos').on('click', function()
+    {
+        if($('.videos').hasClass('active'))
+        {
+            console.log('already loaded');
+        }
+        else
+        {
+            $('#videos').show();
+            $('.videos').addClass('active');
+            $('.playlists').removeClass('active');
+            $('#playlists').hide();
+            $('#playlist-videos').hide();
+        }
+    });
+
+    $('.back-to-playlist').on('click', function(){
+        $('.playlists').show();
+        $('.videos').show();
+        $('#playlist-videos').hide();
         $('#playlists').show();
-        $('.playlists').addClass('active');
-        $('.videos').removeClass('active');
-        $('#videos').hide();
-    }
-});
+    });
 
-//videos section on click
-$('.videos').on('click', function()
-{
-    if($('.videos').hasClass('active'))
+    //delay function
+
+    function Delay()
     {
-        console.log('already loaded');
+        $('.loader').show();
+        $('.button-maker').hide();
+        setTimeout(function(){
+            $('.loader').hide();
+            $('.button-maker').show();
+            GetVids();
+            GetPLaylists();
+        }, 3000);
     }
-    else
-    {
-        $('#videos').show();
-        $('.videos').addClass('active');
-        $('.playlists').removeClass('active');
-        $('#playlists').hide();
+
+    Delay();
+
+    //Show more toggle
+
+    $('.show-more-btn').on('click', function(){
+        if(!$('.embed').hasClass('expanded'))
+        {
+            $('.embed').addClass('expanded');
+            $('.show-more-btn').text('Show Less');
+        }
+        else
+        {
+            $('.embed').removeClass('expanded');
+            $('.show-more-btn').text('Show more');
+        }
+    });
+
+})
+
+
+
+
+
+var toggleDark = function(){
+    if(!$('body').hasClass('dark')){
+        localStorage.setItem('dark',true);
     }
-});
-
-//delay function
-
-function Delay()
-{
-    $('.text-center').show();
-    $('.button-text').hide();
-    setTimeout(function(){
-        $('.text-center').hide();
-        $('.button-text').show();
-        GetVids();
-        GetPLaylists();
-    }, 3000);
+    else{
+        localStorage.setItem('dark',false);
+    }
 }
 
-Delay();
+var checkDark = function (){
 
-//Show more toggle
+    var dark = localStorage.getItem('dark');
 
-$('.button-text').on('click', function(){
-    if(!$('.embed').hasClass('expanded'))
-    {
-        $('.embed').addClass('expanded');
-        $('.button-text').text('Show Less');
+    if(dark==='true'){
+        $('body').addClass('dark');
+        $('.dark-light-toggle').children().text('I want light mode');
     }
-    else
-    {
-        $('.embed').removeClass('expanded');
-        $('.button-text').text('Show more');
+    else{
+        $('body').removeClass('dark');
+        $('.dark-light-toggle').children().text('I want dark mode');
     }
-});
+
+}

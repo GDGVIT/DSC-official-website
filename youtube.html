@@ -3,37 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Developer Student Club VIT</title>
+
+    <!-- Favicon linking -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicons/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicons/site.webmanifest">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,500" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="./css/youtube.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/svg.css">
+
+    <meta name="Description" content="DSC VIT (Developer Student Club VIT Vellore) is a Google Developers program for university students, with an aim to help students build their development skills.">
+
 
 </head>
 <body>
-    <section class="container">
+
+    <section class="container" id="our-work-scroll">
 
         <div class="sections">
-            <h2 class="videos active">Videos</h2>
-            <h2 class="playlists">Playlists</h2>
+            <h3 class="videos active barlow-medium">Videos</h3>
+            <h3 class="playlists barlow-medium">Playlists</h3>
         </div>
 
         <section id="videos">
-            <div class="text-center">
+            <div class="text-center loader">
                 <div class="spinner-border" role="status">
-                <span class="sr-only">Loading...</span>
+                <span class="sr-only barlow-medium">Loading...</span>
                 </div>
             </div>
             <div class="embed"></div>
-                
-            <div class="barlow-thin button-text">
-                Show All
+            <div class="button-maker">
+                <div class="barlow-thin button-text show-more-btn">
+                    Show All
+                </div>
             </div>
         </section>
         
         <section id="playlists">
-            <div class="text-center">
+            <div class="text-center loader">
                 <div class="spinner-border" role="status">
-                <span class="sr-only">Loading...</span>
+                <span class="sr-only barlow-medium">Loading...</span>
                 </div>
             </div>
 
@@ -41,23 +60,35 @@
         </section>
 
         <section id="playlist-videos">
-            <div class="text-center">
-                <div class="spinner-border" role="status">
-                <span class="sr-only">Loading...</span>
+            <h3 class="barlow-medium playlist-vid-heading">All Playlist Videos</h3>
+            <div class="button-maker playlist-vid-heading" style="margin: 25px auto;">
+                <div class="button-text back-to-playlist">
+                    Back to Playlists
                 </div>
+            </div>
             </div>
 
             <div class="embed-playlist-videos"></div>
         </section>
 
-
-
     </section>
 
+    <div class="footer container-main  container-main-last">
+
+        <div class="dark-light-toggle barlow-medium text-center" id="dark-light-toggle">
+            <p>I want dark mode</p>
+        </div>
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/jq.js"></script>
     <script src="./js/youtube.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
