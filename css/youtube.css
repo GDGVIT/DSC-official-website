@@ -6,6 +6,15 @@ h1{
     text-align: center;
 }
 
+h3{
+    font-size: 2vw !important;
+}
+
+h5{
+    font-size: 20px !important;
+    margin-top: 15px;
+}
+
 .videos, .playlists{
     display: inline-block;
     margin: 0;
@@ -20,7 +29,7 @@ h1{
 }
 
 .sections{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
@@ -53,6 +62,9 @@ h1{
     max-height: 390px;
     overflow: hidden;
     position: relative;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-sizing: border-box;
 }
 
 .card:hover{
@@ -104,16 +116,25 @@ h1{
     text-align: center;
 }
 
+#videos{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+}
+
 #playlists{
     height: auto;
     width: 100%;
     display: none;
+    background-color: transparent;
+    text-align: center;
 }
 
 #playlist-videos{
     height: auto;
     width: 100%;
     display: none;
+    background-color: transparent;
 }
 
 .id-storage{
@@ -121,18 +142,136 @@ h1{
 }
 
 p{
-    font-size: 18px;
-    line-height: 20px;    
+    font-size: 18px !important;
+    line-height: 20px !important;
+    width: 100% !important;    
 }
 
 .playlist-vid-heading{
     text-align: center;
 }
 
-/* .ellipsis {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    width: 100%;
-    overflow: hidden;
-    display: inline-block;
-} */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 1150px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  @media (max-width: 992px)
+  {
+      .embed, .embed-playlist-videos{
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .embed-playlists{
+          /* width: 585px; */
+          margin: auto auto;
+          grid-template-columns: 1fr;
+      }
+
+  }
+
+  @media (max-width: 750px)
+  {
+    h3
+    {
+        font-size: 3vw !important;
+    }
+
+    .card
+    {
+        width: 300px;
+        margin: auto auto;
+    }
+
+    .playlist-card
+    {
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 650px)
+  {
+    .card{
+        width: 250px;
+    }
+
+    .playlist-card
+    {
+        width: 100%;
+    }
+    p{
+        font-size: 16px !important;
+    }
+  }
+
+  @media (max-width: 600px)
+  {
+    .embed-playlist-videos, .embed
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        width: 350px;
+        margin: auto auto;
+    }
+
+    .playlist-card{
+        width: 500px;
+        max-width: 100%;
+    }
+
+    h5{
+        font-size: 18px !important;
+    }
+
+    p{
+        font-size: 14px !important;
+    }
+  }
+
+  @media (max-width: 500px)
+  {
+      .playlist-card{
+          width: 350px;
+      }
+
+      h3{
+          font-size: 4vw !important;
+      }
+  }
+
+  @media (max-width: 400px)
+  {
+      .playlist-card{
+          width: 350px;
+      }
+  }
+
+  @media (max-width: 400px)
+  {
+      .playlist-card{
+          width: 300px;
+      }
+
+      .card{
+          width: 300px;
+      }
+  }

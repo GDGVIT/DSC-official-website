@@ -67,7 +67,7 @@ $(document).ready(function (){
                 for(i=0; i<j; i++)
                 {
                     output += `<div class="card playlist-card">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=${result.playlists[i].playlistId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=${result.playlists[i].playlistId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="card-body">
                                         <h5>${result.playlists[i].title}</h5>
                                         <p>${result.playlists[i].description}</p>
@@ -114,20 +114,6 @@ $(document).ready(function (){
                             shave($('.shave'), 150);
                             $('.playlists').hide();
                             $('.videos').hide();
-
-                            // var videoDescription = document.querySelector('.shave').value;
-
-                            // if(videoDescription.length > 30)
-                            // {
-                            //     var tempDesc = '';
-                            //     for(var i=0; i<30; i++)
-                            //     {
-                            //         tempDesc += videoDescription[i];
-                            //     }
-                                
-                            //     tempDesc += '...';
-                            //     videoDescription = tempDesc;
-                            // }
 
                         })
                         .catch(error => console.log('error', error));
@@ -208,6 +194,20 @@ $(document).ready(function (){
         {
             $('.embed').removeClass('expanded');
             $('.show-more-btn').text('Show more');
+        }
+    });
+
+
+    $(window).on('scroll', function () {
+
+        if ($(this).scrollTop() > 0) {
+            if (!$('.navbar').hasClass('navbar-scrolled')) {
+                $('.navbar').addClass('navbar-scrolled');
+            }
+        } else {
+            if ($('.navbar').hasClass('navbar-scrolled')) {
+                $('.navbar').removeClass('navbar-scrolled');
+            }
         }
     });
 
