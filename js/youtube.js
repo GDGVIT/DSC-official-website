@@ -24,6 +24,9 @@ $(document).ready(function (){
         fetch("https://youtube-intg.herokuapp.com/api/v1/getPlaylistVideos", requestOptions)
             .then(response => response.json())
             .then(result => {
+                $('.loader').show();
+                $('.show-more-btn').hide();
+
                 console.log(result);
                 var output = "";
                 let i = 0;
@@ -38,9 +41,11 @@ $(document).ready(function (){
                                     </div>
                                 </div>`;
                 }
-        
+                $('.loader').hide();
+                
                 container.innerHTML = output;
-        
+                $('.show-more-btn').show();
+                
             })
             .catch(err => console.log('error' , err))
     }
@@ -73,7 +78,7 @@ $(document).ready(function (){
                                         <p>${result.playlists[i].description}</p>
                                         <div class='button-maker'>
                                             <div class='playlist-videos-btn button-text'>
-                                                View all Videos
+                                                View all
                                                 <div class='id-storage'>${result.playlists[i].playlistId}</div>
                                             </div>  
                                         </div>
@@ -168,20 +173,22 @@ $(document).ready(function (){
 
     //delay function
 
-    function Delay()
-    {
-        $('.loader').show();
-        $('.button-maker').hide();
-        setTimeout(function(){
-            $('.loader').hide();
-            $('.button-maker').show();
-            GetVids();
-            GetPLaylists();
-        }, 3000);
-    }
+    // function Delay()
+    // {
+    //     $('.loader').show();
+    //     $('.button-maker').hide();
+    //     setTimeout(function(){
+    //         $('.loader').hide();
+    //         $('.button-maker').show();
+    //         GetVids();
+    //         GetPLaylists();
+    //     }, 3000);
+    // }
 
-    Delay();
+    // Delay();
 
+    GetPLaylists();
+    GetVids();
     //Show more toggle
 
     $('.show-more-btn').on('click', function(){
