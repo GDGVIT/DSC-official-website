@@ -36,8 +36,8 @@ $(document).ready(function (){
                     output += `<div class="card">
                                     <iframe width="100%" height="auto" src="https://www.youtube.com/embed/${result.videos[i].videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="card-body">
-                                        <h5>${result.videos[i].title}</h5>
-                                        <p>${result.videos[i].description}</p>
+                                        <h5 class='barlow-medium'>${result.videos[i].title}</h5>
+                                        <p class='barlow-extralight'>${result.videos[i].description}</p>
                                     </div>
                                 </div>`;
                 }
@@ -74,8 +74,8 @@ $(document).ready(function (){
                     output += `<div class="card playlist-card">
                                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=${result.playlists[i].playlistId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="card-body">
-                                        <h5>${result.playlists[i].title}</h5>
-                                        <p>${result.playlists[i].description}</p>
+                                        <h5 class='barlow-medium'>${result.playlists[i].title}</h5>
+                                        <p class='barlow-extralight'>${result.playlists[i].description}</p>
                                         <div class='button-maker'>
                                             <div class='playlist-videos-btn button-text'>
                                                 View all
@@ -108,8 +108,8 @@ $(document).ready(function (){
                                 output += `<div class="card">
                                                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/${result.videos[i].videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                 <div class="card-body">
-                                                    <h5>${result.videos[i].title}</h5>
-                                                    <p class='shave'>${result.videos[i].description}</p>
+                                                    <h5 class='barlow-medium'>${result.videos[i].title}</h5>
+                                                    <p class='shave barlow-extralight'>${result.videos[i].description}</p>
                                                 </div>
                                             </div>`;
                             }

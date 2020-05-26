@@ -1,5 +1,5 @@
 body{
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
 }
 
 .link
@@ -131,12 +131,13 @@ h5{
     height: auto;
     width: 100%;
     background-color: transparent;
+    display: none;
 }
 
 #playlists{
     height: auto;
     width: 100%;
-    display: none;
+    /* display: none; */
     background-color: transparent;
     text-align: center;
 }
