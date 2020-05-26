@@ -177,6 +177,7 @@ p{
     height: 50px;
     animation: spin 2s linear infinite;
     margin: auto auto;
+    margin-top: 200px;
   }
   
   @keyframes spin {

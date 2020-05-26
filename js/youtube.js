@@ -24,7 +24,7 @@ $(document).ready(function (){
         fetch("https://youtube-intg.herokuapp.com/api/v1/getPlaylistVideos", requestOptions)
             .then(response => response.json())
             .then(result => {
-                $('.loader-wrapper').show();
+                $('.loader').show();
                 $('.show-more-btn').hide();
 
                 console.log(result);
@@ -41,7 +41,7 @@ $(document).ready(function (){
                                     </div>
                                 </div>`;
                 }
-                $('.loader-wrapper').hide();
+                $('.loader').hide();
                 
                 container.innerHTML = output;
                 $('.show-more-btn').show();
