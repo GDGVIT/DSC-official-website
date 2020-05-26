@@ -2,6 +2,16 @@ body{
     font-family: 'Barlow';
 }
 
+.link
+{
+    border: 1px solid #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
 h1{
     text-align: center;
 }
@@ -278,12 +288,21 @@ p{
       h3{
           font-size: 4vw !important;
       }
+
+      .link{
+          margin-right: 50px;
+      }
   }
 
   @media (max-width: 400px)
   {
       .playlist-card{
           width: 350px;
+      }
+
+      .link{
+          margin-right: 5px;
+          font-size: small;
       }
   }
 
