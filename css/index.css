@@ -227,8 +227,25 @@ body{
     cursor: pointer;
 }
 
-.navbar-scrolled .navbar-dsc-logo{
+.navbar-scrolled  .navbar-dsc-logo{
     display: inline-block;
+}
+.navbar-dsc-logo1{
+    height: 40px;
+    width: 140px;
+    /* float: left; */
+    padding-left: 10vw;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin-top: 20px;
+    /* z-index: 103; */
+}
+
+.navbar-scrolled  > .navbar-dsc-logo1{
+    display: none;
 }
 
 .main{
