@@ -72,7 +72,7 @@ $(document).ready(function (){
                 for(i=0; i<j; i++)
                 {
                     output += `<div class="card playlist-card">
-                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=${result.playlists[i].playlistId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/videoseries?list=${result.playlists[i].playlistId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="card-body">
                                         <h5 class='barlow-medium'>${result.playlists[i].title}</h5>
                                         <p class='barlow-extralight'>${result.playlists[i].description}</p>
