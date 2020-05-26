@@ -92,3 +92,13 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+// function clear(req) {
+//   cache.keys(function(err, keys) {
+//       if (!err) { 
+//           let resourceUrl = req.baseUrl;
+//           const resourceKeys = keys.filter(k => k.includes(resourceUrl));
+//           cache.del(resourceKeys);
+//       }
+//   });
+//   return next();
+// }
