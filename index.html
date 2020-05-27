@@ -32,7 +32,7 @@
 				navigator.serviceWorker.register('/sw.js')
 					.then(function () {
                         console.log('Service Worker Registered');
-                        cache.clear();
+                        CacheStorage.remove();
 					});
 			}
         </script>
@@ -114,9 +114,10 @@
 
                 <h2 class="barlow-extralight text-center" id="home">Home</h2>
                 <!-- <h2 class="barlow-extralight text-center" id="our-work">Our Focus</h2> -->
-                <h2 class="barlow-extralight text-center" id="team"><a href="./blogs.html">Blogs</a></h2>
+                
                 <h2 class="barlow-extralight text-center" id="team"><a href="./team.html">The Team</a></h2>
                 <h2 class="barlow-extralight text-center" id="updates">Updates</h2>
+                <h2 class="barlow-extralight text-center" id="team"><a href="./blogs.html">Blogs</a></h2>
                 <h2 class="barlow-extralight text-center" id="links"><a href="./morelinks.html">Our Feed</a></h2>
                 <h2 class="barlow-extralight text-center" id="contact">Contact Us</h2>
 
@@ -161,11 +162,7 @@
 
                 </div> -->
 
-                <div class="menu-item" id="team-desk">
                 
-                    <a href="./blogs.html">Blogs</a>
-
-                </div>
                 <div class="menu-item" id="team-desk">
                 
                     <a href="./team.html">The Team</a>
@@ -177,7 +174,11 @@
                     Updates
 
                 </div>
+                <div class="menu-item" id="team-desk">
+                
+                    <a href="./blogs.html">Blogs</a>
 
+                </div>
                 <div class="menu-item" id="team-desk">
                 
                     <a href="./morelinks.html">Our Feed</a>
