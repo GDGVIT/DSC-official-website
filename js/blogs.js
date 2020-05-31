@@ -27,6 +27,7 @@ $(document).ready(function () {
                 })
         .then((res) => res.json())
         .then((data) => {
+          $('.loader').show();  
           console.log(data);
           let output = '';
           let i=0;
@@ -64,6 +65,7 @@ $(document).ready(function () {
             
             `}
               };
+              $('.loader').hide();
           document.getElementById("github-repos").innerHTML = output;
           console.log(data.articles[18].thumbnailref.length);
         // console.log(data[0].event_name)

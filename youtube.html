@@ -17,10 +17,11 @@
         <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,500" rel="stylesheet">
         
         <!-- Links to css files -->
-        <link rel="stylesheet" href="css/blogs.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/team.css">
         <link rel="stylesheet" href="css/svg.css">
+        <link rel="stylesheet" href="css/youtube.css">
+
 
         <!--Meta tags for SEO and Responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,6 +53,8 @@
                     </svg>
                 </div>
             </a>
+            
+            <a href="https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg" target="_blank" class="link"> Our YouTube</a>
 
         </div>
 
@@ -88,37 +91,44 @@
 
         
 
-        <div class="container-main holded-container container-main-last" id="our-work-scroll">
-
-                <h1 class="barlow-medium text-center" style="padding-bottom: 20px;">
-                    Recent Blogs
-                </h1>
-
-                <div class="barlow-medium text-center" style="margin-bottom: 50px;">
-                    <a href="https://medium.com/gdg-vit" style="text-decoration: underline;">Read on medium ></a>
-                </div>
-
-                
-                <div class="loader"></div>
-
-                <div class="icons" id="github-repos"></div>
-
-                <div id="github-repo-expander">
+        <div class="container container-main holded-container container-main-last" id="our-work-scroll">
 
 
+            <div class="sections">
+                <h3 class="playlists active barlow-medium">Playlists</h3>
+                <h3 class="videos barlow-medium">Videos</h3>
+            </div>
 
-
-                    <div class="button-maker">
-
-                        <div class="barlow-thin button-text">
             
-                            Show All
-            
-                        </div>
-            
+            <div class="loader"></div>
+
+    
+            <section id="videos">
+
+                <div class="embed"></div>
+                <div class="button-maker">
+                    <div class="barlow-thin button-text show-more-btn">
+                        Show More
                     </div>
-
                 </div>
+            </section>
+            
+            <section id="playlists">
+    
+                <div class="embed-playlists"></div>
+            </section>
+    
+            <section id="playlist-videos">
+                <h3 class="barlow-medium playlist-vid-heading">All Playlist Videos</h3>
+                <div class="button-maker playlist-vid-heading" style="margin: 25px auto;">
+                    <div class="button-text back-to-playlist">
+                        Back to Playlists
+                    </div>
+                </div>
+    
+                <div class="embed-playlist-videos"></div>
+            </section>
+    
 
         </div>
 
@@ -131,9 +141,10 @@
         </div>
 
         <!--Links to JS files and JS CDN's-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/shave/2.5.9/shave.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="./js/jq.js"></script>
-        <script src="./js/blogs.js"></script>
+        <script src="./js/youtube.js"></script>
         <script>
             AOS.init();
         </script>
