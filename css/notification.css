@@ -53,7 +53,9 @@ img:hover{
 
 @media (max-width: 767px) {
     .links{
-        width:100vw;
+        width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     }
     .image{
         width:31vw;

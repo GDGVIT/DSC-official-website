@@ -1,5 +1,5 @@
 
-fetch('https://linksinstagram.herokuapp.com/' ,{
+fetch('https://dsclinks.herokuapp.com/' ,{
             })
     .then((res) => res.json())
     .then((data) => {
