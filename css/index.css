@@ -386,11 +386,13 @@ body{
     padding-top: 15vh;
     background: url('../images/after-landing.svg') center center fixed no-repeat;
     background-size: cover;
+    /* opacity:0.2; */
 }
 
 .dark .container-main{
     background: url('../images/after-landing-dark.svg') center center fixed no-repeat;
     background-size: cover;
+    /* opacity:0.2; */
 }
 
 .dark-light-toggle{
