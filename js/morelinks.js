@@ -18,6 +18,7 @@ fetch('https://dsclinks.herokuapp.com/' ,{
         }
         document.getElementById("links").innerHTML = output;  
     })
+    
 // var raw = "{\n	\"Name\": \"H\",\n	\"Phone_number\": \"9876543210\",\n	\"Total_amount\": \"1000\",\n	\"Paid_amount\": \"425\",\n	\"Date\": \"2020-5-23\",\n	\"Time\": \"10:0:0\",\n	\"Examination\": \"FALSE\"\n}";
 
 //         var requestOptions = {
