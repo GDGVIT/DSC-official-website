@@ -7,6 +7,9 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
         var posts = data.data.length;
         let output = '';
         for(i=0;i<posts;i++){
+            if(data.data[i].media_type === "IMAGE"){
+
+            
             if(data.data[i].url === ""){
                 output+=`
             <div class="image">
@@ -27,7 +30,7 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
             </div>
             </div>`
             }
-            
+        }
         }
         $('.loader').hide();
         document.getElementById("links").innerHTML = output;  
