@@ -1,13 +1,24 @@
 
-fetch('https://dsclinks.herokuapp.com/' ,{
-            })
+fetch('https://dsclinks.herokuapp.com/' ,{})
     .then((res) => res.json())
     .then((data) => {
+        $('.loader').show();
       console.log(data);
         var posts = data.data.length;
         let output = '';
         for(i=0;i<posts;i++){
-            output+=`<div class="image">
+            if(data.data[i].url === ""){
+                output+=`
+            <div class="image">
+            <img src="${data.data[i].media_url}" alt="">
+            <div class="text">
+            ${data.data[i].caption}
+            </div>
+            </div>`
+            }
+            else{
+                output+=`
+            <div class="image">
             <a href="${data.data[i].url}">
             <img src="${data.data[i].media_url}" alt="">
             </a>
@@ -15,7 +26,10 @@ fetch('https://dsclinks.herokuapp.com/' ,{
             ${data.data[i].caption}
             </div>
             </div>`
+            }
+            
         }
+        $('.loader').hide();
         document.getElementById("links").innerHTML = output;  
     })
     
