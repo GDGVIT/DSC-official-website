@@ -67,4 +67,7 @@ img:hover{
         width:31vw;
         height:31vw;
     }
+    img:hover{
+        opacity: 1;
+    }
 }
