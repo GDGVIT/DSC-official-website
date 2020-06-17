@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" style="opacity:0.2;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
   
   <style>
   
@@ -130,7 +130,7 @@
   </defs>
   <g id="Web_1920_5" data-name="Web 1920 – 5" clip-path="url(#clip-Web_1920_5)">
     <rect width="1920" height="1080" fill="#202020"/>
-    <g id="Group_15" data-name="Group 15" transform="translate(-237 78.211)">
+    <g id="Group_15" data-name="Group 15" transform="translate(-237 78.211)" style="opacity:0.2;">
       <path id="Path_39" data-name="Path 39" d="M9607.232,1078.517s185.9-152.116,38.752-357.173,39.022-385.609,39.022-385.609" transform="translate(-7915.922 0)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="5"/>
       <circle id="Ellipse_24" data-name="Ellipse 24" cx="17.5" cy="17.5" r="17.5" fill="#00aa6a" stroke="#ffffff" stroke-width="5"/>
       <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="36" cy="35.5" rx="36" ry="35.5" fill="#519bf7" stroke="#ffffff" stroke-width="5"/>
