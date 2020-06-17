@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" style="opacity:0.2;">
+  
+  <style>
+  
+    #Ellipse_24{
+      transform:translate(1650px,813px);
+      animation: circle-bounce 3s ease .4s infinite;
+    }
+
+    @keyframes circle-bounce{
+      0%{
+        transform:translate(1650px,813px);
+      }
+      50%{
+        transform:translate(1650px,803px);
+      }
+      100%{
+        transform:translate(1650px,813px);
+      }
+    }
+
+    #Ellipse_25{
+      transform:translate(1673px,898px);
+      animation: circle-bounce-two 3s ease 0s infinite;
+    }
+
+    @keyframes circle-bounce-two{
+      0%{
+        transform:translate(1673px,898px);
+      }
+      50%{
+        transform:translate(1673px,914px);
+      }
+      100%{
+        transform:translate(1673px,898px);
+      }
+    }
+
+    #Ellipse_26{
+      transform:translate(1737px,484px);
+      animation: circle-bounce-three 3s ease 0s infinite;
+    }
+
+    @keyframes circle-bounce-three{
+      0%{
+        transform:translate(1737px,484px);
+      }
+      50%{
+        transform:translate(1757px,484px);
+      }
+      100%{
+        transform:translate(1737px,484px);
+      }
+    }
+
+    #Ellipse_27{
+      transform:translate(1737px,536px);
+      animation: circle-bounce-four 3s ease .4s infinite;
+    }
+
+    @keyframes circle-bounce-four{
+      0%{
+        transform:translate(1737px,536px);
+      }
+      50%{
+        transform:translate(1727px,536px);
+      }
+      100%{
+        transform:translate(1737px,536px);
+      }
+    }
+
+    #Path_39{
+      stroke-dasharray:830;
+      stroke-dashoffset:0;
+      animation: rocket-path 6s ease .4s infinite;
+    }
+
+  @keyframes rocket-path{
+    0%{
+      stroke-dashoffset:830;
+    }
+    50%{
+      stroke-dashoffset:0;
+    }
+    100%{
+      stroke-dashoffset:830;
+    }
+  }
+
+  #rocket{
+    transform:translate(1626.698px,686.046px) rotate(-66deg);
+    animation:rocket 6s ease infinite;
+    opacity:0;
+  }
+
+  @keyframes rocket{
+    0%{
+      transform:translate(1626.698px,686.046px) rotate(-66deg);
+      opacity:0;
+    }
+    22%{
+      transform:translate(1626.698px,686.046px) rotate(-66deg);
+      opacity:0;
+    }
+    25%{
+      transform:translate(1620.698px,680.046px) rotate(-66deg);
+      opacity:1;
+    }
+    70%{
+      transform:translate(1629.698px,689.046px) rotate(-66deg);
+      opacity:1;
+    }
+    75%{
+      transform:translate(1626.698px,686.046px) rotate(-66deg);
+      opacity:0;
+    }
+    100%{
+      transform:translate(1626.698px,686.046px) rotate(-66deg);
+      opacity:0;
+    }
+  }
+  opacity:0.2;
+  </style>
+  
+  <defs>
+    <clipPath id="clip-Web_1920_5">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_5" data-name="Web 1920 – 5" clip-path="url(#clip-Web_1920_5)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="Group_15" data-name="Group 15" transform="translate(-237 78.211)">
+      <path id="Path_39" data-name="Path 39" d="M9607.232,1078.517s185.9-152.116,38.752-357.173,39.022-385.609,39.022-385.609" transform="translate(-7915.922 0)" fill="none" stroke="#404040" stroke-linecap="round" stroke-width="5"/>
+      <circle id="Ellipse_24" data-name="Ellipse 24" cx="17.5" cy="17.5" r="17.5" fill="#00aa6a" stroke="#404040" stroke-width="5"/>
+      <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="36" cy="35.5" rx="36" ry="35.5" fill="#519bf7" stroke="#404040" stroke-width="5"/>
+      <circle id="Ellipse_26" data-name="Ellipse 26" cx="36" cy="36" r="36" fill="#f15b44" stroke="#404040" stroke-width="5"/>
+      <circle id="Ellipse_27" data-name="Ellipse 27" cx="14" cy="14" r="14" fill="#fcc500" stroke="#404040" stroke-width="5"/>
+      <g id="rocket">
+        <path id="Path_40" data-name="Path 40" d="M26.5,3.746a12.919,12.919,0,0,1,0,18.193c-4.994,4.994-19.709,11.5-24.7,6.51S3.308,8.74,8.3,3.746A12.918,12.918,0,0,1,26.5,3.746Z" transform="translate(8.998 76.688)" fill="#fcc500" stroke="#404040" stroke-width="5"/>
+        <path id="Path_42" data-name="Path 42" d="M61.713,13.2C76.963,28.452,80,50.123,65.548,64.57l-6.867,6.867C44.233,85.885,54.222,51.193,38.972,35.943S-11.059,30.77,3.477,16.234l6.867-6.867C24.792-5.08,46.463-2.048,61.713,13.2Z" transform="translate(0 39.229)" fill="#f15b44" stroke="#404040" stroke-width="5"/>
+        <path id="Path_43" data-name="Path 43" d="M91.663,1.954C96.3,6.591,94.249,36.021,65.8,64.56,47.251,83.02,35.568,89.53,35.568,89.53c-12.4,8.383-18.371,2.675-26.219-5.173S-4.3,70.535,4.176,58.138c0,0,6.6-11.772,25.06-30.322C57.685-.632,87.026-2.773,91.663,1.954Z" transform="translate(20.527 0)" fill="#519bf7" stroke="#404040" stroke-width="5"/>
+        <path id="Path_45" data-name="Path 45" d="M19.1,3.284a11.184,11.184,0,1,1-15.817,0A11.165,11.165,0,0,1,19.1,3.284Z" transform="translate(63.229 28.53)" fill="#fcc500" stroke="#404040" stroke-width="5"/>
+        <path id="Path_46" data-name="Path 46" d="M33.346.611c2.229,2.229-2.051,10.167-12.931,21.047S2.934,35.481.7,33.162c-2.229-2.23.624-8.829,11.5-19.709C23.179,2.573,31.027-1.708,33.346.611Z" transform="translate(23.195 58.865)" fill="#f15b44" stroke="#404040" stroke-width="5"/>
+        <path id="Path_48" data-name="Path 48" d="M0,4.163C.8,10.138,4.013,16.47,9.275,21.731a33.192,33.192,0,0,0,15.25,8.829C30.411,15.934,29.965,4.7,27.29,1.933,24.7-.743,14-1.188,0,4.163Z" transform="translate(84.9 0.021)" fill="#f15b44" stroke="#404040" stroke-width="5"/>
+      </g>
+    </g>
+  </g>
+</svg>
