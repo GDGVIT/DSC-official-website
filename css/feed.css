@@ -384,13 +384,13 @@ body{
 .container-main{
     height: auto;
     padding-top: 15vh;
-    background: url('../images/after-landing.svg') center center fixed no-repeat;
+    background: url('../images/after-landing-feed.svg') center center fixed no-repeat;
     background-size: cover;
     /* opacity:0.2; */
 }
 
 .dark .container-main{
-    background: url('../images/after-landing-dark.svg') center center fixed no-repeat;
+    background: url('../images/after-landing-dark-feed.svg') center center fixed no-repeat;
     background-size: cover;
     /* opacity:0.2; */
 }
@@ -545,7 +545,28 @@ input:focus{
     background: #202020;
     border: 1px solid #ffffff;
 }
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #FFBA01; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: auto auto;
+    /* margin-top: 200px; */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
+.loader-wrapper{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* Large desktops and laptops */

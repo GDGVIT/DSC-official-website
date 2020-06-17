@@ -31,7 +31,8 @@
             if ('serviceWorker' in navigator) {
 				navigator.serviceWorker.register('/sw.js')
 					.then(function () {
-						console.log('Service Worker Registered');
+                        console.log('Service Worker Registered');
+                        CacheStorage.remove();
 					});
 			}
         </script>
@@ -112,10 +113,14 @@
             <div class="main-menu-item-holder">
 
                 <h2 class="barlow-extralight text-center" id="home">Home</h2>
-                <h2 class="barlow-extralight text-center" id="our-work">Our Focus</h2>
-                <h2 class="barlow-extralight text-center" id="team"><a href="./youtube.html">Videos</a></h2>
+                <!-- <h2 class="barlow-extralight text-center" id="our-work">Our Focus</h2> -->
+                
+                <!-- <h2 class="barlow-extralight text-center" id="our-work">Our Focus</h2> -->
                 <h2 class="barlow-extralight text-center" id="team"><a href="./team.html">The Team</a></h2>
                 <h2 class="barlow-extralight text-center" id="updates">Updates</h2>
+                <h2 class="barlow-extralight text-center" id="links"><a href="./morelinks.html">Our Feed</a></h2>
+                <h2 class="barlow-extralight text-center" id="team"><a href="./youtube.html">Videos</a></h2>
+                <h2 class="barlow-extralight text-center" id="team"><a href="./blogs.html">Blogs</a></h2>
                 <h2 class="barlow-extralight text-center" id="contact">Contact Us</h2>
 
             </div>
@@ -153,11 +158,11 @@
 
                 </div>
 
-                <div class="menu-item" id="our-work-desk">
+                <!-- <div class="menu-item" id="our-work-desk">
                 
                     Our Focus
 
-                </div>
+                </div> -->
 
                 <div class="menu-item" id="our-work-desk">
                 
@@ -174,6 +179,16 @@
                 <div class="menu-item" id="updates-desk">
                 
                     Updates
+
+                </div>
+                <div class="menu-item" id="team-desk">
+                
+                    <a href="./blogs.html">Blogs</a>
+
+                </div>
+                <div class="menu-item" id="team-desk">
+                
+                    <a href="./morelinks.html">Our Feed</a>
 
                 </div>
 
@@ -372,7 +387,7 @@
 
             <h1 data-aos="fade-up" class="barlow-medium text-center">
 
-                Our Publications
+                Our Blogs
 
             </h1>
 
