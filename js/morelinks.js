@@ -31,6 +31,34 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
             </div>`
             }
         }
+        else if (data.data[i].media_type === "VIDEO"){
+            if(data.data[i].url === ""){
+                output+=`
+            <div class="image">
+            <video  controls>
+            <source src="${data.data[i].media_url}" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <div class="text">
+            ${data.data[i].caption}
+            </div>
+            </div>`
+            }
+            else{
+                output+=`
+            <div class="image">
+            <a href="${data.data[i].url}">
+            <video  controls>
+            <source src="${data.data[i].media_url}" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            </a>
+            <div class="text">
+            ${data.data[i].caption}
+            </div>
+            </div>`
+            }
+        }
         }
         $('.loader').hide();
         document.getElementById("links").innerHTML = output;  

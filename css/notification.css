@@ -43,6 +43,14 @@ img{
     transition: .5s ease;
     position: absolute;
 }
+
+video{
+    width:350px;
+    height:350px;
+    transition: .5s ease;
+    position: absolute;
+}
+
 img:hover{
     opacity: 0.05;
 }
@@ -65,6 +73,11 @@ img:hover{
         
     }
     img{
+        width:95vw;
+        height:95vw;
+        margin:10px auto;
+    }
+    video{
         width:95vw;
         height:95vw;
     }
