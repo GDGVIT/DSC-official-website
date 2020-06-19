@@ -51,7 +51,7 @@ img:hover{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1139px) {
     .links{
         width: 100vw;
     display: grid;
@@ -67,4 +67,7 @@ img:hover{
         width:31vw;
         height:31vw;
     }
+    img:hover{
+        opacity:1;
+}
 }
