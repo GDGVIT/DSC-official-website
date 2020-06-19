@@ -54,20 +54,24 @@ img:hover{
 @media (max-width: 1139px) {
     .links{
         width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+        /* display: grid; */
+        /* grid-template-columns: 1fr; */
     }
     .image{
-        width:31vw;
-        height:31vw;
-        margin:0.78vw;
+        width:95vw;
+        height:95vw;
+        padding-top:10vw
+        /* margin:0.78vw; */
         
     }
     img{
-        width:31vw;
-        height:31vw;
+        width:95vw;
+        height:95vw;
     }
     img:hover{
         opacity:1;
-}
+    }
+    .text{
+        display: none;
+    }
 }
