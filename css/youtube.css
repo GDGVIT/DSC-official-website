@@ -1,5 +1,12 @@
 body{
     font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 98.9vw;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .link
@@ -78,6 +85,7 @@ h5{
     border: 1px solid rgba(0, 0, 0, 0.125);
     box-sizing: border-box;
     text-align: justify;
+    margin: auto;
 }
 
 .card:hover{
