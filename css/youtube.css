@@ -78,6 +78,7 @@ h5{
     border: 1px solid rgba(0, 0, 0, 0.125);
     box-sizing: border-box;
     text-align: justify;
+    margin: auto;
 }
 
 .card:hover{
