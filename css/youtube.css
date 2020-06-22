@@ -32,12 +32,10 @@ h5{
     display: inline-block;
     margin: 0;
     padding-bottom: 10px;
-    color: gray;
     cursor: pointer;
 }
 
 .videos:hover, .playlists:hover{
-    color: black;
     border-bottom: 3px solid #FFBA01;
 }
 
@@ -205,6 +203,9 @@ p{
     margin-right: auto;
     margin-left: auto;
   }
+
+
+
   @media (min-width: 768px) {
     .container {
       width: 750px;
@@ -221,12 +222,17 @@ p{
     }
   }
 
-  @media (max-width: 992px)
+  @media(max-width: 1260px)
   {
       .embed, .embed-playlist-videos{
         grid-template-columns: 1fr 1fr;
       }
 
+  }
+
+  @media (max-width: 992px)
+  {
+     
       .embed-playlists{
           /* width: 585px; */
           margin: auto auto;
