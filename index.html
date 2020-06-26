@@ -31,10 +31,9 @@
             if ('serviceWorker' in navigator) {
 				navigator.serviceWorker.register('/sw.js')
 					.then(function () {
-                        console.log('here');
-                        CacheStorage.delete();
+                        console.log('Service Worker Registered');
 					});
-			}
+            }
         </script>
 
         <!-- The core Firebase JS SDK is always required and must be listed first -->
