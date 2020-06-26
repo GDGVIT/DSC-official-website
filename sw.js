@@ -1,13 +1,13 @@
-// var CACHE_NAME = 'my-site-cache-v1';
+// var cacheName = 'dscvit';
+var self = this;
+
 var filesToCache = [
   '/',
-  '/index.html',
   '/team.html',
   '/blogs.html',
   '/link.html',
   '/morelinks.html',
   './css/index.css',
-  './css/team.css',
   './css/svg.css',
   './css/blogs.css',
   './css/feed.css',
@@ -15,9 +15,9 @@ var filesToCache = [
   './css/youtube.css',
   './js/team.js',
   './js/index.js',
-  './js/blog.js',
+  './js/blogs.js',
   './js/morelinks.js',
-  './js/notification.js',
+  './js/notifications.js',
   './js/youtube.js',
   './images/after-landing.svg',
   './images/after-landing-dark.svg',
@@ -58,18 +58,18 @@ var filesToCache = [
   './images/techteam/vishaal.jpg',
   './images/techteam/yaswant.jpg',
   './images/techteam/purushottam.jpg',
-  './images/techteam/nirmit.jpg',
+  './images/techteam/nirmit.jpeg',
   './images/techteam/ashutosh.jpg',
   './images/techteam/chanakya.jpg',
   './images/techteam/fenil.jpg',
-  './images/techteam/GovindKrishna.jpg',
+  './images/techteam/GovindKrishnan.jpg',
   './images/techteam/hishaam.jpg',
-  './images/techteam/kush.jpg',
+  './images/techteam/kush.jpeg',
   './images/techteam/mayank.jpg',
   './images/techteam/PragatiBhattad.jpg',
   './images/techteam/prakhar.jpg',
   './images/techteam/raman.jpg',
-  './images/techteam/ritik.jpg',
+  // './images/techteam/ritik.jpg',
   './images/techteam/ShantanuVerma.jpg',
   './images/techteam/siddhartha.jpg',
   './images/techteam/SaiSandeepRayanuthala.jpg',
@@ -110,13 +110,48 @@ self.addEventListener('install', function(e) {
     })                                                                                                                                                                                                                    
   );
 });
-self.addEventListener('activate',  event => {
-  event.waitUntil(self.clients.claim());
+self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.filter(function(cacheName) {
+          // Return true if you want to remove this cache,
+          // but remember that caches are shared across
+          // the whole origin
+        }).map(function(cacheName) {
+          return caches.delete(cacheName);
+        })
+      );
+    })
+  );
 });
-self.addEventListener('fetch', event => {
+// self.addEventListener('activate', function (event) {
+// event.waitUntil(
+//    caches.keys().then(function (cacheName) {
+//       return caches.delete(cacheName);
+//     }).then(function (_) {
+//      return caches.open('dscvit');
+//     }).then(function (cache) {
+//       console.log("Add RESOURCES...");
+//       return cache.addAll(Object.keys());
+//      })
+//   ); });
+// self.addEventListener('fetch', event => {
+//   event.respondWith(
+//     caches.match(event.request, {ignoreSearch:true}).then(response => {
+//       return response || fetch(event.request);
+//     })
+//   );
+// });
+self.addEventListener('fetch', function(event) {
   event.respondWith(
-    caches.match(event.request, {ignoreSearch:true}).then(response => {
-      return response || fetch(event.request);
+    caches.open('mysite-dynamic').then(function(cache) {
+      return cache.match(event.request).then(function (response) {
+        return response || fetch(event.request).then(function(response) {
+          cache.put(event.request, response.clone());
+          return response;
+        });
+      });
     })
   );
 });
