@@ -22,7 +22,7 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
             else{
                 output+=`
             <div class="image">
-            <a href="${data.data[i].url}">
+            <a href="${data.data[i].url}" target="_blank">
             <img src="${data.data[i].media_url}" alt="">
             </a>
             <div class="text">
@@ -39,23 +39,23 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
             <source src="${data.data[i].media_url}" type="video/mp4">
             Your browser does not support the video tag.
             </video>
-            <div class="text">
+           <!-- <div class="text">
             ${data.data[i].caption}
-            </div>
+            </div>-->
             </div>`
             }
             else{
                 output+=`
             <div class="image">
-            <a href="${data.data[i].url}">
+            <a href="${data.data[i].url}" target="_blank">
             <video  controls>
             <source src="${data.data[i].media_url}" type="video/mp4">
             Your browser does not support the video tag.
             </video>
             </a>
-            <div class="text">
+            <!-- <div class="text">
             ${data.data[i].caption}
-            </div>
+            </div>-->
             </div>`
             }
         }
