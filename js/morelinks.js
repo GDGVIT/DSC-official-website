@@ -14,9 +14,6 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
                 output+=`
             <div class="image">
             <img src="${data.data[i].media_url}" alt="">
-            <div class="text">
-            ${data.data[i].caption}
-            </div>
             </div>`
             }
             else{
@@ -25,9 +22,6 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
             <a href="${data.data[i].url}" target="_blank">
             <img src="${data.data[i].media_url}" alt="">
             </a>
-            <div class="text">
-            ${data.data[i].caption}
-            </div>
             </div>`
             }
         }
@@ -39,9 +33,6 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
             <source src="${data.data[i].media_url}" type="video/mp4">
             Your browser does not support the video tag.
             </video>
-           <!-- <div class="text">
-            ${data.data[i].caption}
-            </div>-->
             </div>`
             }
             else{
@@ -53,9 +44,22 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
             Your browser does not support the video tag.
             </video>
             </a>
-            <!-- <div class="text">
-            ${data.data[i].caption}
-            </div>-->
+            </div>`
+            }
+        }
+        else if (data.data[i].media_type === "CAROUSEL_ALBUM"){
+            if(data.data[i].url === ""){
+                output+=`
+            <div class="image">
+            <img src="${data.data[i].media_url}" alt="">
+            </div>`
+            }
+            else{
+                output+=`
+            <div class="image">
+            <a href="${data.data[i].url}" target="_blank">
+            <img src="${data.data[i].media_url}" alt="">
+            </a>
             </div>`
             }
         }
@@ -64,6 +68,15 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
         document.getElementById("links").innerHTML = output;  
     })
     
+    // for future use
+
+    //  <div class="text">
+    //         ${data.data[i].caption}
+    //         </div>
+
+
+
+
 // var raw = "{\n	\"Name\": \"H\",\n	\"Phone_number\": \"9876543210\",\n	\"Total_amount\": \"1000\",\n	\"Paid_amount\": \"425\",\n	\"Date\": \"2020-5-23\",\n	\"Time\": \"10:0:0\",\n	\"Examination\": \"FALSE\"\n}";
 
 //         var requestOptions = {
