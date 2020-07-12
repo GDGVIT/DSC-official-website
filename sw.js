@@ -6,7 +6,7 @@ var filesToCache = [
   '/team.html',
   '/blogs.html',
   '/link.html',
-  // '/morelinks.html',
+  '/morelinks.html',
   './css/index.css',
   './css/svg.css',
   './css/blogs.css',
