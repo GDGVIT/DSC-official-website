@@ -33,7 +33,7 @@ Samarth Nayyar
 </p>
 </td>
 <td>
-Purushottam Sharma
+Purushottam
 <p align="center">
 <a href="https://github.com/pm-sharma">
 <img src = "https://avatars3.githubusercontent.com/u/41280402?s=460&u=c3896470e8fefebd24c37a77f4233507854e14c2&v=4" width="150" height="150" alt="Purushottam Sharma">
@@ -41,7 +41,7 @@ Purushottam Sharma
 </p>
 </td>
 <td>
-Ashutosh Kaushik
+Ashutosh
 <p align="center">
 <a href="https://github.com/AshDarkfold">
 <img src = "https://avatars0.githubusercontent.com/u/29834549?s=460&u=445eb6363a6b36a99323a1531ae29ecfb272d73c&v=4" width="150" height="150" alt="Ashutosh Kaushik">
@@ -49,7 +49,7 @@ Ashutosh Kaushik
 </p>
 </td>
 <td>
-Aviral Singh Chauhan
+Aviral Singh
 <p align="center">
 <a href="https://github.com/sAVItar02">
 <img src = "https://dscvit.com/images/dsc-logo-square.svg" width="150" height="150" alt="Aviral Singh Chauhan">
