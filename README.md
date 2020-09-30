@@ -17,7 +17,7 @@
 - [x]  Links to all recent Instagram posts
 - [x]  Sending notifications
 - [x]  PWA
-
+-[x]   all improtant things and alerts
 ## Contributors
 
 <table>
