@@ -74,3 +74,8 @@ Nirmit Jatana
 	Made with :heart: by <a href="https://dscvit.com">DSC VIT</a>
 </p>
 
+<br>
+<strong> SUPPORT </STRONG>
+Support the free internet and support the developer by supoorting FOSS.
+
+
