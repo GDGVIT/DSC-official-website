@@ -2,8 +2,8 @@
 <a href="https://dscvit.com">
 	<img src="https://user-images.githubusercontent.com/30529572/72455010-fb38d400-37e7-11ea-9c1e-8cdeb5f5906e.png" />
 </a>
-	<h2 align="center"> DSC Official Website </h2>
-	<h4 align="center"> Official website for DSC VIT. <h4>
+	<h2 align="center"> DSC OFFICIAL WEBSITE </h2>
+	<h4 align="center"> Official Website for DSC VIT. <h4>
 </p>
 
 ---
@@ -11,11 +11,11 @@
 
 
 ## Functionalities
-- [x]  All social links
+- [x]  All Social Links
 - [x]  All important information about DSC
 - [x]  Links to courses, blogs, webinars, etc
-- [x]  Links to all recent Instagram posts
-- [x]  Sending notifications
+- [x]  Links to All recent Instagram Posts
+- [x]  Sending Notifications
 - [x]  PWA
 
 ## Contributors
