@@ -47,7 +47,9 @@
     font-family:'barlow';
     margin-left:370px;
 }
-
+.navbar{
+    padding-left:150px;
+}
 /* ------------------Loader---------------- */
 .loader {
     border: 5px solid #f3f3f3; /* Light grey */
@@ -78,6 +80,9 @@
         height:160px;
         margin-bottom:20px;
        
+    }
+    .navbar{
+        padding-left:30px;
     }
     #carder{
         margin-top:35px;

@@ -171,10 +171,19 @@ var checkDark = function (){
 
     if(dark==='true'){
         $('body').addClass('dark');
+        // $('body').addClass('dark');
+        $('.logo-light').hide();
+        $('.logo').show();
+        $('.logo-nav-light').hide();
+        $('.logo-nav').show();
         $('.dark-light-toggle').children().text('I want light mode');
     }
     else{
         $('body').removeClass('dark');
+        $('.logo-light').show();
+        $('.logo').hide();
+        $('.logo-nav-light').show();
+        $('.logo-nav').hide();
         $('.dark-light-toggle').children().text('I want dark mode');
     }
 
