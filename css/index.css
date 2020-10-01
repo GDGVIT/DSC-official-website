@@ -792,13 +792,16 @@ input:focus{
         margin-bottom: 30px;
     }
     .logo{
-        width:50px;
+        width:250px;
+    }
+    .logo-light{
+        width:250px;
     }
     .logo-nav{
-        width:150px;
+        width:250px;
     }
     .logo-nav-light{
-        width:180px;
+        width:280px;
     }
     .navbar-dsc-logo{
         top:40%;
