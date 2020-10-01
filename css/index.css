@@ -21,6 +21,18 @@ html{
    -ms-user-select: none;
 }
 
+.logo{
+    width:400px;
+}
+.logo-light{
+    width:400px;
+}
+.logo-nav {
+    width:250px;
+}
+.logo-nav-light{
+    width:300px
+}
 .dark{
     color: #ffffff;
 }
@@ -222,7 +234,7 @@ body{
     padding-left: 10vw;
     display: none;
     position: relative;
-    top: 50%;
+    top: 35%;
     transform: translateY(-50%);
     cursor: pointer;
 }
@@ -586,6 +598,12 @@ input:focus{
     p{
         font-size: 18px;
     }
+    .logo-nav{
+        display:none;
+    }
+    .logo-nav-light{
+        display:none;
+    }
 
 }
 
@@ -595,7 +613,7 @@ input:focus{
     .button-text{
         font-size: 20px;
     }
-
+   
     h1{
         font-size: 40px;
     }
@@ -616,7 +634,7 @@ input:focus{
     .dark .container-main{
         background: #202020;
     }
-
+    
     .menu{
         display: none;
     }
@@ -772,6 +790,18 @@ input:focus{
 
     #projects-button{
         margin-bottom: 30px;
+    }
+    .logo{
+        width:250px;
+    }
+    .logo-nav{
+        width:250px;
+    }
+    .logo-nav-light{
+        width:280px;
+    }
+    .navbar-dsc-logo{
+        top:40%;
     }
 
 }
