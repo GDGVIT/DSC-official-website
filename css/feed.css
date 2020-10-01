@@ -177,7 +177,17 @@ body{
     z-index: 100;
     opacity: 1;
 }
-
+.logo-nav {
+    width:250px;
+    height:60px;
+}
+.logo-nav-light{
+    width:300px;
+    height:60px;
+}
+.navbar-dsc-logo{
+    padding-top:0px;
+}
 .change-device-active{
     transform: translateY(0%);
     transition: all .4s ease;
@@ -222,7 +232,7 @@ body{
     padding-left: 10vw;
     display: none;
     position: relative;
-    top: 50%;
+    top: 35%;
     transform: translateY(-50%);
     cursor: pointer;
 }
@@ -793,6 +803,9 @@ input:focus{
 
     #projects-button{
         margin-bottom: 30px;
+    }
+    .navbar-dsc-logo{
+        top:27%;
     }
 
 }
