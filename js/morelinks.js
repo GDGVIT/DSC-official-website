@@ -1,4 +1,9 @@
 
+function replaceWithLoader(e, index) {
+    e.target.style.opacity = "1";
+    document.getElementById(`wave-${index}`).style.display = "none";
+}
+
 fetch('https://dsclinks.herokuapp.com/' ,{})
     .then((res) => res.json())
     .then((data) => {
@@ -11,19 +16,42 @@ fetch('https://dsclinks.herokuapp.com/' ,{})
 
             
             if(data.data[i].url === ""){
-                output+=`
-            <div class="image">
-            <img src="${data.data[i].media_url}" alt="">
-            </div>`
+                output += `
+            <div class="image" style="position:relative;">
+                <div id="wave-${i}" class="wave">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <img 
+                src="${data.data[i].media_url}" 
+                alt="" 
+                style='opacity:0;transition:opacity 0.5s ease;'
+                onLoad="replaceWithLoader(event, ${i})" />
+            </div>`;
             }
             else{
-                output+=`
-            <div class="image">
-            <a href="${data.data[i].url}" target="_blank">
-            <img src="${data.data[i].media_url}" alt="">
-            </a>
-            </div>`
+                output += `
+            <div class="image" style="position:relative;">
+                <a href="${data.data[i].url}" target="_blank">
+                    <div id="wave-${i}" class="wave">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <img 
+                    src="${data.data[i].media_url}" 
+                    alt="" 
+                    style='opacity:0;transition:opacity 0.5s ease;'
+                    onLoad="replaceWithLoader(event, ${i})" />
+                </a>
+            </div>`;
             }
+            // <a href="${data.data[i].url}" target="_blank">
+            // <img src="${data.data[i].media_url}" alt="">
+            // </a>
         }
         else if (data.data[i].media_type === "VIDEO"){
             if(data.data[i].url === ""){
