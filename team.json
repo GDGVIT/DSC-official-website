@@ -505,15 +505,9 @@
             "in": false
         },
         {
-            "name": "Achin",
+            "name": "Achin Batwara",
             "role": "UI/UX",
-            "img": "",
-            "in": true
-        },
-        {
-            "name": "Pranjal",
-            "role": "UI/UX",
-            "img": "",
+            "img": "./images/designers/Achin_batwara.jpg",
             "in": true
         },
         {
@@ -529,9 +523,9 @@
             "in": true
         },
         {
-            "name": "Prashashti",
+            "name": "Prashashti Gupta",
             "role": "Graphic Design",
-            "img": "",
+            "img": "./images/designers/Prashasti Gupta.jpeg",
             "in": true
         },
         {
