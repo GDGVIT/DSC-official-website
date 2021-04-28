@@ -211,7 +211,7 @@ let insertTeamData = (data) => {
     Object.keys(data).forEach((ele) => {
         let div = document.querySelector(`#${ele}`)
         data[ele].forEach((person) => {
-            if (person.in) {
+            if (person.in && person.img) {
 
                 div.innerHTML += `
                     <div class="circle-icon-holder">

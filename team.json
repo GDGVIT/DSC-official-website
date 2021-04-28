@@ -2,49 +2,49 @@
     "board": [
         {
             "name": "Angad Sharma",
-            "img": "http://127.0.0.1:5501/images/techteam/angad.jpg",
+            "img": "./images/techteam/angad.jpg",
             "role": "Community Lead",
             "in": true
         },
         {
             "name": "Ubaid Usmani",
-            "img": "http://127.0.0.1:5501/images/techteam/ubaid.jpg",
+            "img": "./images/techteam/ubaid.jpg",
             "role": "Technical Lead",
             "in": true
         },
         {
             "name": "Prateek Mewara",
-            "img": "http://127.0.0.1:5501/images/techteam/prateek.jpg",
+            "img": "./images/techteam/prateek.jpg",
             "role": "Android Lead",
             "in": true
         },
         {
             "name": "Ekaansh Arora",
-            "img": "http://127.0.0.1:5501/images/designers/ekaansh.jpg",
+            "img": "./images/designers/ekaansh.jpg",
             "role": "Design Lead",
             "in": true
         },
         {
             "name": "Meherdeep Thakur",
-            "img": "http://127.0.0.1:5501/images/managers/meherdeep.jpg",
+            "img": "./images/managers/meherdeep.jpg",
             "role": "Management Lead",
             "in": true
         },
         {
             "name": "Sanchi Chopra",
-            "img": "http://127.0.0.1:5501/images/managers/sanchi.jpg",
+            "img": "./images/managers/sanchi.jpg",
             "role": "WTM Lead",
             "in": true
         },
         {
             "name": "Deepak Nahar",
-            "img": "http://127.0.0.1:5501/images/managers/deepak.jpg",
+            "img": "./images/managers/deepak.jpg",
             "role": "Digital Marketing &amp; Content Lead",
             "in": true
         },
         {
             "name": "Satkriti Singh",
-            "img": "http://127.0.0.1:5501/images/techteam/satkriti.jpg",
+            "img": "./images/techteam/satkriti.jpg",
             "role": "Women Empowerment <br>Lead",
             "in": true
         }
@@ -52,273 +52,399 @@
     "technical": [
         {
             "name": "Amogh Lele",
-            "img": "http://127.0.0.1:5501/images/techteam/amogh.jpg",
+            "img": "./images/techteam/amogh.jpg",
             "role": "Android",
             "in": true
         },
         {
             "name": "Siddhartha",
-            "img": "http://127.0.0.1:5501/images/techteam/siddhartha.jpg",
+            "img": "./images/techteam/siddhartha.jpg",
             "role": "Android",
             "in": true
         },
         {
             "name": "Fenil Jain",
-            "img": "http://127.0.0.1:5501/images/techteam/fenil.jpg",
+            "img": "./images/techteam/fenil.jpg",
             "role": "Android",
             "in": true
         },
         {
             "name": "Rithik Jain",
-            "img": "http://127.0.0.1:5501/images/techteam/ritik.jpg",
+            "img": "./images/techteam/ritik.jpg",
             "role": "Android",
             "in": true
         },
         {
             "name": "Purushottam Sharma",
-            "img": "http://127.0.0.1:5501/images/techteam/purushottam.jpg",
+            "img": "./images/techteam/purushottam.jpg",
             "role": "Web",
             "in": true
         },
         {
             "name": "Ananya Ganesh",
-            "img": "http://127.0.0.1:5501/images/techteam/ananya.jpg",
+            "img": "./images/techteam/ananya.jpg",
             "role": "Web",
             "in": true
         },
         {
             "name": "Nirmit Jatana",
-            "img": "http://127.0.0.1:5501/images/techteam/nirmit.jpeg",
+            "img": "./images/techteam/nirmit.jpeg",
             "role": "Web",
             "in": true
         },
         {
             "name": "Ashutosh Kaushik",
-            "img": "http://127.0.0.1:5501/images/techteam/ashutosh.jpg",
+            "img": "./images/techteam/ashutosh.jpg",
             "role": "Web",
             "in": true
         },
         {
             "name": "Prakhar Soni",
-            "img": "http://127.0.0.1:5501/images/techteam/prakhar.jpg",
+            "img": "./images/techteam/prakhar.jpg",
             "role": "Web",
             "in": true
         },
         {
             "name": "Riddhi Gupta",
-            "img": "http://127.0.0.1:5501/images/techteam/riddhi.jpg",
+            "img": "./images/techteam/riddhi.jpg",
             "role": "Backend",
             "in": true
         },
         {
             "name": "Abhishek Kushwaha",
-            "img": "http://127.0.0.1:5501/images/techteam/abhishek.jpg",
+            "img": "./images/techteam/abhishek.jpg",
             "role": "Backend",
             "in": true
         },
         {
             "name": "Kushal",
-            "img": "http://127.0.0.1:5501/images/techteam/kush.jpeg",
+            "img": "./images/techteam/kush.jpeg",
             "role": "Backend",
             "in": true
         },
         {
             "name": "Sai Sandeep Rayanuthala",
-            "img": "http://127.0.0.1:5501/images/techteam/SaiSandeepRayanuthala.jpg",
+            "img": "./images/techteam/SaiSandeepRayanuthala.jpg",
             "role": "Backend",
             "in": true
         },
         {
             "name": " Md Hishaam Akhtar",
-            "img": "http://127.0.0.1:5501/images/techteam/hishaam.jpg",
+            "img": "./images/techteam/hishaam.jpg",
             "role": "Backend",
             "in": true
         },
         {
             "name": "Pragati Bhattad",
-            "img": "http://127.0.0.1:5501/images/techteam/PragatiBhattad.jpg",
+            "img": "./images/techteam/PragatiBhattad.jpg",
             "role": "Backend",
             "in": true
         },
         {
             "name": "Vishaal Selvaraj",
-            "img": "http://127.0.0.1:5501/images/techteam/vishaal.jpg",
+            "img": "./images/techteam/vishaal.jpg",
             "role": "Algorithms",
             "in": true
         },
         {
             "name": "Mayank Kumar",
-            "img": "http://127.0.0.1:5501/images/techteam/mayank.jpg",
+            "img": "./images/techteam/mayank.jpg",
             "role": "Algorithms",
             "in": true
         },
         {
             "name": "Deepak Malpani",
-            "img": "http://127.0.0.1:5501/images/techteam/deepak.jpg",
+            "img": "./images/techteam/deepak.jpg",
             "role": "ML",
             "in": false
         },
         {
             "name": "Shantanu Verma",
-            "img": "http://127.0.0.1:5501/images/techteam/ShantanuVerma.jpg",
+            "img": "./images/techteam/ShantanuVerma.jpg",
             "role": "ML",
             "in": true
         },
         {
             "name": "Chanakya Kapoor",
-            "img": "http://127.0.0.1:5501/images/techteam/chanakya.jpg",
+            "img": "./images/techteam/chanakya.jpg",
             "role": "ML",
             "in": true
         },
         {
             "name": "Raman",
-            "img": "http://127.0.0.1:5501/images/techteam/raman.jpg",
+            "img": "./images/techteam/raman.jpg",
             "role": "ML",
             "in": true
         },
         {
             "name": "Govind Krishnan",
-            "img": "http://127.0.0.1:5501/images/techteam/GovindKrishnan.jpg",
+            "img": "./images/techteam/GovindKrishnan.jpg",
             "role": "System Developer",
             "in": false
+        },
+        {
+            "name":"Vishesh Bansal",
+            "img": "./images/techteam/Vishesh Bansal.png",
+            "role": "PYTHON",
+            "in": true
+        },
+        {
+            "name":"Pranjal Timilsina",
+            "img": "./images/techteam/Pranjal Timsina.jpg",
+            "role": "PYTHON",
+            "in": true
+        },
+        {
+            "name":"Anish R",
+            "img": "./images/techteam/Anish R.jpeg",
+            "role": "ML",
+            "in": true
+        },
+        {
+            "name":"Pratham Jain",
+            "img": "./images/techteam/Pratham Jain.jpg",
+            "role": "FRONTEND",
+            "in": true
+        },
+        {
+            "name":"Krish Chatterjie",
+            "img": "./images/techteam/Krish Chatterjie.jpg",
+            "role": "FRONTEND",
+            "in": true
+        },
+        {
+            "name":"Jeevan Yohan Varghese",
+            "img": "./images/techteam/Jeevan Yohan Varghese.jpeg",
+            "role": "APPDEV",
+            "in": true
+        },
+        {
+            "name":"Yajat Malhotra",
+            "img": "./images/techteam/Yajat Malhotra.jpeg",
+            "role": "APPDEV",
+            "in": true
+        },
+        {
+            "name":"Abhiram Joshi",
+            "img": "./images/techteam/Abhiram Joshi.jpg",
+            "role": "BACKEND",
+            "in": true
+        },
+        {
+            "name":"Krishap Sreenivasan S",
+            "img": "./images/techteam/Krishap Sreenivasan.jpg",
+            "role": "BACKEND",
+            "in": true
+        },
+        {
+            "name":"Rehaan Mazid",
+            "img": "./images/techteam/Rehaan_Mazid.jpg",
+            "role": "BACKEND",
+            "in": true
         }
     ],
     "management": [
         {
             "name": "Hardik Kataria",
-            "img": "http://127.0.0.1:5501/images/managers/hardik.jpg",
+            "img": "./images/managers/hardik.jpg",
             "role": "Manager",
             "in": false
         },
         {
             "name": "Dhruv Mittal",
-            "img": "http://127.0.0.1:5501/images/managers/dhruv.jpg",
+            "img": "./images/managers/dhruv.jpg",
             "role": "Manager",
             "in": false
         },
         {
             "name": "Vivek Shetty",
-            "img": "http://127.0.0.1:5501/images/managers/vivek.jpg",
+            "img": "./images/managers/vivek.jpg",
             "role": "Manager",
             "in": false
         },
         {
             "name": "Akshat Gupta",
-            "img": "http://127.0.0.1:5501/images/managers/akshat.jpg",
+            "img": "./images/managers/akshat.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Shubham Srivastava",
-            "img": "http://127.0.0.1:5501/images/managers/shubham.jpg",
+            "img": "./images/managers/shubham.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Muskan Rastogi",
-            "img": "http://127.0.0.1:5501/images/managers/muskan.jpg",
+            "img": "./images/managers/muskan.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Kritika Sharma",
-            "img": "http://127.0.0.1:5501/images/managers/kritika.jpg",
+            "img": "./images/managers/kritika.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Naynika Wason",
-            "img": "http://127.0.0.1:5501/images/managers/naynika.jpg",
+            "img": "./images/managers/naynika.jpg",
             "role": "Content",
             "in": true
         },
         {
             "name": "Saloni Parekh",
-            "img": "http://127.0.0.1:5501/images/managers/saloni.jpg",
+            "img": "./images/managers/saloni.jpg",
             "role": "Content",
             "in": true
         },
         {
             "name": "Manorama Maharana",
-            "img": "http://127.0.0.1:5501/images/managers/manorama.jpg",
+            "img": "./images/managers/manorama.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Arjun Bhanot",
-            "img": "http://127.0.0.1:5501/images/managers/arjun.jpg",
+            "img": "./images/managers/arjun.jpg",
             "role": "Manager",
             "in": false
         },
         {
             "name": "ABDEALI",
-            "img": "http://127.0.0.1:5501/images/managers/ABDEALI.jpg",
+            "img": "./images/managers/ABDEALI.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Aditya Madan",
-            "img": "http://127.0.0.1:5501/images/managers/AdityaMadan.jpg",
+            "img": "./images/managers/AdityaMadan.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Anshul Bamb",
-            "img": "http://127.0.0.1:5501/images/managers/AnshulBamb.jpeg",
+            "img": "./images/managers/AnshulBamb.jpeg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Arushi Jain",
-            "img": "http://127.0.0.1:5501/images/managers/Arushi%20Jain.jpg",
+            "img": "./images/managers/Arushi%20Jain.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Gurnehmat Dhindsa",
-            "img": "http://127.0.0.1:5501/images/managers/Gurnehmat.jpg",
+            "img": "./images/managers/Gurnehmat.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Janvi Prasad",
-            "img": "http://127.0.0.1:5501/images/managers/JanviPrasad.jpg",
+            "img": "./images/managers/JanviPrasad.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Neil Kavalakkat",
-            "img": "http://127.0.0.1:5501/images/managers/NeilKavalakkat.jpg",
+            "img": "./images/managers/NeilKavalakkat.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Pranav Raaghav",
-            "img": "http://127.0.0.1:5501/images/managers/PranavRaaghav.jpg",
+            "img": "./images/managers/PranavRaaghav.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Rohit Menon",
-            "img": "http://127.0.0.1:5501/images/managers/RohitMenon.jpeg",
+            "img": "./images/managers/RohitMenon.jpeg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Shivansh Tiwari",
-            "img": "http://127.0.0.1:5501/images/managers/SHIVANSHTIWARI.jpeg",
+            "img": "./images/managers/SHIVANSHTIWARI.jpeg",
             "role": "Manager",
             "in": false
         },
         {
             "name": "Shresth Tiwary",
-            "img": "http://127.0.0.1:5501/images/managers/Shresth.jpg",
+            "img": "./images/managers/Shresth.jpg",
             "role": "Manager",
             "in": true
         },
         {
             "name": "Yuvraj",
-            "img": "http://127.0.0.1:5501/images/managers/Yuvraj.jpeg",
+            "img": "./images/managers/Yuvraj.jpeg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Aditya Mitran",
+            "img": "./images/managers/Aditya_M_DSC.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Astha Jha",
+            "img": "./images/managers/Astha Jha.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Fahad D",
+            "img": "./images/managers/Fahad D.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Gauri Gupta",
+            "img": "./images/managers/Gauri Gupta.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Ananya George",
+            "img": "./images/managers/Ananya George.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Kush",
+            "img": "",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Lokesh Rai",
+            "img": "./images/managers/Lokesh Rai.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Namya Arora",
+            "img": "./images/managers/Namya Arora.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Raggav Subramani",
+            "img": "./images/managers/Raggav Subramani.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Mrinal Agarwal",
+            "img": "./images/managers/Mrinal Agarwal.jpg",
+            "role": "Manager",
+            "in": true
+        },
+        {
+            "name":"Vedant Khetan",
+            "img": "./images/managers/Vedant Khetan.jpg",
             "role": "Manager",
             "in": true
         }
@@ -326,57 +452,99 @@
     "design": [
         {
             "name": "Riya Kanabar",
-            "img": "http://127.0.0.1:5501/images/designers/riya.jpg",
+            "img": "./images/designers/riya.jpg",
             "role": "Graphic",
             "in": true
         },
         {
             "name": "Ruchica Sinha",
-            "img": "http://127.0.0.1:5501/images/designers/ruchica.jpg",
+            "img": "./images/designers/ruchica.jpg",
             "role": "Graphic",
             "in": true
         },
         {
             "name": "Aditya Rathore",
-            "img": "http://127.0.0.1:5501/images/designers/aditya.jpg",
+            "img": "./images/designers/aditya.jpg",
             "role": "3D &amp; Motion",
             "in": true
         },
         {
             "name": "Shravani Shete",
-            "img": "http://127.0.0.1:5501/images/designers/shravani.jpg",
+            "img": "./images/designers/shravani.jpg",
             "role": "Graphic",
             "in": true
         },
         {
             "name": "Ronish Sawal",
-            "img": "http://127.0.0.1:5501/images/designers/ronish.jpg",
+            "img": "./images/designers/ronish.jpg",
             "role": "Graphic",
             "in": true
         },
         {
             "name": "Ishi Yadav",
-            "img": "http://127.0.0.1:5501/images/designers/ishi.jpg",
+            "img": "./images/designers/ishi.jpg",
             "role": "Graphic",
             "in": true
         },
         {
             "name": "Swayam S. Sharma",
-            "img": "http://127.0.0.1:5501/images/designers/swayam.jpg",
+            "img": "./images/designers/swayam.jpg",
             "role": "Graphic",
             "in": true
         },
         {
             "name": "Chiya Borkar",
-            "img": "http://127.0.0.1:5501/images/designers/ChiyaBorkar.jpg",
+            "img": "./images/designers/ChiyaBorkar.jpg",
             "role": "Graphic",
             "in": true
         },
         {
             "name": "Thanmay V.",
-            "img": "http://127.0.0.1:5501/images/designers/thanmay.jpg",
+            "img": "./images/designers/thanmay.jpg",
             "role": "3D &amp; Motion",
             "in": false
+        },
+        {
+            "name": "Achin",
+            "role": "UI/UX",
+            "img": "",
+            "in": true
+        },
+        {
+            "name": "Pranjal",
+            "role": "UI/UX",
+            "img": "",
+            "in": true
+        },
+        {
+            "name": "Anoushka Shresth",
+            "role": "Graphic Design",
+            "img": "./images/designers/anoushka.jpg",
+            "in": true
+        },
+        {
+            "name": "Pranav",
+            "role": "Graphic Design",
+            "img": "./images/designers/Pranav Ram K .png",
+            "in": true
+        },
+        {
+            "name": "Prashashti",
+            "role": "Graphic Design",
+            "img": "",
+            "in": true
+        },
+        {
+            "name": "Projukta",
+            "role": "Graphic Design",
+            "img": "./images/designers/Projukta Mandal.jpg",
+            "in": true
+        },
+        {
+            "name": "Vishesh Choudhary",
+            "role": "Video & <br>Motion Graphcis",
+            "img": "",
+            "in": true
         }
     ]
 }
