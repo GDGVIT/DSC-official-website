@@ -71,7 +71,31 @@
         {
             "name": "Rithik Jain",
             "img": "./images/techteam/ritik.jpg",
-            "role": "Android",
+            "role": "App Dev",
+            "in": true
+        },
+        {
+            "name": "Rishav Naskar",
+            "img": "./images/techteam/Rishav Naskar.jpg",
+            "role": "App Dev",
+            "in": true
+        },
+        {
+            "name": "Swamita Gupta",
+            "img": "./images/techteam/Swamita Gupta.png",
+            "role": "App Dev",
+            "in": true
+        },
+        {
+            "name":"Jeevan Yohan Varghese",
+            "img": "./images/techteam/Jeevan Yohan Varghese.jpeg",
+            "role": "App Dev",
+            "in": true
+        },
+        {
+            "name":"Yajat Malhotra",
+            "img": "./images/techteam/Yajat Malhotra.jpeg",
+            "role": "App Dev",
             "in": true
         },
         {
@@ -83,25 +107,49 @@
         {
             "name": "Ananya Ganesh",
             "img": "./images/techteam/ananya.jpg",
-            "role": "Web",
+            "role": "Frontend",
             "in": true
         },
         {
             "name": "Nirmit Jatana",
             "img": "./images/techteam/nirmit.jpeg",
-            "role": "Web",
+            "role": "Frontend",
             "in": true
         },
         {
             "name": "Ashutosh Kaushik",
             "img": "./images/techteam/ashutosh.jpg",
-            "role": "Web",
+            "role": "Frontend",
             "in": true
         },
         {
             "name": "Prakhar Soni",
-            "img": "./images/techteam/prakhar.jpg",
-            "role": "Web",
+            "img": "./images/techteam/Prakhar.jpg",
+            "role": "Frontend",
+            "in": true
+        },
+        {
+            "name":"Sricharan Ramesh",
+            "img": "./images/techteam/Sricharan Ramesh.jpg",
+            "role": "Frontend",
+            "in": true
+        },
+        {
+            "name":"Sai Teja Reddy",
+            "img": "./images/techteam/Sai Teja T.jpeg",
+            "role": "Frontend",
+            "in": true
+        },
+        {
+            "name":"Pratham Jain",
+            "img": "./images/techteam/Pratham Jain.jpg",
+            "role": "Frontend",
+            "in": true
+        },
+        {
+            "name":"Krish Chatterjie",
+            "img": "./images/techteam/Krish Chatterjie.jpg",
+            "role": "Frontend",
             "in": true
         },
         {
@@ -113,12 +161,6 @@
         {
             "name": "Abhishek Kushwaha",
             "img": "./images/techteam/abhishek.jpg",
-            "role": "Backend",
-            "in": true
-        },
-        {
-            "name": "Kushal",
-            "img": "./images/techteam/kush.jpeg",
             "role": "Backend",
             "in": true
         },
@@ -138,6 +180,36 @@
             "name": "Pragati Bhattad",
             "img": "./images/techteam/PragatiBhattad.jpg",
             "role": "Backend",
+            "in": true
+        },
+        {
+            "name": "Vishal Chintam Reddy",
+            "img": "./images/techteam/Vishal Chintham.png",
+            "role": "Backend",
+            "in": true
+        },
+        {
+            "name":"Abhiram Joshi",
+            "img": "./images/techteam/Abhiram Joshi.jpg",
+            "role": "Backend",
+            "in": true
+        },
+        {
+            "name":"Krishap Sreenivasan S",
+            "img": "./images/techteam/Krishap Sreenivasan.jpg",
+            "role": "Backend",
+            "in": true
+        },
+        {
+            "name":"Rehaan Mazid",
+            "img": "./images/techteam/Rehaan_Mazid.jpg",
+            "role": "Backend",
+            "in": true
+        },
+        {
+            "name": "Kushal",
+            "img": "./images/techteam/kush.jpeg",
+            "role": "Security",
             "in": true
         },
         {
@@ -177,21 +249,9 @@
             "in": true
         },
         {
-            "name": "Govind Krishnan",
-            "img": "./images/techteam/GovindKrishnan.jpg",
-            "role": "System Developer",
-            "in": false
-        },
-        {
-            "name":"Vishesh Bansal",
-            "img": "./images/techteam/Vishesh Bansal.png",
-            "role": "PYTHON",
-            "in": true
-        },
-        {
-            "name":"Pranjal Timilsina",
-            "img": "./images/techteam/Pranjal Timsina.jpg",
-            "role": "PYTHON",
+            "name": "Sharanya Mukherjee",
+            "img": "./images/techteam/Sharanya Mukherjee.jpg",
+            "role": "ML",
             "in": true
         },
         {
@@ -201,45 +261,21 @@
             "in": true
         },
         {
-            "name":"Pratham Jain",
-            "img": "./images/techteam/Pratham Jain.jpg",
-            "role": "FRONTEND",
+            "name": "Govind Krishnan",
+            "img": "./images/techteam/GovindKrishnan.jpg",
+            "role": "System Developer",
+            "in": false
+        },
+        {
+            "name":"Vishesh Bansal",
+            "img": "./images/techteam/Vishesh Bansal.png",
+            "role": "Python",
             "in": true
         },
         {
-            "name":"Krish Chatterjie",
-            "img": "./images/techteam/Krish Chatterjie.jpg",
-            "role": "FRONTEND",
-            "in": true
-        },
-        {
-            "name":"Jeevan Yohan Varghese",
-            "img": "./images/techteam/Jeevan Yohan Varghese.jpeg",
-            "role": "APPDEV",
-            "in": true
-        },
-        {
-            "name":"Yajat Malhotra",
-            "img": "./images/techteam/Yajat Malhotra.jpeg",
-            "role": "APPDEV",
-            "in": true
-        },
-        {
-            "name":"Abhiram Joshi",
-            "img": "./images/techteam/Abhiram Joshi.jpg",
-            "role": "BACKEND",
-            "in": true
-        },
-        {
-            "name":"Krishap Sreenivasan S",
-            "img": "./images/techteam/Krishap Sreenivasan.jpg",
-            "role": "BACKEND",
-            "in": true
-        },
-        {
-            "name":"Rehaan Mazid",
-            "img": "./images/techteam/Rehaan_Mazid.jpg",
-            "role": "BACKEND",
+            "name":"Pranjal Timilsina",
+            "img": "./images/techteam/Pranjal Timsina.jpg",
+            "role": "Python",
             "in": true
         }
     ],
@@ -383,6 +419,12 @@
             "in": true
         },
         {
+            "name": "Tanmay Srivastava",
+            "img": "./images/managers/Tanmay_Srivastava.png",
+            "role": "Manager",
+            "in": true
+        },
+        {
             "name":"Aditya Mitran",
             "img": "./images/managers/Aditya_M_DSC.jpg",
             "role": "Manager",
@@ -413,8 +455,8 @@
             "in": true
         },
         {
-            "name":"Kush",
-            "img": "",
+            "name":"Kush Ojha",
+            "img": "./images/managers/Kush Ojha.jpeg",
             "role": "Manager",
             "in": true
         },
@@ -537,7 +579,7 @@
         {
             "name": "Vishesh Choudhary",
             "role": "Video & <br>Motion Graphcis",
-            "img": "",
+            "img": "./images/designers/Vishesh_Choudhary.jpg",
             "in": true
         }
     ]
