@@ -15,7 +15,7 @@
         {
             "name": "Prateek Mewara",
             "img": "./images/techteam/prateek.jpg",
-            "role": "Android Lead",
+            "role": "App Dev Lead",
             "in": true
         },
         {
@@ -53,19 +53,19 @@
         {
             "name": "Amogh Lele",
             "img": "./images/techteam/amogh.jpg",
-            "role": "Android",
+            "role": "App Dev",
             "in": true
         },
         {
             "name": "Siddhartha",
             "img": "./images/techteam/siddhartha.jpg",
-            "role": "Android",
+            "role": "App Dev",
             "in": true
         },
         {
             "name": "Fenil Jain",
             "img": "./images/techteam/fenil.jpg",
-            "role": "Android",
+            "role": "App Dev",
             "in": true
         },
         {
@@ -325,7 +325,7 @@
         {
             "name": "Naynika Wason",
             "img": "./images/managers/naynika.jpg",
-            "role": "Content",
+            "role": "Manager",
             "in": true
         },
         {
@@ -347,7 +347,7 @@
             "in": false
         },
         {
-            "name": "ABDEALI",
+            "name": "Abdeali",
             "img": "./images/managers/ABDEALI.jpg",
             "role": "Manager",
             "in": true
@@ -496,7 +496,7 @@
             "name": "Riya Kanabar",
             "img": "./images/designers/riya.jpg",
             "role": "Graphic",
-            "in": true
+            "in": false
         },
         {
             "name": "Ruchica Sinha",
