@@ -3,6 +3,8 @@ $(document).ready(function () {
 
     checkDark();
 
+    let api = "https://medium-feed-app.herokuapp.com"
+
     $('#dark-light-toggle').click(function(){
         toggleDark();
         checkDark();
@@ -19,7 +21,7 @@ $(document).ready(function () {
     //     alert(error)
     // })
     function gettext() {
-        fetch('https://medium-f.herokuapp.com/api/v2/articles?orgid=gdg-vit' ,{
+        fetch( api + '/api/v2/articles?orgid=gdg-vit' ,{
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json'
