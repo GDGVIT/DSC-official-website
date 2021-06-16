@@ -51,12 +51,6 @@
     ],
     "technical": [
         {
-            "name": "Amogh Lele",
-            "img": "./images/techteam/amogh.jpg",
-            "role": "App Dev",
-            "in": true
-        },
-        {
             "name": "Siddhartha",
             "img": "./images/techteam/siddhartha.jpg",
             "role": "App Dev",
