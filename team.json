@@ -1,6 +1,5 @@
 {
     "board": [
-
         {
             "name": "Riddhi Gupta",
             "img": "./images/techteam/riddhi.jpg",
@@ -19,8 +18,6 @@
             "role": "Technical Lead",
             "in": true
         },
-        
-       
         {
             "name": "Aditya Rathore",
             "img": "./images/designers/aditya.jpg",
@@ -63,6 +60,8 @@
             "role": "Events &amp; Internal affairs Lead",
             "in": true
         },
+
+
 
         {
             "name": "Angad Sharma",
