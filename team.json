@@ -1,61 +1,118 @@
 {
     "board": [
         {
+            "name": "Riddhi Gupta",
+            "img": "./images/techteam/riddhi.jpg",
+            "role": "Community Lead",
+            "in": true
+        },
+        {
+            "name": "Muskan Rastogi",
+            "img": "./images/managers/muskan.jpg",
+            "role": "Operations Lead",
+            "in": true
+        },
+        {
+            "name": "Shantanu Verma",
+            "img": "./images/techteam/ShantanuVerma.jpg",
+            "role": "Technical Lead",
+            "in": true
+        },
+        {
+            "name": "Aditya Rathore",
+            "img": "./images/designers/aditya.jpg",
+            "role": "Design Lead for Projects",
+            "in": true
+        },
+        {
+            "name": "Shravani Shete",
+            "img": "./images/designers/shravani.jpg",
+            "role": "Design Lead for Events",
+            "in": true
+        },
+        {
+            "name": "Siddhartha Varma",
+            "img": "./images/techteam/siddhartha.jpg",
+            "role": "App Lead",
+            "in": true
+        },
+        {
+            "name": "Ananya Ganesh",
+            "img": "./images/techteam/ananya.jpg",
+            "role": "Web &amp; Women empowerment lead",
+            "in": true
+        },
+        {
+            "name": "Shubham Srivastava",
+            "img": "./images/managers/shubham.jpg",
+            "role": "Projects &amp; External affairs Lead",
+            "in": true
+        },
+        {
+            "name": "Kritika Sharma",
+            "img": "./images/managers/kritika.jpg",
+            "role": "Digital Marketing &amp; Content Lead",
+            "in": true
+        },
+        {
+            "name": "Naynika Wason",
+            "img": "./images/managers/naynika.jpg",
+            "role": "Events &amp; Internal affairs Lead",
+            "in": true
+        },
+
+
+
+        {
             "name": "Angad Sharma",
             "img": "./images/techteam/angad.jpg",
             "role": "Community Lead",
-            "in": true
+            "in": false
         },
         {
             "name": "Ubaid Usmani",
             "img": "./images/techteam/ubaid.jpg",
             "role": "Technical Lead",
-            "in": true
+            "in": false
         },
         {
             "name": "Prateek Mewara",
             "img": "./images/techteam/prateek.jpg",
             "role": "App Dev Lead",
-            "in": true
+            "in": false
         },
         {
             "name": "Ekaansh Arora",
             "img": "./images/designers/ekaansh.jpg",
             "role": "Design Lead",
-            "in": true
+            "in": false
         },
         {
             "name": "Meherdeep Thakur",
             "img": "./images/managers/meherdeep.jpg",
             "role": "Management Lead",
-            "in": true
+            "in": false
         },
         {
             "name": "Sanchi Chopra",
             "img": "./images/managers/sanchi.jpg",
             "role": "WTM Lead",
-            "in": true
+            "in": false
         },
         {
             "name": "Deepak Nahar",
             "img": "./images/managers/deepak.jpg",
             "role": "Digital Marketing &amp; Content Lead",
-            "in": true
+            "in": false
         },
         {
             "name": "Satkriti Singh",
             "img": "./images/techteam/satkriti.jpg",
             "role": "Women Empowerment <br>Lead",
-            "in": true
+            "in": false
         }
     ],
     "technical": [
-        {
-            "name": "Siddhartha",
-            "img": "./images/techteam/siddhartha.jpg",
-            "role": "App Dev",
-            "in": true
-        },
         {
             "name": "Fenil Jain",
             "img": "./images/techteam/fenil.jpg",
@@ -99,12 +156,6 @@
             "in": false
         },
         {
-            "name": "Ananya Ganesh",
-            "img": "./images/techteam/ananya.jpg",
-            "role": "Frontend",
-            "in": true
-        },
-        {
             "name": "Nirmit Jatana",
             "img": "./images/techteam/nirmit.jpeg",
             "role": "Frontend",
@@ -144,12 +195,6 @@
             "name":"Krish Chatterjie",
             "img": "./images/techteam/Krish Chatterjie.jpg",
             "role": "Frontend",
-            "in": true
-        },
-        {
-            "name": "Riddhi Gupta",
-            "img": "./images/techteam/riddhi.jpg",
-            "role": "Backend",
             "in": true
         },
         {
@@ -225,12 +270,6 @@
             "in": false
         },
         {
-            "name": "Shantanu Verma",
-            "img": "./images/techteam/ShantanuVerma.jpg",
-            "role": "ML",
-            "in": true
-        },
-        {
             "name": "Chanakya Kapoor",
             "img": "./images/techteam/chanakya.jpg",
             "role": "ML",
@@ -297,30 +336,6 @@
             "img": "./images/managers/akshat.jpg",
             "role": "Manager",
             "in": false
-        },
-        {
-            "name": "Shubham Srivastava",
-            "img": "./images/managers/shubham.jpg",
-            "role": "Manager",
-            "in": true
-        },
-        {
-            "name": "Muskan Rastogi",
-            "img": "./images/managers/muskan.jpg",
-            "role": "Manager",
-            "in": true
-        },
-        {
-            "name": "Kritika Sharma",
-            "img": "./images/managers/kritika.jpg",
-            "role": "Manager",
-            "in": true
-        },
-        {
-            "name": "Naynika Wason",
-            "img": "./images/managers/naynika.jpg",
-            "role": "Manager",
-            "in": true
         },
         {
             "name": "Saloni Parekh",
@@ -495,18 +510,6 @@
         {
             "name": "Ruchica Sinha",
             "img": "./images/designers/ruchica.jpg",
-            "role": "Graphic",
-            "in": true
-        },
-        {
-            "name": "Aditya Rathore",
-            "img": "./images/designers/aditya.jpg",
-            "role": "3D &amp; Motion",
-            "in": true
-        },
-        {
-            "name": "Shravani Shete",
-            "img": "./images/designers/shravani.jpg",
             "role": "Graphic",
             "in": true
         },
