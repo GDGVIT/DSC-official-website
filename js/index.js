@@ -351,8 +351,11 @@ var checkDark = function (){
 
 }
 
-document.querySelector('#dark-light-toggle').addEventListener('click', () => {
+let toggle = () => {
     console.log('a')
     toggleDark();
     checkDark();
-})
+}
+
+document.querySelector('#dark-light-toggle').addEventListener('click', toggle)
+
