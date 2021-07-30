@@ -2,11 +2,37 @@ let emailValue = '';
 let emailValidity = false;
 let FCMToken = '';
 let recaptchaToken = '';
-let messaging = firebase.messaging();
+let messaging
+let submitEmail
+try{
+    messaging = firebase.messaging();
+    messaging.onMessage(function(payload){
+        return self.ServiceWorkerRegistration.showNotification(title,options);
+    })
+    submitEmail = () => {
+    
+        if(emailValidity){
+            messaging.requestPermission()
+            .then((permission) => {
+                console.log('Notification permission granted.');
+                return messaging.getToken();
+            })
+            .then((token) => {
+                FCMToken = token;
+                submitEmailwithToken();
+                localStorage.setItem('userNotificationTokenDSC', FCMToken);
+            });
+        }
+        else{
+            console.log('Invalid Email')
+        }
+    }
+}
+catch(e){
+    console.log(e)
+}
 
-messaging.onMessage(function(payload){
-    return self.ServiceWorkerRegistration.showNotification(title,options);
-})
+
 
 function validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -88,24 +114,7 @@ function submitEmailwithToken(){
 }
 
 
-function submitEmail(){
-    
-    if(emailValidity){
-        messaging.requestPermission()
-        .then((permission) => {
-            console.log('Notification permission granted.');
-            return messaging.getToken();
-        })
-        .then((token) => {
-            FCMToken = token;
-            submitEmailwithToken();
-            localStorage.setItem('userNotificationTokenDSC', FCMToken);
-        });
-    }
-    else{
-        console.log('Invalid Email')
-    }
-}
+
 
 if(localStorage.getItem('userNotificationTokenDSC')===null){
     FCMToken = generateToken();
@@ -357,7 +366,7 @@ let toggle = () => {
     checkDark();
 }
 
-console.log('yaea')
 
-// document.querySelector('#dark-light-toggle').addEventListener('click', toggle)
+
+document.querySelector('#dark-light-toggle').addEventListener('click', toggle)
 
