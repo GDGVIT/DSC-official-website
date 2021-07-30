@@ -202,11 +202,7 @@ $(document).ready(function () {
 
     checkDark();
 
-    document.querySelector('#dark-light-toggle').addEventListener('click', () => {
-        console.log('a')
-        toggleDark();
-        checkDark();
-    })
+    
 
     // Scroll Clicks
     $("#home").click(function () {
@@ -354,3 +350,9 @@ var checkDark = function (){
     }
 
 }
+
+document.querySelector('#dark-light-toggle').addEventListener('click', () => {
+    console.log('a')
+    toggleDark();
+    checkDark();
+})
