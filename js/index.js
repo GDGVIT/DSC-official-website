@@ -327,7 +327,6 @@ $(document).ready(function () {
 })
 
 var toggleDark = function(){
-    console.log('arst')
     if(!$('body').hasClass('dark')){
         localStorage.setItem('dark',true);
     }
@@ -361,7 +360,6 @@ var checkDark = function (){
 }
 
 let toggle = () => {
-    console.log('a')
     toggleDark();
     checkDark();
 }
