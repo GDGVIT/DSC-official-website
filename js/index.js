@@ -203,6 +203,7 @@ $(document).ready(function () {
     checkDark();
 
     $('#dark-light-toggle').click(function(){
+        console.log('a')
         toggleDark();
         checkDark();
     })
@@ -321,6 +322,7 @@ $(document).ready(function () {
 })
 
 var toggleDark = function(){
+    console.log('arst')
     if(!$('body').hasClass('dark')){
         localStorage.setItem('dark',true);
     }
