@@ -202,7 +202,7 @@ $(document).ready(function () {
 
     checkDark();
 
-    $('#dark-light-toggle').click(function(){
+    document.querySelector('#dark-light-toggle').addEventListener('click', () => {
         console.log('a')
         toggleDark();
         checkDark();
