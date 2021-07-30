@@ -357,5 +357,7 @@ let toggle = () => {
     checkDark();
 }
 
-document.querySelector('#dark-light-toggle').addEventListener('click', toggle)
+console.log('yaea')
+
+// document.querySelector('#dark-light-toggle').addEventListener('click', toggle)
 
