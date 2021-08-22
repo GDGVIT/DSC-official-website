@@ -29,9 +29,11 @@ html{
 }
 .logo-nav {
     width:250px;
+    margin-top: 10px;
 }
 .logo-nav-light{
-    width:300px
+    width:250px;
+    margin-top: 10px;
 }
 .dark{
     color: #ffffff;
