@@ -466,8 +466,12 @@ body{
     max-width: 190px;
     max-height: 190px;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
-    object-fit: none;
+    object-fit: cover;
     background: #ffffff;
+}
+
+.circle-icon.spc{
+    object-fit: none;
 }
 
 .small-icons .circle-icon{
