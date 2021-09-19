@@ -179,11 +179,15 @@ body{
 }
 .logo-nav {
     width:250px;
-    height:60px;
+    margin-top: 13px;
+    margin-left: 0px !important;
+    height: auto;
 }
 .logo-nav-light{
-    width:300px;
-    height:60px;
+    width:250px;
+    margin-top: 13px;
+    margin-left: 0px !important;
+    height: auto;
 }
 .navbar-dsc-logo{
     padding-top:0px;
@@ -225,11 +229,12 @@ body{
     background: #141414;
 }
 
+
 .navbar-dsc-logo{
     height: 40px;
     width: 140px;
     float: left;
-    padding-left: 10vw;
+    padding-left: 3vw;
     display: none;
     position: relative;
     top: 35%;
@@ -880,12 +885,20 @@ input:focus{
         width: 80%;
         margin: auto auto;
     }
+    .logo-nav{
+        width:50vw;
+        margin-left: 0px !important;
+    }
+    .logo-nav-light{
+        width:50vw;
+        margin-left: 0px !important;
+    }
 
     #projects-button{
         margin-bottom: 30px;
     }
     .navbar-dsc-logo{
-        top:27%;
+        top:40%;
     }
 
 }
