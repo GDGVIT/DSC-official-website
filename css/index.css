@@ -29,14 +29,25 @@ html{
 }
 .logo-nav {
     width:250px;
-    margin-top: 10px;
+    margin-top: 13px;
+    margin-left: 0px !important;
 }
 .logo-nav-light{
     width:250px;
-    margin-top: 10px;
+    margin-top: 13px;
+    margin-left: 0px !important;
 }
 .dark{
     color: #ffffff;
+}
+.menu-phone > svg > g{
+    fill: none !important;
+    stroke: rgb(20, 20, 20) !important;
+}
+
+.dark .menu-phone > svg > g{
+    fill: white !important;
+    stroke: white !important;
 }
 
 a{
@@ -233,7 +244,7 @@ body{
     height: 40px;
     width: 140px;
     float: left;
-    padding-left: 10vw;
+    padding-left: 3vw;
     display: none;
     position: relative;
     top: 35%;
@@ -798,16 +809,18 @@ input:focus{
         margin-bottom: 30px;
     }
     .logo{
-        width:250px;
+        width:65vw;
     }
     .logo-light{
-        width:250px;
+        width:65vw;
     }
     .logo-nav{
-        width:250px;
+        width:50vw;
+        margin-left: 0px !important;
     }
     .logo-nav-light{
-        width:280px;
+        width:50vw;
+        margin-left: 0px !important;
     }
     .navbar-dsc-logo{
         top:40%;
