@@ -2,31 +2,31 @@
     "board": [
         {
             "name": "Chanakya Vivek Kapoor",
-            "img": "https://drive.google.com/open?id=1TXzTYkqaHG_hVJ5_DGUMNRVTR1Y38sPq",
+            "img": "./images/board20/chanakya_vivek_kapoor.jpg",
             "year": "Fourth",
             "regNo": "19BDS0004",
             "role": "Community Lead",
             "in": true
         },
         {
-            "name": "Sai Teja Reddy T",
-            "img": "https://drive.google.com/open?id=12CZu9NkSs5pIx5zMne2VM0mxETnGkv1Y",
-            "year": "Fourth",
-            "regNo": "19BCE0293",
-            "role": "Web Lead",
-            "in": true
-        },
-        {
             "name": "Nirmit Jatana",
-            "img": "https://drive.google.com/open?id=1DOIj5IThw0al6EymYUK4Nc1ieyhdq7V_",
+            "img": "./images/board20/nirmit_jatana.jpg",
             "year": "Fourth",
             "regNo": "19BIT0017",
             "role": "Open Source and Projects Lead",
             "in": true
         },
         {
-            "name": "Swayam Shashwat Sharma ",
-            "img": "https://drive.google.com/open?id=1ZDkw-q-0seowa3qXAtyXAQwRlhST4jv_",
+            "name": "Sai Teja Reddy T",
+            "img": "./images/board20/sai_teja_reddy_t.jpg",
+            "year": "Fourth",
+            "regNo": "19BCE0293",
+            "role": "Web Lead",
+            "in": true
+        },
+        {
+            "name": "Swayam Shashwat Sharma",
+            "img": "./images/board20/swayam_shashwat_sharma.jpg",
             "year": "Fourth",
             "regNo": "19BCE0523",
             "role": "Design Lead Projects",
@@ -34,7 +34,7 @@
         },
         {
             "name": "Shresth Tiwary",
-            "img": "https://drive.google.com/open?id=19_TZL3gKod63yvaXbXPmYT4lylg2dvPL",
+            "img": "./images/board20/shresth_tiwary.jpg",
             "year": "Fourth",
             "regNo": "19BCE2701",
             "role": "Management Lead",
@@ -43,7 +43,7 @@
 
         {
             "name": "Rithik Jain",
-            "img": "https://drive.google.com/open?id=1MbjWf8JGLz4PqbMmAdLtGW5gv2x-gk_k",
+            "img": "./images/board20/rithik_jain.jpg",
             "year": "Fourth",
             "regNo": "19BDS0014",
             "role": "Technical Head",
@@ -51,15 +51,15 @@
         },
         {
             "name": "Ishi Yadav",
-            "img": "https://drive.google.com/open?id=1TPzicAd3WYt5K0OrMa92HlaMSdZCrA9L",
+            "img": "./images/board20/ishi_yadav.jpg",
             "year": "Fourth",
             "regNo": "19BCE0482",
             "role": "Design Lead - Events",
             "in": true
         },
         {
-            "name": "Mayank Kumar ",
-            "img": "https://drive.google.com/open?id=1N8pDwiT-u_D6p7yMVOZ--ALujZbzwIdJ",
+            "name": "Mayank Kumar",
+            "img": "./images/board20/mayank_kumar.jpg",
             "year": "Fourth",
             "regNo": "19BIT0190",
             "role": "Cloud and security Lead",
@@ -69,7 +69,7 @@
     "technical": [
         {
             "name": "Vishesh Bansal",
-            "img": "https://drive.google.com/open?id=1u2B6dTchmGIeWUu2vgb5Hgs1GSpdHI5s",
+            "img": "./images/techteam/vishesh_bansal.jpg",
             "year": "Third",
             "regNo": "20BCE2301",
             "role": "Machine Learning",
@@ -77,39 +77,39 @@
         },
         {
             "name": "Ojas Tyagi",
-            "img": "https://drive.google.com/open?id=1iI2FasgYuFL8V7jHLBR7axvmXO5REBUP",
+            "img": "./images/techteam/ojas_tyagi.jpg",
             "year": "Second",
             "regNo": "21BDS0026",
-            "role": "Frontend",
+            "role": "Frontend Developer",
             "in": true
         },
         {
             "name": "Prashanna Rajbhandari",
-            "img": "https://drive.google.com/open?id=1StLQFFOICWF1L3HV-QcVM3suTLm1Qw_f",
+            "img": "./images/techteam/prashanna_rajbhandari.jpg",
             "year": "Second",
             "regNo": "21BCE3760",
-            "role": "App development ",
+            "role": "App development",
             "in": true
         },
         {
             "name": "Sankhayan Bhattacharjee",
-            "img": "https://drive.google.com/open?id=1b4KvJ7ZfxMKgjQgmoq1Z8vzsisMm1DLG",
+            "img": "./images/techteam/sankhayan_bhattacharjee.jpg",
             "year": "Second",
             "regNo": "21BCB0117",
             "role": "Backend",
             "in": true
         },
         {
-            "name": "Krishap S Sreenivasan ",
-            "img": "https://drive.google.com/open?id=1gU5s_iefksm7tMiFouRABM2CzRS273O5",
+            "name": "Krishap S Sreenivasan",
+            "img": "./images/techteam/krishap_s_sreenivasan.jpg",
             "year": "Third",
             "regNo": "20BCI0146",
-            "role": "Backend and security team",
+            "role": "Backend and Security team",
             "in": true
         },
         {
             "name": "Abhijeet Bhardwaj",
-            "img": "https://drive.google.com/open?id=11WTsYFZv3LdXGDAjcxt2KQhbffOfkW20",
+            "img": "./images/techteam/abhijeet_bhardwaj.jpg",
             "year": "Second",
             "regNo": "21BCB0139",
             "role": "Application Developer",
@@ -117,7 +117,7 @@
         },
         {
             "name": "Vignesh Natarajan",
-            "img": "https://drive.google.com/open?id=14r3zHTaoJvY3TY3gIXa_aNcwuAR3Zlgy",
+            "img": "./images/techteam/vignesh_natarajan.jpg",
             "year": "Second",
             "regNo": "21BEC2398",
             "role": "Backend",
@@ -125,7 +125,7 @@
         },
         {
             "name": "Sayar Bhattacharyya",
-            "img": "https://drive.google.com/open?id=1NEJm4LbeZjJvYbHM_lbMPEFDTOT2bCaJ",
+            "img": "./images/techteam/sayar_bhattacharyya.jpg",
             "year": "Second",
             "regNo": "21BEC0752",
             "role": "Frontend",
@@ -133,7 +133,7 @@
         },
         {
             "name": "Rehaan Mazid",
-            "img": "https://drive.google.com/open?id=1eMiiXmYInL6Wb9o9V_k5rhJJiYBiibhd",
+            "img": "./images/techteam/rehaan_mazid.jpg",
             "year": "Third",
             "regNo": "20BDS0119",
             "role": "Extended Reality and Backend Developer",
@@ -141,7 +141,7 @@
         },
         {
             "name": "Anirudh Mishra",
-            "img": "https://drive.google.com/open?id=1JhOQ0CLHlscblj3y_oFBMKEed3li5YK1",
+            "img": "./images/techteam/anirudh_mishra.jpg",
             "year": "Second",
             "regNo": "21BCT0168",
             "role": "Frontend",
@@ -149,7 +149,7 @@
         },
         {
             "name": "Anand Rajaram",
-            "img": "https://drive.google.com/open?id=1iEWkmfE8WzyoQADYi5d61BV_Qf5R-sXj",
+            "img": "./images/techteam/anand_rajaram.jpg",
             "year": "Second",
             "regNo": "21BCI0068",
             "role": "Cybersecurity",
@@ -157,23 +157,23 @@
         },
         {
             "name": "Ameya Swapneel Kore",
-            "img": "https://drive.google.com/open?id=1uuMM7HxRUZhlnbWzvVjIU4PK3FG2yeOw",
+            "img": "./images/techteam/ameya_swapneel_kore.jpg",
             "year": "Second",
             "regNo": "21BCE2530",
-            "role": "Full stack",
+            "role": "Full Stack",
             "in": true
         },
         {
-            "name": "Rudrank Basant ",
-            "img": "https://drive.google.com/open?id=1iEQEuYRQ8BDKpw0AcAHHOE1i86vdlPBO",
+            "name": "Rudrank Basant",
+            "img": "./images/techteam/rudrank_basant.jpg",
             "year": "Second",
             "regNo": "21BCI0149",
-            "role": "Android App Development ",
+            "role": "Android App Development",
             "in": true
         },
         {
             "name": "Yajat Malhotra",
-            "img": "https://drive.google.com/open?id=1yq14G6czgRwc4pfZshijiABET5ZZ-zxS",
+            "img": "./images/techteam/yajat_malhotra.jpg",
             "year": "Third",
             "regNo": "20BCE0554",
             "role": "Machine Learning",
@@ -181,7 +181,7 @@
         },
         {
             "name": "Anish Raghavendra",
-            "img": "https://drive.google.com/open?id=1AUC55JJmNN9Vp17WPsTsH3yyx94qeCEX",
+            "img": "./images/techteam/anish_raghavendra.jpg",
             "year": "Third",
             "regNo": "20BDS0154",
             "role": "ML Team",
@@ -189,7 +189,7 @@
         },
         {
             "name": "Sricharan Ramesh",
-            "img": "https://drive.google.com/open?id=1p_3xFqq6tdDKHOJbUNLjdZ_zxAPYSCVt",
+            "img": "./images/techteam/sricharan_ramesh.jpg",
             "year": "Fourth",
             "regNo": "19BCE0223",
             "role": "Frontend",
@@ -197,7 +197,7 @@
         },
         {
             "name": "Aman Sharma",
-            "img": "https://drive.google.com/open?id=1RYviR9NAgCgNVvpRy1-sunfdqz3Oc_bT",
+            "img": "./images/techteam/aman_sharma.jpg",
             "year": "Third",
             "regNo": "20BCT0267",
             "role": "Machine Learning",
@@ -205,7 +205,7 @@
         },
         {
             "name": "Pranjal Timsina",
-            "img": "https://drive.google.com/open?id=1jwPLHlgy5k1KkF_3mpD5fn-bPu-i5fsU",
+            "img": "./images/techteam/pranjal_timsina.jpg",
             "year": "Third",
             "regNo": "20BDS0392",
             "role": "Frontend",
@@ -213,23 +213,23 @@
         },
         {
             "name": "Mayhul Jindal",
-            "img": "https://drive.google.com/open?id=11XesZGXK1UP_YCSj-Fo9mwyPOefc3hCt",
+            "img": "./images/techteam/mayhul_jindal.jpg",
             "year": "Second",
             "regNo": "21BCE0300",
-            "role": "Backend Engineer, Cyber Security ",
+            "role": "Backend Engineer, Cyber Security",
             "in": true
         },
         {
             "name": "Chirantan Jain",
-            "img": "https://drive.google.com/open?id=1XWJ60CQKHSMT40oodF05_jffCY6AmcdK",
+            "img": "./images/techteam/chirantan_jain.jpg",
             "year": "Second",
             "regNo": "21BCE0509",
-            "role": "Frontend ",
+            "role": "Frontend",
             "in": true
         },
         {
             "name": "Jeevan Yohan Varghese",
-            "img": "https://drive.google.com/open?id=1ceU9jM1szrsujYVqPlYC2kox-aLTPUxG",
+            "img": "./images/techteam/jeevan_yohan_varghese.jpg",
             "year": "Third",
             "regNo": "20BCE0083",
             "role": "App Dev",
@@ -237,7 +237,7 @@
         },
         {
             "name": "Kartik Gupta",
-            "img": "https://drive.google.com/open?id=1STARdPY1Y5Gvw1W4zWOG6UIxtA4GUTkr",
+            "img": "./images/techteam/kartik_gupta.jpg",
             "year": "Second",
             "regNo": "21BCI0194",
             "role": "Cyber Security",
@@ -245,23 +245,23 @@
         },
         {
             "name": "Abhiram Vinoy Joshi",
-            "img": "https://drive.google.com/open?id=16dv47P82DkS-gAY62v2_XZDK5E3jRWAO",
+            "img": "./images/techteam/abhiram_vinoy_joshi.jpg",
             "year": "Third",
             "regNo": "20BCE0504",
             "role": "Backend",
             "in": true
         },
         {
-            "name": "Priyanka Kumari ",
-            "img": "https://drive.google.com/open?id=1Qd9hLNThOo-2QFy4kYtZqzmB-3g70uFK",
+            "name": "Priyanka Kumari",
+            "img": "./images/techteam/priyanka_kumari.jpg",
             "year": "Third",
             "regNo": "20BCE2334",
-            "role": "Machine learning ",
+            "role": "Machine learning",
             "in": true
         },
         {
             "name": "Vishruth Devan",
-            "img": "https://drive.google.com/open?id=1hFvcANzzQXxIwHRgBNv8L7AQgkrGMSg4",
+            "img": "./images/techteam/vishruth_devan.jpg",
             "year": "Third",
             "regNo": "20BCE2953",
             "role": "Backend",
@@ -269,7 +269,7 @@
         },
         {
             "name": "Siddharth Nikhil",
-            "img": "https://drive.google.com/open?id=1kNyU7zGSLrphsLXw3x7HKY5OHkV9taJZ",
+            "img": "./images/techteam/siddharth_nikhil.jpg",
             "year": "Second",
             "regNo": "21BCE3587",
             "role": "Backend",
@@ -277,7 +277,7 @@
         },
         {
             "name": "Krish Chatterjie",
-            "img": "https://drive.google.com/open?id=1ewqNRdDziPxLrjL7qNuB0GztobNjqfmh",
+            "img": "./images/techteam/krish_chatterjie.jpg",
             "year": "Third",
             "regNo": "20BCE0516",
             "role": "Frontend",
@@ -285,7 +285,7 @@
         },
         {
             "name": "Sharanya Mukherjee",
-            "img": "https://drive.google.com/open?id=1QNej6vnZ1kA8_t20__xT9ERzoZW1E7UP",
+            "img": "./images/techteam/sharanya_mukherjee.jpg",
             "year": "Fourth",
             "regNo": "19BCE2676",
             "role": "Machine Learning",
@@ -293,15 +293,15 @@
         },
         {
             "name": "Anuj Parihar",
-            "img": "https://drive.google.com/open?id=1FJuyQG6bTkxjabqgPfC1Z5s7bWFx-Z5-",
+            "img": "./images/techteam/anuj_parihar.jpg",
             "year": "Second",
             "regNo": "21BBS0162",
             "role": "Backend",
             "in": true
         },
         {
-            "name": "Md Hishaam Akhtar ",
-            "img": "https://drive.google.com/open?id=1DBFChoXHK6oyrCilu6DMhuYnPb1g2U03",
+            "name": "Md Hishaam Akhtar",
+            "img": "./images/techteam/md_hishaam_akhtar.jpg",
             "year": "Fourth",
             "regNo": "19BCE0300",
             "role": "Backend",
@@ -310,8 +310,8 @@
     ],
     "management": [
         {
-            "name": "Arnav Jaggi ",
-            "img": "https://drive.google.com/open?id=1wzPkYIeVIDu0Ah5rC6-P3STaHqa1CNSq",
+            "name": "Arnav Jaggi",
+            "img": "./images/managers/arnav_jaggi.jpg",
             "year": "Second",
             "regNo": "21BCT0040",
             "role": "Operations",
@@ -319,7 +319,7 @@
         },
         {
             "name": "Sanvi Chavan",
-            "img": "https://drive.google.com/open?id=1YMT0EDAJW6V-JH10_JcDt172INL9imDF",
+            "img": "./images/managers/sanvi_chavan.jpg",
             "year": "Second",
             "regNo": "21BDS0166",
             "role": "Marketing",
@@ -327,7 +327,7 @@
         },
         {
             "name": "Astha Jha",
-            "img": "https://drive.google.com/open?id=1iabROp9yrsQfwlngAx8adIG8Ye-0h6hk",
+            "img": "./images/managers/astha_jha.jpg",
             "year": "Third",
             "regNo": "20BIT0268",
             "role": "Marketing",
@@ -335,7 +335,7 @@
         },
         {
             "name": "Ananya Elizabeth George",
-            "img": "https://drive.google.com/open?id=1iFEmE3KMDewlu-9VWGQQLIt36znZOycr",
+            "img": "./images/managers/ananya_elizabeth_george.jpg",
             "year": "Third",
             "regNo": "20BDS0116",
             "role": "Content",
@@ -343,47 +343,47 @@
         },
         {
             "name": "Dhruv Rajeshkumar Shah",
-            "img": "https://drive.google.com/open?id=1sSTZn60wzw5Az9DDu8ui-8cSHs7nFO_3",
+            "img": "./images/managers/dhruv_rajeshkumar_shah.jpg",
             "year": "Second",
             "regNo": "21BCE0611",
             "role": "Operations",
             "in": true
         },
         {
-            "name": "Anoushka Balamurugan ",
-            "img": "https://drive.google.com/open?id=10yX4_TLuSLMnX3_sZBCs0DvM45iQ4Ulp",
+            "name": "Anoushka Balamurugan",
+            "img": "./images/managers/anoushka_balamurugan.jpg",
             "year": "Second",
             "regNo": "21BCE0616",
-            "role": "Event operations ",
+            "role": "Event operations",
             "in": true
         },
         {
             "name": "Raggav Subramani",
-            "img": "https://drive.google.com/open?id=1oI3-2dWKPlLZU8C9v9FolAjBoT5nJCvv",
+            "img": "./images/managers/raggav_subramani.jpg",
             "year": "Third",
             "regNo": "20BCT0127",
             "role": "Operations",
             "in": true
         },
         {
-            "name": "Gurnehmat Kaur Dhindsa ",
-            "img": "https://drive.google.com/open?id=1_W6z7nmckQZXy4_OjT9B9ThW8cVdXg68",
+            "name": "Gurnehmat Kaur Dhindsa",
+            "img": "./images/managers/gurnehmat_kaur_dhindsa.jpg",
             "year": "Fourth",
             "regNo": "19BCE0227",
             "role": "Operations",
             "in": true
         },
         {
-            "name": "Aastha Gupta ",
-            "img": "https://drive.google.com/open?id=1eS71Ikv0-YxgHA4h_4DAjIoc2I-3DMxu",
+            "name": "Aastha Gupta",
+            "img": "./images/managers/aastha_gupta.jpg",
             "year": "Second",
             "regNo": "21BCE0166",
-            "role": "Content, Marketing ",
+            "role": "Content, Marketing",
             "in": true
         },
         {
             "name": "Mrinal Agarwal",
-            "img": "https://drive.google.com/open?id=1t5MiYnOvmOmtr7mVyodNMz0EP9QKEwBw",
+            "img": "./images/managers/mrinal_agarwal.jpg",
             "year": "Third",
             "regNo": "20BCE0485",
             "role": "Digital Marketing and Operations",
@@ -391,39 +391,39 @@
         },
         {
             "name": "Fahad Dalwai",
-            "img": "https://drive.google.com/open?id=11fDJnHzB4kT1Qyr41XaCe6jpSUPkiwjE",
+            "img": "./images/managers/fahad_dalwai.jpg",
             "year": "Third",
             "regNo": "20BCE0610",
             "role": "Content",
             "in": true
         },
         {
-            "name": "Sparsh Singh ",
-            "img": "https://drive.google.com/open?id=1Rl2iBBdEDOUrUThWOsb-snJGkX2SnEqz",
+            "name": "Sparsh Singh",
+            "img": "./images/managers/sparsh_singh.jpg",
             "year": "Second",
             "regNo": "21BEE0309",
             "role": "Sponsorship, Marketing, podcast!",
             "in": true
         },
         {
-            "name": "Aditya Mitra ",
-            "img": "https://drive.google.com/open?id=18tsL0DYSm4otKhMUatTxUYeFTYBfTSQL",
+            "name": "Aditya Mitra",
+            "img": "./images/managers/aditya_mitra.jpg",
             "year": "Third",
             "regNo": "20BCE2044",
             "role": "Content, Marketing and Manager",
             "in": true
         },
         {
-            "name": "namya arora",
-            "img": "https://drive.google.com/open?id=1MUREfRxkWFuuw8lavN7VDHuUkibVnzs2",
+            "name": "Namya Arora",
+            "img": "./images/managers/namya_arora.jpg",
             "year": "Third",
             "regNo": "20BCE2054",
-            "role": "Content ",
+            "role": "Content",
             "in": true
         },
         {
             "name": "Raghav Trivedi",
-            "img": "https://drive.google.com/open?id=1_Yw9k1-mBblufae3LoFZfJMShqZ__2VN",
+            "img": "./images/managers/raghav_trivedi.jpg",
             "year": "Second",
             "regNo": "21BCE0417",
             "role": "Manager, Content",
@@ -431,39 +431,39 @@
         },
         {
             "name": "Sanskriti Modi",
-            "img": "https://drive.google.com/open?id=1pCbBmq7LILfIN6OC-TI7JTn6vjZCBukh",
+            "img": "./images/managers/sanskriti_modi.jpg",
             "year": "Second",
             "regNo": "21BCB0202",
-            "role": "Digital marketing, sponsorships and operations ",
+            "role": "Digital marketing, Sponsorships and Operations",
             "in": true
         },
         {
             "name": "Arushi Tewari",
-            "img": "https://drive.google.com/open?id=1WWpx6TRchdqUFDTKSjVaXsRq57N7Ahbd",
+            "img": "./images/managers/arushi_tewari.jpg",
             "year": "Second",
             "regNo": "21BCE2114",
-            "role": "OPs + digital media and marketing ",
+            "role": "OPs + digital media and Marketing",
             "in": true
         },
         {
-            "name": "Kush Umesh Ojha ",
-            "img": "https://drive.google.com/open?id=1ZT3X2bMwFeJVetMpDgnJDYWCeWBYv3qo",
+            "name": "Kush Umesh Ojha",
+            "img": "./images/managers/kush_umesh_ojha.jpg",
             "year": "Third",
             "regNo": "20BCT0056",
-            "role": "Content ",
+            "role": "Content",
             "in": true
         },
         {
             "name": "Ananya Gupta",
-            "img": "https://drive.google.com/open?id=1V2qwXAtNEySEqyLhBkrSo6gExq44mAo_",
+            "img": "./images/managers/ananya_gupta.jpg",
             "year": "Second",
             "regNo": "21BCE3537",
-            "role": "Operations, sponsorship ",
+            "role": "Operations, Sponsorship",
             "in": true
         },
         {
             "name": "Akanksha Menon",
-            "img": "https://drive.google.com/open?id=163jRAUmAWnbtZXaS-Q4MxD6IP8AuLW-I",
+            "img": "./images/managers/akanksha_menon.jpg",
             "year": "Second",
             "regNo": "21BEC2107",
             "role": "Manager",
@@ -471,7 +471,7 @@
         },
         {
             "name": "Suhani kansal",
-            "img": "https://drive.google.com/open?id=1gXzF2mAlkJ6xvXkCCip-YP8hLo29Z0mf",
+            "img": "./images/managers/suhani_kansal.jpg",
             "year": "Second",
             "regNo": "21BBS0257",
             "role": "Content",
@@ -479,7 +479,7 @@
         },
         {
             "name": "Gauri Gupta",
-            "img": "https://drive.google.com/open?id=1_2GSZgtijnK9M6Jl76XdAjLYP8_HE908",
+            "img": "./images/managers/gauri_gupta.jpg",
             "year": "Third",
             "regNo": "20BCE0495",
             "role": "Operations",
@@ -487,15 +487,15 @@
         },
         {
             "name": "Lokesh Rai",
-            "img": "https://drive.google.com/open?id=1HygfIwaSiACo8wl04u8ErBbZtMuzbJcX",
+            "img": "./images/managers/lokesh_rai.jpg",
             "year": "Third",
             "regNo": "20BCT0286",
             "role": "Sponsorship and Operations",
             "in": true
         },
         {
-            "name": "Pranav Piedy ",
-            "img": "https://drive.google.com/open?id=1StvpLKzr9F7Vx7tHRDENwPK0O_nAVuj-",
+            "name": "Pranav Piedy",
+            "img": "./images/managers/pranav_piedy.jpg",
             "year": "Second",
             "regNo": "21BIT0162",
             "role": "Management",
@@ -503,7 +503,7 @@
         },
         {
             "name": "Pranit Malhotra",
-            "img": "https://drive.google.com/open?id=1VnEeKDa3fDlPUxJDPp1bAC70StASJOR5",
+            "img": "./images/managers/pranit_malhotra.jpg",
             "year": "Second",
             "regNo": "21BBS0087",
             "role": "Content",
@@ -512,24 +512,16 @@
     ],
     "design": [
         {
-            "name": "anoushka shresth",
-            "img": "https://drive.google.com/open?id=1k8nPOfCpBi1qvSZd4EMTsKzrDYD32qSa",
+            "name": "Anoushka Shresth",
+            "img": "./images/designers/anoushka_shresth.jpg",
             "year": "Third",
             "regNo": "20BCE2305",
-            "role": "UI/UX designer",
+            "role": "UI/UX Designer",
             "in": true
         },
         {
-            "name": "Kumar Aryan ",
-            "img": "https://drive.google.com/open?id=11flZ1UQyZi8es_xbuToCYVQgsNK5EAVk",
-            "year": "Second",
-            "regNo": "21BDS0018",
-            "role": "UI/UX Design",
-            "in": true
-        },
-        {
-            "name": "Jatin Jakhar ",
-            "img": "https://drive.google.com/open?id=16F8KpPYMVmeCtEXmj9wAoG4SO4qZntnB",
+            "name": "Jatin Jakhar",
+            "img": "./images/designers/jatin_jakhar.jpg",
             "year": "Second",
             "regNo": "21BCE2511",
             "role": "UI/UX Design",
@@ -537,47 +529,55 @@
         },
         {
             "name": "Aaron K Mathew",
-            "img": "https://drive.google.com/open?id=1YdJJ82RgGmrmnmgLl8BYmNZQOFv97k-1",
+            "img": "./images/designers/aaron_k_mathew.jpg",
             "year": "Third",
             "regNo": "20BCE0788",
             "role": "UI/UX Designer",
             "in": true
         },
         {
-            "name": "Avantika Suryawanshi ",
-            "img": "https://drive.google.com/open?id=1Iyrd_hUWHbRiU_BhUNowDyJrFPaXIuZu",
+            "name": "Avantika Suryawanshi",
+            "img": "./images/designers/avantika_suryawanshi.jpg",
             "year": "Third",
             "regNo": "20BCE2051",
             "role": "Graphic design, UI/UX design",
             "in": true
         },
         {
-            "name": "TANUSHREE MADAAN ",
-            "img": "https://drive.google.com/open?id=1KVY_3JQOWhdoZ1y1-IVGllBK_r43tNl6",
+            "name": "Tanushree Madaan",
+            "img": "./images/designers/tanushree_madaan.jpg",
             "year": "Second",
             "regNo": "21BCB0020",
-            "role": "Ui/Ux",
+            "role": "UI/UX",
             "in": true
         },
         {
-            "name": "Utkarsh Prasad Sinha ",
-            "img": "https://drive.google.com/open?id=1kcmB85-BAFUNKCt1Jc66Yij2a9kcSVfH",
+            "name": "Kumar Aryan",
+            "img": "./images/designers/kumar_aryan.jpg",
+            "year": "Second",
+            "regNo": "21BDS0018",
+            "role": "UI/UX Design",
+            "in": true
+        },
+        {
+            "name": "Utkarsh Prasad Sinha",
+            "img": "./images/designers/utkarsh_prasad_sinha.jpg",
             "year": "Second",
             "regNo": "21BCB0140",
-            "role": "Video Editing ",
+            "role": "Video Editing",
             "in": true
         },
         {
             "name": "Pranav Ram K",
-            "img": "https://drive.google.com/open?id=1u_LndARdp-aXNynq1ebDNtBSk9V5E05T",
+            "img": "./images/designers/pranav_ram_k.jpg",
             "year": "Third",
             "regNo": "20BCE0904",
-            "role": "UI/UX Designer and Video editor.",
+            "role": "UI/UX Designer and Video editor",
             "in": true
         },
         {
-            "name": "Deepam Purkayastha ",
-            "img": "https://drive.google.com/open?id=1iNH6YhrDmfERaNK403uvHYIlxTajMoyQ",
+            "name": "Deepam Purkayastha",
+            "img": "./images/designers/deepam_purkayastha.jpg",
             "year": "Second",
             "regNo": "21BCT0113",
             "role": "Illustration, Graphic design",
