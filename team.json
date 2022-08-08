@@ -1,11 +1,27 @@
 {
     "board": [
         {
+            "name": "Chanakya Vivek Kapoor",
+            "img": "https://drive.google.com/open?id=1TXzTYkqaHG_hVJ5_DGUMNRVTR1Y38sPq",
+            "year": "Fourth",
+            "regNo": "19BDS0004",
+            "role": "Community Lead",
+            "in": true
+        },
+        {
             "name": "Sai Teja Reddy T",
             "img": "https://drive.google.com/open?id=12CZu9NkSs5pIx5zMne2VM0mxETnGkv1Y",
             "year": "Fourth",
             "regNo": "19BCE0293",
             "role": "Web Lead",
+            "in": true
+        },
+        {
+            "name": "Nirmit Jatana",
+            "img": "https://drive.google.com/open?id=1DOIj5IThw0al6EymYUK4Nc1ieyhdq7V_",
+            "year": "Fourth",
+            "regNo": "19BIT0017",
+            "role": "Open Source and Projects Lead",
             "in": true
         },
         {
@@ -24,14 +40,7 @@
             "role": "Management Lead",
             "in": true
         },
-        {
-            "name": "Nirmit Jatana",
-            "img": "https://drive.google.com/open?id=1DOIj5IThw0al6EymYUK4Nc1ieyhdq7V_",
-            "year": "Fourth",
-            "regNo": "19BIT0017",
-            "role": "Open Source and Projects Lead",
-            "in": true
-        },
+
         {
             "name": "Rithik Jain",
             "img": "https://drive.google.com/open?id=1MbjWf8JGLz4PqbMmAdLtGW5gv2x-gk_k",
@@ -46,14 +55,6 @@
             "year": "Fourth",
             "regNo": "19BCE0482",
             "role": "Design Lead - Events",
-            "in": true
-        },
-        {
-            "name": "Chanakya Vivek Kapoor",
-            "img": "https://drive.google.com/open?id=1TXzTYkqaHG_hVJ5_DGUMNRVTR1Y38sPq",
-            "year": "Fourth",
-            "regNo": "19BDS0004",
-            "role": "Community Lead",
             "in": true
         },
         {
@@ -72,6 +73,14 @@
             "year": "Third",
             "regNo": "20BCE2301",
             "role": "Machine Learning",
+            "in": true
+        },
+        {
+            "name": "Ojas Tyagi",
+            "img": "https://drive.google.com/open?id=1iI2FasgYuFL8V7jHLBR7axvmXO5REBUP",
+            "year": "Second",
+            "regNo": "21BDS0026",
+            "role": "Frontend",
             "in": true
         },
         {
@@ -208,14 +217,6 @@
             "year": "Second",
             "regNo": "21BCE0300",
             "role": "Backend Engineer, Cyber Security ",
-            "in": true
-        },
-        {
-            "name": "Ojas Tyagi",
-            "img": "https://drive.google.com/open?id=1iI2FasgYuFL8V7jHLBR7axvmXO5REBUP",
-            "year": "Second",
-            "regNo": "21BDS0026",
-            "role": "Frontend",
             "in": true
         },
         {
