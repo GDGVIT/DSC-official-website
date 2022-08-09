@@ -29,7 +29,7 @@
             "img": "./images/board20/swayam_shashwat_sharma.jpg",
             "year": "Fourth",
             "regNo": "19BCE0523",
-            "role": "Design Lead Projects",
+            "role": "Design Lead - Projects",
             "in": true
         },
         {
@@ -46,7 +46,7 @@
             "img": "./images/board20/rithik_jain.jpg",
             "year": "Fourth",
             "regNo": "19BDS0014",
-            "role": "Technical Head",
+            "role": "Technical Lead",
             "in": true
         },
         {
@@ -62,7 +62,7 @@
             "img": "./images/board20/mayank_kumar.jpg",
             "year": "Fourth",
             "regNo": "19BIT0190",
-            "role": "Cloud and security Lead",
+            "role": "Cloud and Security Lead",
             "in": true
         }
     ],
@@ -72,7 +72,7 @@
             "img": "./images/techteam/vishesh_bansal.jpg",
             "year": "Third",
             "regNo": "20BCE2301",
-            "role": "Machine Learning",
+            "role": "ML",
             "in": true
         },
         {
@@ -80,7 +80,7 @@
             "img": "./images/techteam/ojas_tyagi.jpg",
             "year": "Second",
             "regNo": "21BDS0026",
-            "role": "Frontend Developer",
+            "role": "Frontend",
             "in": true
         },
         {
@@ -88,7 +88,7 @@
             "img": "./images/techteam/prashanna_rajbhandari.jpg",
             "year": "Second",
             "regNo": "21BCE3760",
-            "role": "App development",
+            "role": "App Dev",
             "in": true
         },
         {
@@ -104,7 +104,7 @@
             "img": "./images/techteam/krishap_s_sreenivasan.jpg",
             "year": "Third",
             "regNo": "20BCI0146",
-            "role": "Backend and Security team",
+            "role": "Cyber Sec",
             "in": true
         },
         {
@@ -112,7 +112,7 @@
             "img": "./images/techteam/abhijeet_bhardwaj.jpg",
             "year": "Second",
             "regNo": "21BCB0139",
-            "role": "Application Developer",
+            "role": "App Dev",
             "in": true
         },
         {
@@ -136,7 +136,7 @@
             "img": "./images/techteam/rehaan_mazid.jpg",
             "year": "Third",
             "regNo": "20BDS0119",
-            "role": "Extended Reality and Backend Developer",
+            "role": "Extended Reality",
             "in": true
         },
         {
@@ -152,7 +152,7 @@
             "img": "./images/techteam/anand_rajaram.jpg",
             "year": "Second",
             "regNo": "21BCI0068",
-            "role": "Cybersecurity",
+            "role": "Cyber Sec",
             "in": true
         },
         {
@@ -168,7 +168,7 @@
             "img": "./images/techteam/rudrank_basant.jpg",
             "year": "Second",
             "regNo": "21BCI0149",
-            "role": "Android App Development",
+            "role": "App Dev",
             "in": true
         },
         {
@@ -176,7 +176,7 @@
             "img": "./images/techteam/yajat_malhotra.jpg",
             "year": "Third",
             "regNo": "20BCE0554",
-            "role": "Machine Learning",
+            "role": "ML",
             "in": true
         },
         {
@@ -184,7 +184,7 @@
             "img": "./images/techteam/anish_raghavendra.jpg",
             "year": "Third",
             "regNo": "20BDS0154",
-            "role": "ML Team",
+            "role": "ML",
             "in": true
         },
         {
@@ -200,7 +200,7 @@
             "img": "./images/techteam/aman_sharma.jpg",
             "year": "Third",
             "regNo": "20BCT0267",
-            "role": "Machine Learning",
+            "role": "ML",
             "in": true
         },
         {
@@ -216,7 +216,7 @@
             "img": "./images/techteam/mayhul_jindal.jpg",
             "year": "Second",
             "regNo": "21BCE0300",
-            "role": "Backend Engineer, Cyber Security",
+            "role": "Cyber Sec",
             "in": true
         },
         {
@@ -240,7 +240,7 @@
             "img": "./images/techteam/kartik_gupta.jpg",
             "year": "Second",
             "regNo": "21BCI0194",
-            "role": "Cyber Security",
+            "role": "Cyber Sec",
             "in": true
         },
         {
@@ -256,7 +256,7 @@
             "img": "./images/techteam/priyanka_kumari.jpg",
             "year": "Third",
             "regNo": "20BCE2334",
-            "role": "Machine learning",
+            "role": "ML",
             "in": true
         },
         {
@@ -288,7 +288,7 @@
             "img": "./images/techteam/sharanya_mukherjee.jpg",
             "year": "Fourth",
             "regNo": "19BCE2676",
-            "role": "Machine Learning",
+            "role": "ML",
             "in": true
         },
         {
@@ -314,7 +314,7 @@
             "img": "./images/managers/arnav_jaggi.jpg",
             "year": "Second",
             "regNo": "21BCT0040",
-            "role": "Operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -322,7 +322,7 @@
             "img": "./images/managers/sanvi_chavan.jpg",
             "year": "Second",
             "regNo": "21BDS0166",
-            "role": "Marketing",
+            "role": "Manager",
             "in": true
         },
         {
@@ -330,7 +330,7 @@
             "img": "./images/managers/astha_jha.jpg",
             "year": "Third",
             "regNo": "20BIT0268",
-            "role": "Marketing",
+            "role": "Manager",
             "in": true
         },
         {
@@ -338,7 +338,7 @@
             "img": "./images/managers/ananya_elizabeth_george.jpg",
             "year": "Third",
             "regNo": "20BDS0116",
-            "role": "Content",
+            "role": "Manager",
             "in": true
         },
         {
@@ -346,7 +346,7 @@
             "img": "./images/managers/dhruv_rajeshkumar_shah.jpg",
             "year": "Second",
             "regNo": "21BCE0611",
-            "role": "Operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -354,7 +354,7 @@
             "img": "./images/managers/anoushka_balamurugan.jpg",
             "year": "Second",
             "regNo": "21BCE0616",
-            "role": "Event operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -362,7 +362,7 @@
             "img": "./images/managers/raggav_subramani.jpg",
             "year": "Third",
             "regNo": "20BCT0127",
-            "role": "Operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -370,7 +370,7 @@
             "img": "./images/managers/gurnehmat_kaur_dhindsa.jpg",
             "year": "Fourth",
             "regNo": "19BCE0227",
-            "role": "Operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -378,7 +378,7 @@
             "img": "./images/managers/aastha_gupta.jpg",
             "year": "Second",
             "regNo": "21BCE0166",
-            "role": "Content, Marketing",
+            "role": "Manager",
             "in": true
         },
         {
@@ -386,7 +386,7 @@
             "img": "./images/managers/mrinal_agarwal.jpg",
             "year": "Third",
             "regNo": "20BCE0485",
-            "role": "Digital Marketing and Operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -394,7 +394,7 @@
             "img": "./images/managers/fahad_dalwai.jpg",
             "year": "Third",
             "regNo": "20BCE0610",
-            "role": "Content",
+            "role": "Manager",
             "in": true
         },
         {
@@ -402,7 +402,7 @@
             "img": "./images/managers/sparsh_singh.jpg",
             "year": "Second",
             "regNo": "21BEE0309",
-            "role": "Sponsorship, Marketing, podcast!",
+            "role": "Manager",
             "in": true
         },
         {
@@ -410,7 +410,7 @@
             "img": "./images/managers/aditya_mitra.jpg",
             "year": "Third",
             "regNo": "20BCE2044",
-            "role": "Content, Marketing and Manager",
+            "role": "Manager",
             "in": true
         },
         {
@@ -418,7 +418,7 @@
             "img": "./images/managers/namya_arora.jpg",
             "year": "Third",
             "regNo": "20BCE2054",
-            "role": "Content",
+            "role": "Manager",
             "in": true
         },
         {
@@ -426,7 +426,7 @@
             "img": "./images/managers/raghav_trivedi.jpg",
             "year": "Second",
             "regNo": "21BCE0417",
-            "role": "Manager, Content",
+            "role": "Manager",
             "in": true
         },
         {
@@ -434,7 +434,7 @@
             "img": "./images/managers/sanskriti_modi.jpg",
             "year": "Second",
             "regNo": "21BCB0202",
-            "role": "Digital marketing, Sponsorships and Operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -442,7 +442,7 @@
             "img": "./images/managers/arushi_tewari.jpg",
             "year": "Second",
             "regNo": "21BCE2114",
-            "role": "OPs + digital media and Marketing",
+            "role": "Manager",
             "in": true
         },
         {
@@ -450,7 +450,7 @@
             "img": "./images/managers/kush_umesh_ojha.jpg",
             "year": "Third",
             "regNo": "20BCT0056",
-            "role": "Content",
+            "role": "Manager",
             "in": true
         },
         {
@@ -458,7 +458,7 @@
             "img": "./images/managers/ananya_gupta.jpg",
             "year": "Second",
             "regNo": "21BCE3537",
-            "role": "Operations, Sponsorship",
+            "role": "Manager",
             "in": true
         },
         {
@@ -474,7 +474,7 @@
             "img": "./images/managers/suhani_kansal.jpg",
             "year": "Second",
             "regNo": "21BBS0257",
-            "role": "Content",
+            "role": "Manager",
             "in": true
         },
         {
@@ -482,7 +482,7 @@
             "img": "./images/managers/gauri_gupta.jpg",
             "year": "Third",
             "regNo": "20BCE0495",
-            "role": "Operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -490,7 +490,7 @@
             "img": "./images/managers/lokesh_rai.jpg",
             "year": "Third",
             "regNo": "20BCT0286",
-            "role": "Sponsorship and Operations",
+            "role": "Manager",
             "in": true
         },
         {
@@ -498,7 +498,7 @@
             "img": "./images/managers/pranav_piedy.jpg",
             "year": "Second",
             "regNo": "21BIT0162",
-            "role": "Management",
+            "role": "Manager",
             "in": true
         },
         {
@@ -506,7 +506,7 @@
             "img": "./images/managers/pranit_malhotra.jpg",
             "year": "Second",
             "regNo": "21BBS0087",
-            "role": "Content",
+            "role": "Manager",
             "in": true
         }
     ],
@@ -516,7 +516,7 @@
             "img": "./images/designers/anoushka_shresth.jpg",
             "year": "Third",
             "regNo": "20BCE2305",
-            "role": "UI/UX Designer",
+            "role": "UI/UX",
             "in": true
         },
         {
@@ -524,7 +524,7 @@
             "img": "./images/designers/jatin_jakhar.jpg",
             "year": "Second",
             "regNo": "21BCE2511",
-            "role": "UI/UX Design",
+            "role": "UI/UX",
             "in": true
         },
         {
@@ -532,7 +532,7 @@
             "img": "./images/designers/aaron_k_mathew.jpg",
             "year": "Third",
             "regNo": "20BCE0788",
-            "role": "UI/UX Designer",
+            "role": "UI/UX",
             "in": true
         },
         {
@@ -540,7 +540,7 @@
             "img": "./images/designers/avantika_suryawanshi.jpg",
             "year": "Third",
             "regNo": "20BCE2051",
-            "role": "Graphic design, UI/UX design",
+            "role": "Graphic",
             "in": true
         },
         {
@@ -556,7 +556,7 @@
             "img": "./images/designers/kumar_aryan.jpg",
             "year": "Second",
             "regNo": "21BDS0018",
-            "role": "UI/UX Design",
+            "role": "UI/UX",
             "in": true
         },
         {
@@ -564,7 +564,7 @@
             "img": "./images/designers/utkarsh_prasad_sinha.jpg",
             "year": "Second",
             "regNo": "21BCB0140",
-            "role": "Video Editing",
+            "role": "Video and Motion Graphics",
             "in": true
         },
         {
@@ -572,7 +572,7 @@
             "img": "./images/designers/pranav_ram_k.jpg",
             "year": "Third",
             "regNo": "20BCE0904",
-            "role": "UI/UX Designer and Video editor",
+            "role": "UI/UX",
             "in": true
         },
         {
@@ -580,7 +580,7 @@
             "img": "./images/designers/deepam_purkayastha.jpg",
             "year": "Second",
             "regNo": "21BCT0113",
-            "role": "Illustration, Graphic design",
+            "role": "Graphic",
             "in": true
         }
     ]
