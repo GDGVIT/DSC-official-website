@@ -83,6 +83,14 @@
             "in": true
         },
         {
+            "name": "Chirantan Jain",
+            "img": "./images/techteam/chirantan_jain.jpg",
+            "year": "Second",
+            "regNo": "21BCE0509",
+            "role": "Frontend",
+            "in": true
+        },
+        {
             "name": "Anirudh Mishra",
             "img": "./images/techteam/anirudh_mishra.jpg",
             "year": "Second",
@@ -103,14 +111,6 @@
             "img": "./images/techteam/pranjal_timsina.jpg",
             "year": "Third",
             "regNo": "20BDS0392",
-            "role": "Frontend",
-            "in": true
-        },
-        {
-            "name": "Chirantan Jain",
-            "img": "./images/techteam/chirantan_jain.jpg",
-            "year": "Second",
-            "regNo": "21BCE0509",
             "role": "Frontend",
             "in": true
         },
