@@ -9,11 +9,11 @@
             "in": true
         },
         {
-            "name": "Nirmit Jatana",
-            "img": "./images/board20/nirmit_jatana.jpg",
+            "name": "Rithik Jain",
+            "img": "./images/board20/rithik_jain.jpg",
             "year": "Fourth",
-            "regNo": "19BIT0017",
-            "role": "Open Source and Projects Lead",
+            "regNo": "19BDS0014",
+            "role": "Technical Lead",
             "in": true
         },
         {
@@ -25,27 +25,27 @@
             "in": true
         },
         {
+            "name": "Nirmit Jatana",
+            "img": "./images/board20/nirmit_jatana.jpg",
+            "year": "Fourth",
+            "regNo": "19BIT0017",
+            "role": "Open Source and Projects Lead",
+            "in": true
+        },
+        {
+            "name": "Mayank Kumar",
+            "img": "./images/board20/mayank_kumar.jpg",
+            "year": "Fourth",
+            "regNo": "19BIT0190",
+            "role": "Cloud and Security Lead",
+            "in": true
+        },
+        {
             "name": "Swayam Shashwat Sharma",
             "img": "./images/board20/swayam_shashwat_sharma.jpg",
             "year": "Fourth",
             "regNo": "19BCE0523",
             "role": "Design Lead - Projects",
-            "in": true
-        },
-        {
-            "name": "Shresth Tiwary",
-            "img": "./images/board20/shresth_tiwary.jpg",
-            "year": "Fourth",
-            "regNo": "19BCE2701",
-            "role": "Management Lead",
-            "in": true
-        },
-        {
-            "name": "Rithik Jain",
-            "img": "./images/board20/rithik_jain.jpg",
-            "year": "Fourth",
-            "regNo": "19BDS0014",
-            "role": "Technical Lead",
             "in": true
         },
         {
@@ -57,11 +57,11 @@
             "in": true
         },
         {
-            "name": "Mayank Kumar",
-            "img": "./images/board20/mayank_kumar.jpg",
+            "name": "Shresth Tiwary",
+            "img": "./images/board20/shresth_tiwary.jpg",
             "year": "Fourth",
-            "regNo": "19BIT0190",
-            "role": "Cloud and Security Lead",
+            "regNo": "19BCE2701",
+            "role": "Management Lead",
             "in": true
         }
     ],
