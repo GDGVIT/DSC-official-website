@@ -520,10 +520,10 @@
             "in": true
         },
         {
-            "name": "Jatin Jakhar",
-            "img": "./images/designers/jatin_jakhar.jpg",
+            "name": "Kumar Aryan",
+            "img": "./images/designers/kumar_aryan.jpg",
             "year": "Second",
-            "regNo": "21BCE2511",
+            "regNo": "21BDS0018",
             "role": "UI/UX",
             "in": true
         },
@@ -535,6 +535,15 @@
             "role": "UI/UX",
             "in": true
         },
+        {
+            "name": "Jatin Jakhar",
+            "img": "./images/designers/jatin_jakhar.jpg",
+            "year": "Second",
+            "regNo": "21BCE2511",
+            "role": "UI/UX",
+            "in": true
+        },
+
         {
             "name": "Avantika Suryawanshi",
             "img": "./images/designers/avantika_suryawanshi.jpg",
@@ -551,14 +560,7 @@
             "role": "UI/UX",
             "in": true
         },
-        {
-            "name": "Kumar Aryan",
-            "img": "./images/designers/kumar_aryan.jpg",
-            "year": "Second",
-            "regNo": "21BDS0018",
-            "role": "UI/UX",
-            "in": true
-        },
+
         {
             "name": "Utkarsh Prasad Sinha",
             "img": "./images/designers/utkarsh_prasad_sinha.jpg",

@@ -7,22 +7,22 @@
 </p>
 
 ---
+
 [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://dscvit.com)
 
-
 ## Functionalities
-- [x]  All social links
-- [x]  All important information about DSC
-- [x]  Links to courses, blogs, webinars, etc
-- [x]  Links to all recent Instagram posts
-- [x]  Sending notifications
-- [x]  PWA
+
+-   [x] All social links
+-   [x] All important information about DSC
+-   [x] Links to courses, blogs, webinars, etc
+-   [x] Links to all recent Instagram posts
+-   [x] Sending notifications
+-   [x] PWA
 
 ## Contributors
 
 <table>
 <tr align="center">
-
 
 <td>
 Samarth Nayyar
@@ -64,6 +64,14 @@ Nirmit Jatana
 </a>
 </p>
 </td>
+<td>
+Ojas Tyagi
+<p align="center">
+<a href="https://github.com/devmegablaster">
+<img src = "https://avatars.githubusercontent.com/u/61390848?v=4" width="150" height="150" alt="Ojas Tyagi">
+</a>
+</p>
+</td>
 </tr>
   </table>
   
@@ -73,4 +81,3 @@ Nirmit Jatana
 <p align="center">
 	Made with :heart: by <a href="https://dscvit.com">DSC VIT</a>
 </p>
-
