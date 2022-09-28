@@ -2,8 +2,8 @@
 <a href="https://dscvit.com">
 	<img src="https://user-images.githubusercontent.com/30529572/72455010-fb38d400-37e7-11ea-9c1e-8cdeb5f5906e.png" />
 </a>
-	<h2 align="center"> DSC Official Website </h2>
-	<h4 align="center"> Official website for DSC VIT. <h4>
+	<h2 align="center"> GDSC Official Website </h2>
+	<h4 align="center"> Official website for GDSC VIT. <h4>
 </p>
 
 ---
@@ -13,7 +13,7 @@
 ## Functionalities
 
 -   [x] All social links
--   [x] All important information about DSC
+-   [x] All important information about GDSC
 -   [x] Links to courses, blogs, webinars, etc
 -   [x] Links to all recent Instagram posts
 -   [x] Sending notifications
@@ -52,7 +52,7 @@ Ashutosh
 Aviral Singh
 <p align="center">
 <a href="https://github.com/sAVItar02">
-<img src = "https://dscvit.com/images/dsc-logo-square.svg" width="150" height="150" alt="Aviral Singh Chauhan">
+<img src = "https://dscvit.com/images/GDSC-logo-square.svg" width="150" height="150" alt="Aviral Singh Chauhan">
 </a>
 </p>
 </td>
@@ -81,5 +81,5 @@ Ojas Tyagi
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 <p align="center">
-	Made with :heart: by <a href="https://dscvit.com">DSC VIT</a>
+	Made with :heart: by <a href="https://dscvit.com">GDSC VIT</a>
 </p>
