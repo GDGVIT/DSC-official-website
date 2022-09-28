@@ -40,7 +40,6 @@
             "role": "Management Lead",
             "in": true
         },
-
         {
             "name": "Rithik Jain",
             "img": "./images/board20/rithik_jain.jpg",
@@ -68,11 +67,11 @@
     ],
     "technical": [
         {
-            "name": "Vishesh Bansal",
-            "img": "./images/techteam/vishesh_bansal.jpg",
-            "year": "Third",
-            "regNo": "20BCE2301",
-            "role": "ML",
+            "name": "Sayar Bhattacharyya",
+            "img": "./images/techteam/sayar_bhattacharyya.jpg",
+            "year": "Second",
+            "regNo": "21BEC0752",
+            "role": "Frontend",
             "in": true
         },
         {
@@ -84,62 +83,6 @@
             "in": true
         },
         {
-            "name": "Prashanna Rajbhandari",
-            "img": "./images/techteam/prashanna_rajbhandari.jpg",
-            "year": "Second",
-            "regNo": "21BCE3760",
-            "role": "App Dev",
-            "in": true
-        },
-        {
-            "name": "Sankhayan Bhattacharjee",
-            "img": "./images/techteam/sankhayan_bhattacharjee.jpg",
-            "year": "Second",
-            "regNo": "21BCB0117",
-            "role": "Backend",
-            "in": true
-        },
-        {
-            "name": "Krishap S Sreenivasan",
-            "img": "./images/techteam/krishap_s_sreenivasan.jpg",
-            "year": "Third",
-            "regNo": "20BCI0146",
-            "role": "Cyber Sec",
-            "in": true
-        },
-        {
-            "name": "Abhijeet Bhardwaj",
-            "img": "./images/techteam/abhijeet_bhardwaj.jpg",
-            "year": "Second",
-            "regNo": "21BCB0139",
-            "role": "App Dev",
-            "in": true
-        },
-        {
-            "name": "Vignesh Natarajan",
-            "img": "./images/techteam/vignesh_natarajan.jpg",
-            "year": "Second",
-            "regNo": "21BEC2398",
-            "role": "Backend",
-            "in": true
-        },
-        {
-            "name": "Sayar Bhattacharyya",
-            "img": "./images/techteam/sayar_bhattacharyya.jpg",
-            "year": "Second",
-            "regNo": "21BEC0752",
-            "role": "Frontend",
-            "in": true
-        },
-        {
-            "name": "Rehaan Mazid",
-            "img": "./images/techteam/rehaan_mazid.jpg",
-            "year": "Third",
-            "regNo": "20BDS0119",
-            "role": "Extended Reality",
-            "in": true
-        },
-        {
             "name": "Anirudh Mishra",
             "img": "./images/techteam/anirudh_mishra.jpg",
             "year": "Second",
@@ -148,27 +91,51 @@
             "in": true
         },
         {
-            "name": "Anand Rajaram",
-            "img": "./images/techteam/anand_rajaram.jpg",
-            "year": "Second",
-            "regNo": "21BCI0068",
-            "role": "Cyber Sec",
+            "name": "Sricharan Ramesh",
+            "img": "./images/techteam/sricharan_ramesh.jpg",
+            "year": "Fourth",
+            "regNo": "19BCE0223",
+            "role": "Frontend",
             "in": true
         },
         {
-            "name": "Ameya Swapneel Kore",
-            "img": "./images/techteam/ameya_swapneel_kore.jpg",
-            "year": "Second",
-            "regNo": "21BCE2530",
-            "role": "Full Stack",
+            "name": "Pranjal Timsina",
+            "img": "./images/techteam/pranjal_timsina.jpg",
+            "year": "Third",
+            "regNo": "20BDS0392",
+            "role": "Frontend",
             "in": true
         },
         {
-            "name": "Rudrank Basant",
-            "img": "./images/techteam/rudrank_basant.jpg",
+            "name": "Chirantan Jain",
+            "img": "./images/techteam/chirantan_jain.jpg",
             "year": "Second",
-            "regNo": "21BCI0149",
-            "role": "App Dev",
+            "regNo": "21BCE0509",
+            "role": "Frontend",
+            "in": true
+        },
+        {
+            "name": "Krish Chatterjie",
+            "img": "./images/techteam/krish_chatterjie.jpg",
+            "year": "Third",
+            "regNo": "20BCE0516",
+            "role": "Frontend",
+            "in": true
+        },
+        {
+            "name": "Sharanya Mukherjee",
+            "img": "./images/techteam/sharanya_mukherjee.jpg",
+            "year": "Fourth",
+            "regNo": "19BCE2676",
+            "role": "ML",
+            "in": true
+        },
+        {
+            "name": "Vishesh Bansal",
+            "img": "./images/techteam/vishesh_bansal.jpg",
+            "year": "Third",
+            "regNo": "20BCE2301",
+            "role": "ML",
             "in": true
         },
         {
@@ -188,74 +155,10 @@
             "in": true
         },
         {
-            "name": "Sricharan Ramesh",
-            "img": "./images/techteam/sricharan_ramesh.jpg",
-            "year": "Fourth",
-            "regNo": "19BCE0223",
-            "role": "Frontend",
-            "in": true
-        },
-        {
             "name": "Aman Sharma",
             "img": "./images/techteam/aman_sharma.jpg",
             "year": "Third",
             "regNo": "20BCT0267",
-            "role": "ML",
-            "in": true
-        },
-        {
-            "name": "Pranjal Timsina",
-            "img": "./images/techteam/pranjal_timsina.jpg",
-            "year": "Third",
-            "regNo": "20BDS0392",
-            "role": "Frontend",
-            "in": true
-        },
-        {
-            "name": "Mayhul Jindal",
-            "img": "./images/techteam/mayhul_jindal.jpg",
-            "year": "Second",
-            "regNo": "21BCE0300",
-            "role": "Cyber Sec",
-            "in": true
-        },
-        {
-            "name": "Chirantan Jain",
-            "img": "./images/techteam/chirantan_jain.jpg",
-            "year": "Second",
-            "regNo": "21BCE0509",
-            "role": "Frontend",
-            "in": true
-        },
-        {
-            "name": "Jeevan Yohan Varghese",
-            "img": "./images/techteam/jeevan_yohan_varghese.jpg",
-            "year": "Third",
-            "regNo": "20BCE0083",
-            "role": "App Dev",
-            "in": true
-        },
-        {
-            "name": "Kartik Gupta",
-            "img": "./images/techteam/kartik_gupta.jpg",
-            "year": "Second",
-            "regNo": "21BCI0194",
-            "role": "Cyber Sec",
-            "in": true
-        },
-        {
-            "name": "Abhiram Vinoy Joshi",
-            "img": "./images/techteam/abhiram_vinoy_joshi.jpg",
-            "year": "Third",
-            "regNo": "20BCE0504",
-            "role": "Backend",
-            "in": true
-        },
-        {
-            "name": "Priyanka Kumari",
-            "img": "./images/techteam/priyanka_kumari.jpg",
-            "year": "Third",
-            "regNo": "20BCE2334",
             "role": "ML",
             "in": true
         },
@@ -276,22 +179,6 @@
             "in": true
         },
         {
-            "name": "Krish Chatterjie",
-            "img": "./images/techteam/krish_chatterjie.jpg",
-            "year": "Third",
-            "regNo": "20BCE0516",
-            "role": "Frontend",
-            "in": true
-        },
-        {
-            "name": "Sharanya Mukherjee",
-            "img": "./images/techteam/sharanya_mukherjee.jpg",
-            "year": "Fourth",
-            "regNo": "19BCE2676",
-            "role": "ML",
-            "in": true
-        },
-        {
             "name": "Anuj Parihar",
             "img": "./images/techteam/anuj_parihar.jpg",
             "year": "Second",
@@ -306,6 +193,118 @@
             "regNo": "19BCE0300",
             "role": "Backend",
             "in": true
+        },
+        {
+            "name": "Sankhayan Bhattacharjee",
+            "img": "./images/techteam/sankhayan_bhattacharjee.jpg",
+            "year": "Second",
+            "regNo": "21BCB0117",
+            "role": "Backend",
+            "in": true
+        },
+        {
+            "name": "Abhiram Vinoy Joshi",
+            "img": "./images/techteam/abhiram_vinoy_joshi.jpg",
+            "year": "Third",
+            "regNo": "20BCE0504",
+            "role": "Backend",
+            "in": true
+        },
+        {
+            "name": "Vignesh Natarajan",
+            "img": "./images/techteam/vignesh_natarajan.jpg",
+            "year": "Second",
+            "regNo": "21BEC2398",
+            "role": "Backend",
+            "in": true
+        },
+        {
+            "name": "Prashanna Rajbhandari",
+            "img": "./images/techteam/prashanna_rajbhandari.jpg",
+            "year": "Second",
+            "regNo": "21BCE3760",
+            "role": "App Dev",
+            "in": true
+        },
+        {
+            "name": "Abhijeet Bhardwaj",
+            "img": "./images/techteam/abhijeet_bhardwaj.jpg",
+            "year": "Second",
+            "regNo": "21BCB0139",
+            "role": "App Dev",
+            "in": true
+        },
+        {
+            "name": "Rudrank Basant",
+            "img": "./images/techteam/rudrank_basant.jpg",
+            "year": "Second",
+            "regNo": "21BCI0149",
+            "role": "App Dev",
+            "in": true
+        },
+        {
+            "name": "Jeevan Yohan Varghese",
+            "img": "./images/techteam/jeevan_yohan_varghese.jpg",
+            "year": "Third",
+            "regNo": "20BCE0083",
+            "role": "App Dev",
+            "in": true
+        },
+        {
+            "name": "Kartik Gupta",
+            "img": "./images/techteam/kartik_gupta.jpg",
+            "year": "Second",
+            "regNo": "21BCI0194",
+            "role": "Cyber Sec",
+            "in": true
+        },
+        {
+            "name": "Krishap S Sreenivasan",
+            "img": "./images/techteam/krishap_s_sreenivasan.jpg",
+            "year": "Third",
+            "regNo": "20BCI0146",
+            "role": "Cyber Sec",
+            "in": true
+        },
+        {
+            "name": "Anand Rajaram",
+            "img": "./images/techteam/anand_rajaram.jpg",
+            "year": "Second",
+            "regNo": "21BCI0068",
+            "role": "Cyber Sec",
+            "in": true
+        },
+        {
+            "name": "Mayhul Jindal",
+            "img": "./images/techteam/mayhul_jindal.jpg",
+            "year": "Second",
+            "regNo": "21BCE0300",
+            "role": "Cyber Sec",
+            "in": true
+        },
+        {
+            "name": "Rehaan Mazid",
+            "img": "./images/techteam/rehaan_mazid.jpg",
+            "year": "Third",
+            "regNo": "20BDS0119",
+            "role": "Extended Reality",
+            "in": true
+        },
+        {
+            "name": "Ameya Swapneel Kore",
+            "img": "./images/techteam/ameya_swapneel_kore.jpg",
+            "year": "Second",
+            "regNo": "21BCE2530",
+            "role": "Full Stack",
+            "in": true
+        },
+        {
+            "name": "Priyanka Kumari",
+            "img": "./images/techteam/priyanka_kumari.jpg",
+            "year": "Third",
+            "regNo": "20BCE2334",
+            "role": "ML",
+            "in": false
         }
     ],
     "management": [
@@ -543,13 +542,12 @@
             "role": "UI/UX",
             "in": true
         },
-
         {
-            "name": "Avantika Suryawanshi",
-            "img": "./images/designers/avantika_suryawanshi.jpg",
+            "name": "Pranav Ram K",
+            "img": "./images/designers/pranav_ram_k.jpg",
             "year": "Third",
-            "regNo": "20BCE2051",
-            "role": "Graphic",
+            "regNo": "20BCE0904",
+            "role": "UI/UX",
             "in": true
         },
         {
@@ -560,21 +558,12 @@
             "role": "UI/UX",
             "in": true
         },
-
         {
-            "name": "Utkarsh Prasad Sinha",
-            "img": "./images/designers/utkarsh_prasad_sinha.jpg",
-            "year": "Second",
-            "regNo": "21BCB0140",
-            "role": "Video and Motion Graphics",
-            "in": true
-        },
-        {
-            "name": "Pranav Ram K",
-            "img": "./images/designers/pranav_ram_k.jpg",
+            "name": "Avantika Suryawanshi",
+            "img": "./images/designers/avantika_suryawanshi.jpg",
             "year": "Third",
-            "regNo": "20BCE0904",
-            "role": "UI/UX",
+            "regNo": "20BCE2051",
+            "role": "Graphic",
             "in": true
         },
         {
@@ -583,6 +572,14 @@
             "year": "Second",
             "regNo": "21BCT0113",
             "role": "Graphic",
+            "in": true
+        },
+        {
+            "name": "Utkarsh Prasad Sinha",
+            "img": "./images/designers/utkarsh_prasad_sinha.jpg",
+            "year": "Second",
+            "regNo": "21BCB0140",
+            "role": "Video and Motion Graphics",
             "in": true
         }
     ]

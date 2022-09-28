@@ -56,6 +56,8 @@ Aviral Singh
 </a>
 </p>
 </td>
+</tr>
+<tr>
 <td>
 Nirmit Jatana
 <p align="center">
