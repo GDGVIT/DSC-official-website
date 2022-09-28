@@ -2,27 +2,27 @@
 <a href="https://dscvit.com">
 	<img src="https://user-images.githubusercontent.com/30529572/72455010-fb38d400-37e7-11ea-9c1e-8cdeb5f5906e.png" />
 </a>
-	<h2 align="center"> DSC Official Website </h2>
-	<h4 align="center"> Official website for DSC VIT. <h4>
+	<h2 align="center"> GDSC Official Website </h2>
+	<h4 align="center"> Official website for GDSC VIT. <h4>
 </p>
 
 ---
+
 [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://dscvit.com)
 
-
 ## Functionalities
-- [x]  All social links
-- [x]  All important information about DSC
-- [x]  Links to courses, blogs, webinars, etc
-- [x]  Links to all recent Instagram posts
-- [x]  Sending notifications
-- [x]  PWA
+
+-   [x] All social links
+-   [x] All important information about GDSC
+-   [x] Links to courses, blogs, webinars, etc
+-   [x] Links to all recent Instagram posts
+-   [x] Sending notifications
+-   [x] PWA
 
 ## Contributors
 
 <table>
 <tr align="center">
-
 
 <td>
 Samarth Nayyar
@@ -52,15 +52,25 @@ Ashutosh
 Aviral Singh
 <p align="center">
 <a href="https://github.com/sAVItar02">
-<img src = "https://dscvit.com/images/dsc-logo-square.svg" width="150" height="150" alt="Aviral Singh Chauhan">
+<img src = "https://dscvit.com/images/GDSC-logo-square.svg" width="150" height="150" alt="Aviral Singh Chauhan">
 </a>
 </p>
 </td>
+</tr>
+<tr>
 <td>
 Nirmit Jatana
 <p align="center">
 <a href="https://github.com/Nirmitjatanas">
 <img src = "https://avatars3.githubusercontent.com/u/52108077?s=460&u=18a6ecadf4080ca80fe2f74df6f801940c0c4481&v=4" width="150" height="150" alt="Nirmit Jatana">
+</a>
+</p>
+</td>
+<td>
+Ojas Tyagi
+<p align="center">
+<a href="https://github.com/devmegablaster">
+<img src = "https://avatars.githubusercontent.com/u/61390848?v=4" width="150" height="150" alt="Ojas Tyagi">
 </a>
 </p>
 </td>
@@ -71,6 +81,5 @@ Nirmit Jatana
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 <p align="center">
-	Made with :heart: by <a href="https://dscvit.com">DSC VIT</a>
+	Made with :heart: by <a href="https://dscvit.com">GDSC VIT</a>
 </p>
-
